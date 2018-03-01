@@ -1,0 +1,68 @@
+.screen-5 {
+	position: relative;
+	background: url("../img/bg/bg-5.jpg") no-repeat center;
+	background-size: cover;
+	padding: 0 0 55px 0;
+	background-attachment: fixed;
+    // height: 100vh;
+    // overflow: hidden;
+ 	font-family: 'futura-demi';
+ 	font-weight: 400;
+ 	margin-top: -34px;
+}
+// .screen-5-bg {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// }
+// slider
+.box-slider {
+	width: 935px;
+	margin: 0 auto;
+	margin-top: -63px;
+}
+.comments-slider {
+	// width: 936px;
+	// margin: 0 auto;
+	padding: 70px;
+	background: url("../img/bg/slider-bg.jpg") repeat;
+	border-radius: 7px;
+}
+
+.autor-pic {
+	float: left;
+	width: 196px;
+	margin-bottom: 30px;
+	margin-right: 68px;
+}
+.autor-content {
+	float: right;
+	width: 510px;
+}
+.autor-content p {
+	color: $white;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.name {
+	font-size: 20px;
+	color: $white;
+	margin-bottom: 10px;
+}
+.comments-green-1 {
+	position: absolute;
+    left: 0;
+    top: -40%;
+}
+.comments-green-1 img {
+	width: 50%;
+}
+.comments-green-2 {
+	position: absolute;
+    right: 0;
+    top: -40%;
+}
+// .comments-green-2 img {
+// 	width: 70%;
+// }

@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
+    </script>
+</head>
+<body>
+	<div class="overlay"></div>
+	<!-- screen-1 -->
+	<div class="screen-1">
+		<div class="container">
+			<div class="green-box-2">
+				<img src="img/content/green2.png" alt="">
+			</div>
+			<header class="main-head">
+				<div class="container">
+					<div class="logo">
+						<img src="img/content/logo.png" alt="Логотип">
+					</div>
+					<span class="logo-title">Агентство наружной рекламы</span>
+
+					<div class="time">
+						<div class="time-work">
+							<p>Время работы</p>
+							<p>c 9.00 до 18.00</p>
+						</div>
+					</div>
+
+					<div class="adress">
+						<p>г. Москва,</p>
+						<p>ул. Пятницкая, д 25, стр. 1</p>
+					</div>
+
+					<div class="phone phone-hidden">
+						<a class="phone-link" href="tel:+74956603890">+7 (495) 660-38-90</a>
+						<a class="head-modal-phone">Обратный звонок</a>
+					</div>
+					<div class="mob-phone">
+						<img src="img/icon/phone-orange.png" alt="телефон">
+					</div>
+				</div>
+			</header>
+
+			<div class="screen-content clearfix">
+				<div class="content-box">
+					<div class="content-title">
+						<p>Один месяц <span>бесплатного<br> размещения</span> наружной рекламы!</p>
+					</div>
+					<div class="content-desc">
+						<p>При заказе рекламы от 6 месяцев, один месяц вы получаете в подарок!</p>
+					</div>
+					<!-- <div class="clearfix"> -->
+					<!-- </div> -->
+				</div>
+				<div class="content-form">
+					<form class="form" action="#" method="POST">
+						<div class="form-title">
+							<p>Заполните форму</p>
+							<span>и получите расчет стоимости вашего размещения</span>
+						</div>
+						<div class="form-adress">
+							<!-- <i class="fa fa-map-marker"></i> -->
+							<img src="img/icon/map.png" alt="">
+							<input type="text" name="adress" placeholder="Место размещения">
+						</div>
+						<div class="form-phone">
+							<!-- <i class="fa fa-volume-control-phone"></i> -->
+							<img src="img/icon/phone.png" alt="">
+							<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+						</div>
+						<div class="btn-box">
+							<button type="submit" class="btn">Узнать стоимость</button>
+						</div>
+						<div class="form-subtitle">
+							<p>Перезвоним Вам через 5 минут <br> для уточнения деталей</p>
+						</div>
+					</form>
+				</div>
+				<ul class="content-list">
+					<li class="content-item content-item-1">
+						<i></i>
+						Экспертиза в планировании наружной рекламы
+					</li>
+					<li class="content-item">
+						<i></i>
+						Стандартные и уникальные форматы рекламы
+					</li>
+				<!-- </ul> -->
+				<!-- <ul class="content-list"> -->
+					<li class="content-item content-item-1">
+						<i></i>
+						Успешный опыт уже более 21года
+					</li>
+					<li class="content-item content-item-1">
+						<i></i>
+						Скидки до 50% на размещение 
+					</li>
+				</ul>
+				
+				<div class="content-box-mob">
+					<ul class="content-list-mob clearfix">
+						<li class="content-item content-item-mob">
+							<i></i>
+							Экспертизав планировании наружной рекламы</li>
+						<li class="content-item content-item-mob">
+							<i></i>
+							Успешныйопыт уже более 21года</li>
+					</ul>
+					<ul class="content-list-mob clearfix">
+						<li class="content-item content-item-mob">
+							<i></i>
+							Стандартные и уникальные форматы рекламы</li>
+						<li class="content-item content-item-mob">
+							<i></i>
+							Скидки до 50% на размещение </li>
+					</ul>
+				</div>
+			</div>
+			<div class="map-box">
+				<div class="map-object">
+					 <img src="img/icon/map-orange.png" alt="">
+					<a href="#">Посмотреть карту<br> объектов</a>
+				</div>
+				<img class="map-box_pic" src="img/content/karta.png" alt="">
+			</div>
+			<div class="green-box-1">
+				<img src="img/content/green1.png" alt="">
+			</div>
+		</div>
+		<div class="modal-feedback">
+				<form class="form" action="#" method="POST">
+					<a class="popup-close" href="#">×</a>
+					<div class="form-title">
+						<p>Заполните форму</p>
+						<span>и мы свяжемся с вами через 10 минут!</span>
+					</div>
+					<div class="form-adress">
+						<img src="img/icon/name.png" alt="">
+						<input type="text" name="name" placeholder="Ваше имя">
+					</div>
+					<div class="form-phone">
+						<!-- <i class="fa fa-volume-control-phone"></i> -->
+						<img src="img/icon/phone.png" alt="">
+						<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+					</div>
+					<div class="btn-box">
+						<button type="submit" class="btn">Заказать звонок</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+<!--scrin-2 -->
+	<div class="screen-2 parallax-window-2" data-parallax="scroll" data-image-src="img/bg/bg-2.jpg" data-speed="0.3">
+		<!-- <div class="screen-2-bg parallax-window" data-parallax="scroll" data-image-src="img/bg/bg-2.jpg"></div> -->
+		<!-- <img src="img/bg/bg-2.jpg" alt="" class="screen-2-bg"> -->
+		<div class="container">
+			<div class="section-title">Форматы рекламных конструкций</div>
+
+			<div class="format">
+				<div class="format-item">
+					<div class="format-pic">
+						<img class="format-img" src="img/content/format-1.png" alt="">
+					
+						<div class="format-map-box">
+							<div class="format-map">
+								<img src="img/icon/map-white.png" alt="">
+								<a class="format-map__link" href="#">
+								Посмотреть на карте
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="format-desc">
+						<h3 class="format-title">
+							Магистральные щиты
+						</h3>
+						<div class="format-subtitle"><span>Формат 3х6</span></div>
+						<div class="btn-box">
+							<button class="btn modal-btn">Подробнее о формате</button>
+						</div>
+						<a class="format-map__link_mob" href="#">
+							Посмотреть на карте
+						</a>
+					</div>
+				</div>
+
+				<div class="format-item">
+					<div class="format-pic">
+						<img class="format-img" src="img/content/format-2.png" alt="">
+					
+						<div class="format-map-box">
+							<div class="format-map">
+								<img src="img/icon/map-white.png" alt="">
+								<a class="format-map__link" href="#">
+								Посмотреть на карте
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="format-desc">
+						<h3 class="format-title">
+							Ситиборды
+						</h3>
+						<div class="format-subtitle"><span>Формат 2.7х3.7</span></div>
+						<div class="btn-box">
+							<button class="btn modal-btn">Подробнее о формате</button>
+						</div>
+						<a class="format-map__link_mob" href="#">
+							Посмотреть на карте
+						</a>
+					</div>
+				</div>
+
+				<!-- <div class="format-item_mob"> -->
+					<div class="format-item format-item_mob">
+						<div class="format-pic">
+							<img class="format-img" src="img/content/format-3.png" alt="">
+						
+							<div class="format-map-box">
+								<div class="format-map">
+									<img src="img/icon/map-white.png" alt="">
+									<a class="format-map__link" href="#">
+									Посмотреть на карте
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="format-desc">
+							<h3 class="format-title">
+								Суперборды
+							</h3>
+							<div class="format-subtitle"><span>Формат 4х12</span></div>
+							<div class="btn-box">
+								<button class="btn modal-btn">Подробнее о формате</button>
+							</div>
+							<a class="format-map__link_mob" href="#">
+								Посмотреть на карте
+							</a>
+						</div>
+					</div>
+				<!-- </div> -->
+			</div>
+			
+			<!-- <div class="format-item_mob"> -->
+				<div class="format">
+					<div class="format-item format-item_mob">
+						<div class="format-pic">
+							<img class="format-img" src="img/content/format-4.png" alt="">
+						
+							<div class="format-map-box">
+								<div class="format-map">
+									<img src="img/icon/map-white.png" alt="">
+									<a class="format-map__link" href="#">
+									Посмотреть на карте
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="format-desc">
+							<h3 class="format-title">
+								Суперсайты
+							</h3>
+							<div class="format-subtitle"><span>Формат 3х6</span></div>
+							<div class="btn-box">
+								<button class="btn modal-btn">Подробнее о формате</button>
+							</div>
+							<a class="format-map__link_mob" href="#">
+								Посмотреть на карте
+							</a>
+						</div>
+					</div>
+
+					<div class="format-item format-item_mob">
+						<div class="format-pic">
+							<img class="format-img" src="img/content/format-5.png" alt="">
+						
+							<div class="format-map-box">
+								<div class="format-map">
+									<img src="img/icon/map-white.png" alt="">
+									<a class="format-map__link" href="#">
+									Посмотреть на карте
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="format-desc">
+							<h3 class="format-title">
+								Цифровые билборды
+							</h3>
+							<div class="format-subtitle"><span>Формат 2.7х3.7</span></div>
+							<div class="btn-box">
+								<button class="btn modal-btn">Подробнее о формате</button>
+							</div>
+							<a class="format-map__link_mob" href="#">
+								Посмотреть на карте
+							</a>
+						</div>
+					</div>
+
+					<div class="format-item format-item_mob">
+						<div class="format-pic">
+							<img class="format-img" src="img/content/format-6.png" alt="">
+						
+							<div class="format-map-box">
+								<div class="format-map">
+									<img src="img/icon/map-white.png" alt="">
+									<a class="format-map__link" href="#">
+									Посмотреть на карте
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="format-desc">
+							<h3 class="format-title">
+								Народный телефон
+							</h3>
+							<div class="format-subtitle"><span>Формат 4х12</span></div>
+							<div class="btn-box">
+								<button class="btn modal-btn">Подробнее о формате</button>
+							</div>
+							<a class="format-map__link_mob" href="#">
+								Посмотреть на карте
+							</a>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+
+			<div class="btn-box_mob">
+				<button class="btn-mob">Показать еще</button>
+			</div>
+			<div class="popup">
+				<form method="POST" action="#" class="modal-format">
+					<a class="popup-close" href="#">&times;</a>
+					<div class="modal-slider">
+						<div class="modal-slider-items">
+							<div class="modal-slider-item">
+								<img src="img/content/slide.jpg" alt="">
+							</div>
+					
+							<div class="modal-slider-content">
+								<h3 class="modal-slider-title">Магистральные щиты</h3>
+								<span class="modal-slider-subtitle">Преимущества:</span>
+								<ul class="content-list-modal clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Универсальный формат для размещения рекламы
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Воздействие на транспортные и пешеходные потоки
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Возможность реализации нестандартных решений
+									</li>
+								</ul>
+
+								<span class="modal-slider-subtitle">Дополнительные услуги:</span>
+								<ul class="content-list-modal clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Дизайн
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Монтаж
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="modal-slider-items">
+							<div class="modal-slider-item">
+								<img src="img/content/slide.jpg" alt="">
+							</div>
+					
+							<div class="modal-slider-content">
+								<h3 class="modal-slider-title">Магистральные щиты</h3>
+								<span class="modal-slider-subtitle">Преимущества:</span>
+								<ul class="content-list clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Универсальный формат для размещения рекламы
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Воздействие на транспортные и пешеходные потоки
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Возможность реализации нестандартных решений
+									</li>
+								</ul>
+
+								<span class="modal-slider-subtitle">Дополнительные услуги:</span>
+								<ul class="content-list clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Дизайн
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Монтаж
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="modal-slider-items">
+							<div class="modal-slider-item">
+								<img src="img/content/slide.jpg" alt="">
+							</div>
+					
+							<div class="modal-slider-content">
+								<h3 class="modal-slider-title">Магистральные щиты</h3>
+								<span class="modal-slider-subtitle">Преимущества:</span>
+								<ul class="content-list clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Универсальный формат для размещения рекламы
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Воздействие на транспортные и пешеходные потоки
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Возможность реализации нестандартных решений
+									</li>
+								</ul>
+
+								<span class="modal-slider-subtitle">Дополнительные услуги:</span>
+								<ul class="content-list clearfix">
+									<li class="content-item content-item_slider">
+										<i></i>
+										Дизайн
+									</li>
+									<li class="content-item content-item_slider">
+										<i></i>
+										Монтаж
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="modal-box">
+						<div class="modal-box-title">
+							<h3>Нужен этот формат?</h3>
+						</div>
+						<div class="form-phone form-phone_modal">
+							<!-- <i class="fa fa-volume-control-phone"></i> -->
+							<img src="img/icon/phone.png" alt="">
+							<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+						</div>
+						<div class="btn-box_modal">
+							<button type="submit" class="btn">Заказать</button>
+						</div>
+					</div>			
+				</form>
+			</div>
+		</div>	
+	</div>
+	
+
+	<!-- screen-3 -->
+	<div class="screen-3 parallax-window-3" data-parallax="scroll" data-image-src="img/bg/bg-3.jpg" data-speed="0.3">
+		<!-- <div class="screen-3-bg parallax-window" data-parallax="scroll" data-image-src="img/bg/bg-3.jpg"></div> -->
+		<!-- <img src="img/bg/bg-3.jpg" alt="" class="screen-3-bg parallax-window-3" data-parallax="scroll"> -->
+		<div class="container">
+			<div class="section-title">
+				<p>Размещение рекламы</p>
+				<p> на Рублево-успенском шоссе <span>от 1 100 руб.*</span></p>
+			</div>
+			<div class="box-title">
+				<p class="subtitle">Более 1 000 рекламных поверхностей</p>
+			</div>
+
+			<div class="reklame-content clearfix">
+				<div class="reklame-banner">
+					<img src="img/content/reklame.png" alt="">
+				</div>
+				<div class="reklame_content-form">
+					<div class="content-form">
+						<form class="form" action="#" method="POST">
+							<div class="form-title">
+								<p>Оставьте заявку</p>
+								<span>и наши менеджеры свяжутся с вами для уточнения деталей</span>
+							</div>
+							<div class="form-adress">
+								<!-- <i class="fa fa-map-marker"></i> -->
+								<img src="img/icon/name.png" alt="">
+								<input type="text" name="name" placeholder="Ваше имя">
+							</div>
+							<div class="form-phone">
+								<!-- <i class="fa fa-volume-control-phone"></i> -->
+								<img src="img/icon/phone.png" alt="">
+								<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+							</div>
+							<div class="btn-box">
+								<button type="submit" class="btn">Отправить</button>
+							</div>
+							<div class="form-subtitle">
+								<p>Перезвоним Вам через 5 минут <br> для уточнения деталей</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- screen-4 -->
+	<div class="screen-4 parallax-window-4" data-parallax="scroll" data-image-src="img/bg/bg-4.jpg" data-speed="0.3">
+		<!-- <div class="screen-4-bg parallax-window" data-parallax="scroll" data-image-src="img/bg/bg-4.jpg"></div> -->
+		<!-- <img src="img/bg/bg-2.jpg" alt="" class="screen-2-bg parallax-window" data-parallax="scroll"> -->
+		<div class="container">
+			<div class="section-title">
+				<p>Почему ТОПовые компании выбирают «XXI век-ТВ»?</p>
+			</div>
+
+			<div class="advantages">
+				<div class="advantages-item">
+					<div class="pic-box">
+						<img src="img/icon/tv.png" alt="">
+					</div>
+					<div class="advantages-title">
+						<p>Более 3 000<br> рекламных поверхностей</p>
+					</div>
+					<div class="advantages-sub_title">
+						<p>Это позволяет нам без труда<br> подобрать для вас самое эффективное<br> место размещения</p>
+					</div>
+				</div>
+
+				<div class="advantages-item">
+					<div class="pic-box">
+						<img src="img/icon/clock.png" alt="">
+					</div>
+					<div class="advantages-title">
+						<p>Аренда<br> конструкции от 7 дней</p>
+					</div>
+					<div class="advantages-sub_title">
+						<p>Ваша рекламная кампания длится<br> всего 7 дней? У нас вы можете<br> заказать нужный срок размещения </p>
+					</div>
+				</div>
+
+				<div class="advantages-item">
+					<div class="pic-box">
+						<img src="img/icon/setting.png" alt="">
+					</div>
+					<div class="advantages-title">
+						<p>Собственная<br> техническая служба</p>
+					</div>
+					<div class="advantages-sub_title">
+						<p>Мы разрабатываем уникальные<br> рекламные конструкции, которые<br> потверждены патентами и лицензиями</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="trust">
+				<div class="section-title">Нам доверяют</div>
+				<div class="box-title">
+					<p class="subtitle">Более 5 000 реализованных работ</p>
+				</div>
+				<div class="trust-content">
+					<p>Основными клиентами компании являются крупные FMCG-бренды, сетевые рекламные агентства и представители локального бизнеса</p>
+				</div>
+
+				<ul class="trast-list">
+					<li class="trast-item">
+						<img src="img/content/novikov.png" alt="">
+					</li>
+					<li class="trast-item">
+						<img src="img/content/mcdonalds.png" alt="">
+					</li>
+					<li class="trast-item">
+						<img src="img/content/samsung.png" alt="">
+					</li>
+					<li class="trast-item">
+						<img src="img/content/mvideo.png" alt="">
+					</li>
+					<li class="trast-item">
+						<img src="img/content/perekrestok.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- screen-5 -->
+<div class="screen-5">
+	<!-- <div class="screen-5-bg parallax-window" data-parallax="scroll" data-image-src="img/bg/bg-5.jpg"></div> -->
+	<!-- <img src="img/bg/bg-2.jpg" alt="" class="screen-2-bg parallax-window" data-parallax="scroll"> -->
+	<div class="container">
+		<div class="section-title">Отзывы</div>
+	</div>
+	<div class="comments-green-1">
+		<img src="img/content/green3.png" alt="">
+	</div>
+	<div class="comments-green-2">
+		<img src="img/content/green4.png" alt="">
+	</div>
+
+	<div class="box-slider">
+		<div class="comments-slider">
+	  		<div class="comments-item">
+				<div class="comments-box clearfix">
+					<div class="autor-pic">
+						<img src="img/content/man.png" alt="">
+						<div class="autor-name">
+							<p class="name">Аркадий Новиков,</p>
+							<p>Генеральный директор</p>
+							<p> Novikov group</p>
+						</div>
+					</div>
+					<div class="autor-content">
+						<p>Novikov Group – это 26 лет лидерства в ресторанном бизнесе и свыше 50-ти успешных концептуальных проектов. Их отличительные особенности: впечатляющая география – престижные районы Москвы, Сочи, Кисловодска, Лондона и Дубая, гастрономические изыски от именитых шефов, актуальный дизайн интерьера, безупречный сервис и комфортная атмосфера.</p>
+
+						<p>На сегодняшний день, помимо ресторанов, кафе, баров, сеть флористических салонов «Студия цветов 55», компания по производству и доставке рационов здорового питания Just For You</p>
+					</div>
+				</div>
+	  		</div>
+	  		<div class="comments-item">
+				<div class="comments-box clearfix">
+					<div class="autor-pic">
+						<img src="img/content/man.png" alt="">
+						<div class="autor-name">
+							<p class="name">Аркадий Новиков,</p>
+							<p>Генеральный директор</p>
+							<p> Novikov group</p>
+						</div>
+					</div>
+					<div class="autor-content">
+						<p>Novikov Group – это 26 лет лидерства в ресторанном бизнесе и свыше 50-ти успешных концептуальных проектов. Их отличительные особенности: впечатляющая география – престижные районы Москвы, Сочи, Кисловодска, Лондона и Дубая, гастрономические изыски от именитых шефов, актуальный дизайн интерьера, безупречный сервис и комфортная атмосфера.</p>
+
+						<p>На сегодняшний день, помимо ресторанов, кафе, баров, сеть флористических салонов «Студия цветов 55», компания по производству и доставке рационов здорового питания Just For You</p>
+					</div>
+				</div>
+	  		</div>
+	  		<div class="comments-item">
+				<div class="comments-box clearfix">
+					<div class="autor-pic">
+						<img src="img/content/man.png" alt="">
+						<div class="autor-name">
+							<p class="name">Аркадий Новиков,</p>
+							<p>Генеральный директор</p>
+							<p> Novikov group</p>
+						</div>
+					</div>
+					<div class="autor-content">
+						<p>Novikov Group – это 26 лет лидерства в ресторанном бизнесе и свыше 50-ти успешных концептуальных проектов. Их отличительные особенности: впечатляющая география – престижные районы Москвы, Сочи, Кисловодска, Лондона и Дубая, гастрономические изыски от именитых шефов, актуальный дизайн интерьера, безупречный сервис и комфортная атмосфера.</p>
+
+						<p>На сегодняшний день, помимо ресторанов, кафе, баров, сеть флористических салонов «Студия цветов 55», компания по производству и доставке рационов здорового питания Just For You</p>
+					</div>
+				</div>
+	  		</div>
+		</div>
+	</div>
+</div>
+
+<!-- screen-6 -->
+<div class="screen-6 parallax-window-6" data-parallax="scroll" data-image-src="img/bg/bg-6.jpg" data-speed="0.3">
+	<!-- <div class="screen-6-bg parallax-window" data-parallax="scroll" data-image-src="img/bg/bg-6.jpg"></div> -->
+	<!-- <img src="img/bg/bg-2.jpg" alt="" class="screen-2-bg parallax-window" data-parallax="scroll"> -->
+	<div class="container">
+		<div class="section-title section-title_modal">
+			<p>Закажите бесплатный медиаплан под ключ</p>
+			<div class="map-modal">
+			<a class="popup-close popup-close_karta" href="#">×</a>
+			<div class="map-modal__link-box">
+				<a class="map-modal__link" href="#">Распечатать</a>
+				<span>|</span>
+				<a class="map-modal__link" href="#">Получить ссылку</a>
+			</div>
+
+			<div class="map-modal__content clearfix">
+				<div class="map-modal_adress">
+					<div class="modal-adress">
+						<span>
+						Красноярск,Ленина ул.(проезд к ТРЦ Комсомол,слева)
+						</span>
+					</div>
+
+					<div class="address-selection">
+						<input type="checkbox" id="address-selection">
+						<label for="address-selection">Выбрать</label>
+					</div>
+
+					<table>
+						<tr>
+							<td>GID:</td>
+							<td>KJBB01733Б</td>
+						</tr>
+						<tr>
+							<td>Формат:</td>
+							<td>Щит 3х6</td>
+						</tr>
+						<tr>
+							<td>Сторона:</td>
+							<td>Б</td>
+						</tr>
+						<tr>
+							<td>Запрещения:</td>
+							<td>нет</td>
+						</tr>
+						<tr>
+							<td>Освещение:</td>
+							<td>нет</td>
+						</tr>
+						<tr>
+							<td>Рейтинг поверхности (GRP):</td>
+							<td>0.59</td>
+						</tr>
+						<tr>
+							<td>Эффект.аудитория (OTS):</td>
+							<td>5.1(тыс.человек в день)</td>
+						</tr>
+					</table>
+
+					<div class="modal-map" id="mapModal1" style="width: 537px; height: 410px">
+					
+					</div>
+					<button class="btn">Сделать заказ</button>
+				
+				</div>
+
+				<div class="map-modal-adress__pic">
+					<div class="modal-adress__pic">
+						<img src="img/content/modal-map.jpg" alt="">
+					</div>
+					<div class="modal-adress__pic_mini">
+						<div class="adress__pic_mini">
+							<img src="img/content/modal-map.jpg" alt="">
+						</div>
+						<div class="adress__pic_mini">
+							<img src="img/content/modal-map.jpg" alt="">
+						</div>
+					</div>
+					<div class="modal-map" id="mapModal2" style="width: 537px; height: 410px">
+					
+					</div>
+					<button class="btn">Добавить в список</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="box-title">
+			<p class="subtitle">Составим план размещения рекламных конструкций<br> и ответим на любые вопросы</p>
+		</div>
+
+		<div class="media-content clearfix">
+			<div class="content-form media-content-form">
+				<form class="form" action="#" method="POST">
+					<div class="form-title">
+						<p>Заполните форму<br>
+							<span>и мы пришлем вам медиаплан в течение часа!</span>
+						</p>
+					</div>
+					<div class="form-adress">
+						<!-- <i class="fa fa-map-marker"></i> -->
+						<img src="img/icon/map.png" alt="">
+						<input type="text" name="name" placeholder="Ваше имя">
+					</div>
+					<div class="form-phone">
+						<!-- <i class="fa fa-volume-control-phone"></i> -->
+						<img src="img/icon/phone.png" alt="">
+						<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+					</div>
+					<div class="btn-box">
+						<button type="submit" class="btn">Получить медиаплан</button>
+					</div>
+					<div class="form-subtitle">
+						<p>Перезвоним Вам через 5 минут <br> для уточнения деталей</p>
+					</div>
+				</form>
+			</div>
+
+			<div class="media-box">
+				<ul class="content-list-mob content-list-mob clearfix">
+					<li class="content-item content-item_media">
+						<i></i>
+						Рекомендованный форматирекламных конструкций
+					</li>
+					<li class="content-item content-item_media">
+						<i></i>
+						Подбор рекламных мест
+					</li>
+					<li class="content-item content-item_media">
+						<i></i>
+						Расчет индивидуальной скидки до 20%
+					</li>
+				</ul>
+			</div>
+			<div class="media-content-pic">
+				<img src="img/content/notebook.png" alt="">
+			</div>
+		</div>
+		<div class="block-map-object">
+			<a href="#">Карта объектов
+			<p>Заполните параметры поиска и проверьте наличие свободного места</p></a>
+		</div>
+	</div>
+</div>
+
+
+<!-- screen-7 -->
+<div class="screen-7">
+	<!-- <div class="container"> -->
+		<div class="map-object-calc clearfix">
+			<div class="object-calc">
+				<div class="object-modal">
+					<a class="popup-close popup-close_karta" href="#">×</a>
+					<div class="object-modal__title">
+						<span>Выбрать Город</span>
+					</div>
+					<div class="object-modal__city">
+						<select class="modal-object-item">
+							<option>
+								Москва
+							</option>
+							<option>
+								Санкт-Петербург
+							</option>
+							<option>
+								Воронеж
+							</option>
+							<option>
+								Ростов-на-Дону
+							</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="direction-modal">
+					<a class="popup-close popup-close_karta" href="#">×</a>
+					<div class="object-modal__title">
+						<span>Выбрать Направление</span>
+					</div>
+					<div class="object-modal__city">
+						<select class="modal-object-item">
+							<option>
+								А
+							</option>
+							<option>
+								Б
+							</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="format-modal">
+					<a class="popup-close popup-close_karta" href="#">×</a>
+					<div class="object-modal__title">
+						<span>Выбрать формат</span>
+					</div>
+					<div class="object-modal__city">
+						<select class="modal-object-item">
+							<option>								
+							Магистральные щиты
+							</option>
+							<option>
+								Ситиборды
+							</option>
+							<option>
+								Суперборды
+							</option>
+							<option>
+								Суперсайты
+							</option>
+							<option>
+								Цифровые билборды
+							</option>
+							<option>
+								Народный телефон
+							</option>
+						</select>
+					</div>
+				</div>
+			<!-- Nav tabs -->
+				 <ul class="object-calc-list">
+				    <li class="object-calc-item active">
+				    	<a class="object-calc-link object-calc-link_city" href="#" data-toggle="tab">Город</a>
+				    </li>
+
+				    <li class="object-calc-item">
+				    	<a class="object-calc-link object-calc-link_direction" href="#" data-toggle="tab">Направление</a>
+				    </li>
+
+				    <li class="object-calc-item">
+				    	<a class="object-calc-link object-calc-link_format" href="#" data-toggle="tab">Формат</a>
+				    </li>
+				    <li class="object-calc-item object-calc-panel">
+						<div class="object-calc-panel-items">
+							<a  class="object-calc-panel-item active" href="#">
+								<i class="fa fa-bars fa-bars--left"></i>
+								<i class="fa Example of plus fa-plus fa-bars--small"></i>
+							</a>
+							<a  class="object-calc-panel-item" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+							<a  class="object-calc-panel-item" href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+						</div>
+					</li>
+				 </ul>
+
+			 		  <!-- Tab panes -->
+				  <!-- <div class="tab-content"> -->
+				    <div class="tab-pane active">
+				    	<div class="object-form-box">
+				    		<form action="#" id="object-form" class="object-form">
+				    			<div class="search-box">
+				    				<i class="fa fa-search search-ico"></i>
+				    				<input type="text" name="search" placeholder="Поиск по адресу">
+				    				<button class="btn search-box_btn">Найти</button>
+				    			</div>
+								
+								<div class="object-form-title clearfix">
+					    			<div class="object-form-sub_title">
+					    					<p>АДРЕС /GID</p>
+					    			</div>
+					    			<div class="object-form-desc_title">
+					    					<p>Сторона</p>
+					    			</div>
+					    		</div>
+
+								<div class="object-content-block">
+					    			<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="1">
+						    					<label for="1">
+						    						26 Бакинских Комиссаров ул. 9, 350 м после Х с пр-том Вернадского
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>Б</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+
+						    		<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="2" checked="">
+						    					<label for="2">
+						    						Ярославское ш. 5, 200 м до въезда на Северянинский путепровод
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>Б</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+
+						    		<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="3">
+						    					<label for="3">
+						    						Ярославское ш. 2к1 (Digital) 
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>Б</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+
+						    		<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="4">
+						    					<label for="4">
+						    						Яна Райниса б-р 25, 100 м после Х с ул. Туристская (светофор) 
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>А</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+
+						    		<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="5">
+						    					<label for="5">
+						    						Энтузиастов ш. 78 н-в, 200 м после Х с ул. Новогиреевская (призмавижн)
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>А</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+
+						    		<div class="object-content">
+						    			<div class="object-items">
+						    				<div class="object-item clearfix">
+						    					<input type="checkbox" id="6">
+						    					<label for="6">
+						    						Ярцевская ул. 29к3, съезд с Рублевского ш. (призмавижн), (светофор)
+						    						<span>MSBB13939А</span>
+						    					</label>
+
+						    					<div class="object-item-desc">
+						    						<span>Б</span>
+						    					</div>
+						    				</div>
+						    			</div>
+						    		</div>
+					    		</div>
+				    		</form>
+				    	</div>
+				    </div>
+				<!-- </div> -->
+				<div class="selection">
+					<p>Ваш выбор: <span>1 сторона</span></p>	    			
+				</div>
+			</div>
+			<div class="map" id="map" style="height: 879px">
+				<div class="popup-karta">
+					<a class="popup-close popup-close_karta" href="#">&times;</a>
+					<div class="popup-karta-title">
+						<p>26 Бакинских Комиссаров ул. 9, 350 м после Х с пр-том Вернадского	
+						</p>
+						<span>39 900 руб.,</span>
+						<span>MSBB13939А</span>
+					</div>
+					<div class="popup-karta_pic">
+						<img src="img/content/popup-karta.jpg" alt="">
+					</div>
+					<div class="btn-box_popup-karta">
+						<button type="submit" class="btn">Добавить к заказу</button>
+						<a href="#">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- </div> -->
+</div>
+
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container">
+		<div class="footer-content">
+			<div class="footer-autor">
+				<p>©1996-2018 Рекламные услуги «XXI век-ТВ»</p>
+				<p> Все права защищены. 6+</p>
+			</div>
+			<div class="footer-konf">
+				<p>политика конфиденциальности</p>
+			</div>
+			<div class="footer-phone">
+				<a href="tel:+74956603890">+7 (495) 660-38-90</a>
+			</div>
+			<div class="footer-list-mob">
+				<ul class="footer-list">
+					<li class="footer-item">
+						<a href="" class="footer-link"><i class="fa fa-vk"></i></a>
+					</li>
+					<li class="footer-item">
+						<a href="" class="footer-link"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li class="footer-item">
+						<a href="" class="footer-link"><i class="fa fa-instagram"></i></a>
+					</li>
+					<li class="footer-item">
+						<a href="" class="footer-link"><i class="fa fa-youtube"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!--JAVA SCRIPT-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+<script src="libs/parallax/parallax.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

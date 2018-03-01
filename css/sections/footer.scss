@@ -1,0 +1,39 @@
+.footer {
+	padding: 25px 0;
+	background: url("../img/bg/bg-footer.jpg") repeat;
+}
+.footer-content {
+	text-align: center;
+}
+.footer-autor, .footer-konf, .footer-phone, .footer-list, .footer-item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+	font-size: 0;
+}
+.footer-autor {
+	font-size: 16px;
+}
+.footer-konf p {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: $orange;
+}
+.footer-phone a {
+	color: $white;
+	font-size: 18px;
+}
+.footer-link {
+	display: block;
+	font-size: 18px;
+	color: $white;
+}
+.footer-link:hover {
+	color: $orange;
+}
+.footer-item:first-child {
+	margin-left: 0;
+}
+.footer-list-mob {
+	display: inline-block;
+}
