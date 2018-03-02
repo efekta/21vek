@@ -187,7 +187,7 @@ object-modal
 /*========================
 map-modal
  =======================*/
-    $('.block-map-object').on('click', function() {
+    $('.btn-box_popup-karta__popup').on('click', function() {
         $('.overlay').fadeIn();
         $('.map-modal').fadeIn();
     })
