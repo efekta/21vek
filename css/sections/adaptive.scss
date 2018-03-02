@@ -311,6 +311,9 @@
 		margin: auto;
     	font-size: 14px;
 	}
+	.footer-autor__show p {
+	    color: $font-orange;
+	}
 	.footer-phone {
 		display: block;
 		font-size: 18px;
@@ -326,7 +329,8 @@
 		margin-left: 0;
 	}
 	.footer-link {
-		color: #ff803a;
+		font-size: 26px;
+		color: $font-orange;
 	}
 
 	.reklame_content-form .form {

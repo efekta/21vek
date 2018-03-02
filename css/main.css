@@ -2235,10 +2235,11 @@ td { padding: 10px 0; }
   .footer-konf { display: none; }
   .footer-autor_hidden { display: none; }
   .footer-autor__show { display: block; margin: auto; font-size: 14px; }
+  .footer-autor__show p { color: #ff9f42; }
   .footer-phone { display: block; font-size: 18px; margin: auto; margin-bottom: 10px; }
   .footer-list-mob { display: block; margin: auto; margin-bottom: 10px; }
   .footer-list { margin-left: 0; }
-  .footer-link { color: #ff803a; }
+  .footer-link { font-size: 26px; color: #ff9f42; }
   .reklame_content-form .form { padding: 15px; }
   .map-modal_adress { float: none; width: 100%; font-weight: 100; }
   table { margin-left: 35px; text-align: left; width: 100%; color: #949494; }
