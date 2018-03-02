@@ -1769,7 +1769,7 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .form-title span { font-size: 20px; line-height: 24px; font-family: 'futura-book'; font-weight: 300; }
 
-.form-adress, .form-phone { padding: 23px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.form-adress, .form-phone { padding: 23px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
 .form-adress img, .form-phone img { margin-right: 10px; vertical-align: middle; }
 
@@ -1783,7 +1783,7 @@ input { background: transparent; border: none; color: #faf7f3; outline: none; }
 
 :-moz-placeholder { /* Firefox 4 - 18 */ color: #faf7f3; opacity: 1; }
 
-.btn-box { text-align: center; }
+.btn-box { text-align: center; margin-top: 20px; }
 
 .btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 2px; }
 
@@ -1925,7 +1925,7 @@ input { background: transparent; border: none; color: #faf7f3; outline: none; }
 
 .reklame_content-form .form { padding: 43px; padding-bottom: 55px; }
 
-.reklame_content-form .form-adress, .form-phone { padding: 25px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.4); margin-bottom: 18px; }
+.reklame_content-form .form-adress, .form-phone { padding: 25px 0; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
 .screen-4 { padding: 0 0 100px 0; position: relative; font-family: 'futura-demi'; font-weight: 400; }
 
