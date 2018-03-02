@@ -1765,9 +1765,11 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .form { border: 17px solid rgba(255, 255, 255, 0.4); padding: 40px; padding-bottom: 80px; margin-bottom: 15px; }
 
+.form-title { margin-bottom: 20px; }
+
 .form-title p { font-size: 31px; line-height: 28px; font-weight: bold; color: #faf7f3; margin-bottom: 15px; }
 
-.form-title span { font-size: 20px; line-height: 24px; font-family: 'futura-book'; font-weight: 300; margin-bottom: 20px; }
+.form-title span { font-size: 20px; line-height: 24px; font-family: 'futura-book'; font-weight: 300; }
 
 .form-adress, .form-phone { padding: 23px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
@@ -1983,11 +1985,11 @@ input { background: transparent; border: none; color: #faf7f3; outline: none; }
 
 .media-content { position: relative; }
 
-.media-content-pic { position: absolute; left: -110px; top: -51px; height: 303px; }
+.media-content-pic { position: absolute; left: -105px; top: -94px; height: 303px; }
 
 .media-box { position: absolute; right: 436px; width: 220px; }
 
-.block-map-object { position: absolute; bottom: -37%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat; width: 369px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
+.block-map-object { position: absolute; bottom: -45%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat; width: 369px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
 
 .block-map-object a { color: #faf7f3; font-weight: bold; font-size: 43px; text-align: center; display: inline-block; position: absolute; top: 60%; }
 

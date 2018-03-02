@@ -127,15 +127,15 @@ ymaps.ready(init);
  modal karta
  =======================*/
     $('.search-box_btn').on('click', function() {
-        $('.overlay').fadeIn();
+        // $('.overlay').fadeIn();
         $('.popup-karta').fadeIn();
     })
     $('.popup-close_karta').on('click', function() {
         $('.popup-karta').fadeOut();
-        $('.overlay').fadeOut();
+        // $('.overlay').fadeOut();
     })
     $('.overlay').on('click', function() {
-        $('.overlay').fadeOut();
+        // $('.overlay').fadeOut();
        $('.popup-karta').fadeOut();
     })
 
