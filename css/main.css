@@ -2101,7 +2101,7 @@ td { padding: 10px 0; }
 
 .selection span { font-weight: normal; }
 
-.map-box-footer { float: right; width: 50%; min-height: 975px; position: relative; }
+.map-box-footer { float: right; width: 50%; position: relative; }
 
 .object-content-block { overflow-y: scroll; }
 
@@ -2235,6 +2235,8 @@ td { padding: 10px 0; }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .arrow-right { right: 35%; }
-  .arrow-left { left: 35%; } }
+  .arrow-left { left: 35%; }
+  .reklame-banner { width: 555px; float: left; padding: 0 60px 0 60px; }
+  .reklame_content-form { width: 555px; padding: 0 60px 0 59px; float: right; } }
 
 /*# sourceMappingURL=main.css.map */
