@@ -177,7 +177,7 @@
 #map {
 	float: right;
 	width: 50%;
-	min-height: 975px;
+	min-height: 895px;
 	position: relative;
 }
 .object-content-block {
@@ -270,4 +270,7 @@
 }
 .modal-object-item {
 	width: 100%;
+}
+.footer-autor__show {
+	display: none;
 }

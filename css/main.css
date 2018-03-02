@@ -1841,7 +1841,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-mob { display: none; }
 
-.popup { position: absolute; width: 1012px; margin: 0 auto; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
+.popup { position: absolute; width: 1012px; margin: 0 auto; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: block; }
 
 .popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; }
 
@@ -1849,11 +1849,11 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-format { width: 1012px; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding-top: 50px; background: rgba(29, 33, 45, 0.8); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
 
-.modal-slider { width: 100%; margin-bottom: 80px; padding: 0 45px; }
+.modal-slider { width: 55%; margin-bottom: 80px; padding: 0 45px; float: left; }
 
 .modal-slider-item { width: 50%; float: left; background: transparent; }
 
-.modal-slider-item img { width: 100%; border-radius: 15px; display: block; }
+.modal-slider-item img { width: 100%; border-radius: 20px; display: block; }
 
 .modal-slider-content { float: right; width: 45%; }
 
@@ -2103,7 +2103,7 @@ td { padding: 10px 0; }
 
 .selection span { font-weight: normal; }
 
-#map { float: right; width: 50%; min-height: 975px; position: relative; }
+#map { float: right; width: 50%; min-height: 895px; position: relative; }
 
 .object-content-block { overflow-y: scroll; }
 
@@ -2138,6 +2138,8 @@ td { padding: 10px 0; }
 .object-modal__city { padding: 20px; }
 
 .modal-object-item { width: 100%; }
+
+.footer-autor__show { display: none; }
 
 .footer { padding: 25px 0; background: url("../img/bg/bg-footer.jpg") repeat; }
 
