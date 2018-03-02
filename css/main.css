@@ -1697,9 +1697,9 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .feedback-slider-arrows { position: absolute; top: 50%; height: 62px; width: 62px; -webkit-transform: translateY(-9px); -ms-transform: translateY(-9px); transform: translateY(-9px); font-size: 20px; font-weight: 100; border-radius: 50%; padding: 20px; text-align: center; background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); cursor: pointer; z-index: 2; }
 
-.arrow-right { right: -13%; padding-left: 24px; margin-top: -30px; }
+.arrow-right { right: -8%; padding-left: 24px; margin-top: -30px; }
 
-.arrow-left { left: -12%; padding-right: 25px; margin-top: -30px; }
+.arrow-left { left: -8%; padding-right: 25px; margin-top: -30px; }
 
 .arrow-right_mob { right: 46%; top: 30%; padding-left: 24px; }
 
@@ -2182,7 +2182,6 @@ td { padding: 10px 0; }
   .content-item { width: 100%; margin-right: 0; margin-bottom: 30px; }
   .map-box_pic { position: static; width: 262px; height: auto; display: block; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); bottom: 0; left: 0; margin: auto; }
   .form { border: 10px solid rgba(255, 255, 255, 0.4); padding: 30px 20px; }
-  .btn { width: 100%; }
   .green-box-1 { position: absolute; left: 0; bottom: 0; }
   .green-box-1 img { width: 100%; }
   .section-title { font-size: 30px; }
