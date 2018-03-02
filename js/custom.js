@@ -174,7 +174,20 @@ map-modal
         $('.overlay').fadeOut();
        $('.map-modal').fadeOut();
     })
- 
+ /*========================
+btn-box_mob
+ =======================*/
+    $('.btn-box_mob').on('click', function() {
+        $('.format-item_mob').removeClass();
+    })
+
+
+
+
+
+
+
+
 /*========================
  parallax
  =======================*/
