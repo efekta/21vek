@@ -31,28 +31,29 @@ $(function() {
 /*========================
  map
  =======================*/
-    // ymaps.ready(init);
-    // var myMap;
-    // // myMap.behaviors.disable('scrollZoom');
-    // function init(){     
-    //     myMap = new ymaps.Map("map", {
-    //         center: [51.6754966, 39.20888230000003],
-    //         zoom: 7,
+    ymaps.ready(init);
+    var myMap;
+    
+    function init(){  
+    // myMap.behaviors.disable('scrollZoom');   
+        myMap = new ymaps.Map("map", {
+            center: [51.6754966, 39.20888230000003],
+            zoom: 7,
 
-    //     });
+        });
 
-    //     myMap = new ymaps.Map("mapModal1", {
-    //         center: [51.6754966, 39.20888230000003],
-    //         zoom: 7,
+        myMap = new ymaps.Map("mapModal1", {
+            center: [51.6754966, 39.20888230000003],
+            zoom: 7,
 
-    //     });
+        });
 
-    //     myMap = new ymaps.Map("mapModal2", {
-    //         center: [51.6754966, 39.20888230000003],
-    //         zoom: 7,
+        myMap = new ymaps.Map("mapModal2", {
+            center: [51.6754966, 39.20888230000003],
+            zoom: 7,
 
-    //     });
-    // }
+        });
+    }
 
 
 /*========================

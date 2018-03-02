@@ -2101,7 +2101,7 @@ td { padding: 10px 0; }
 
 .selection span { font-weight: normal; }
 
-.map { float: right; width: 50%; height: 800px; position: relative; }
+.map { float: right; width: 50%; position: relative; }
 
 .object-content-block { overflow-y: scroll; }
 
