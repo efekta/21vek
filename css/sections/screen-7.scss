@@ -174,10 +174,10 @@
 .selection span {
 	font-weight: normal;
 }
-.map-box-footer {
+#map {
 	float: right;
 	width: 50%;
-	// min-height: 975px;
+	min-height: 975px;
 	position: relative;
 }
 .object-content-block {

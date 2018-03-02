@@ -130,9 +130,11 @@
 	border-bottom: 1px dashed #12619b;
 }
 .map-modal_adress {
-	float: left;
-	width: 537px;
+	// float: left;
+	// width: 537px;
 	font-weight: 100;
+	display: inline-block;
+	margin-top: 20px;
 }
 .modal-adress {
 	margin-bottom: 20px;
@@ -160,8 +162,10 @@ td {
 	padding: 10px 0;
 }
 .map-modal-adress__pic {
-	float: right;
-	width: 537px;
+	// float: right;
+	// width: 537px;
+	display: inline-block;
+	margin-top: 20px;
 
 }
 .modal-adress__pic {
@@ -189,15 +193,18 @@ td {
 #mapModal1 {
 	width: 537px;
 	height: 410px;
-	margin-top: 20px;
-	margin-bottom: 22px;
+	// margin-top: 20px;
+	// margin-bottom: 22px;
 }
 #mapModal2 {
 	width: 537px;
 	height: 410px;
-	margin-top: 20px;
-	margin-bottom: 22px;
+	// margin-top: 20px;
+	// margin-bottom: 22px;
 }
 .media-content-pic img {
     width: 100%;
+}
+.modal-map {
+	margin-bottom: 20px;
 }

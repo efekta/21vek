@@ -2009,7 +2009,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link { display: inline-block; vertical-align: middle; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
-.map-modal_adress { float: left; width: 537px; font-weight: 100; }
+.map-modal_adress { font-weight: 100; display: inline-block; margin-top: 20px; }
 
 .modal-adress { margin-bottom: 20px; }
 
@@ -2021,7 +2021,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 td { padding: 10px 0; }
 
-.map-modal-adress__pic { float: right; width: 537px; }
+.map-modal-adress__pic { display: inline-block; margin-top: 20px; }
 
 .modal-adress__pic { width: 521px; height: 345px; margin-bottom: 10px; }
 
@@ -2033,11 +2033,13 @@ td { padding: 10px 0; }
 
 .adress__pic_mini img { width: 100%; height: 100%; }
 
-#mapModal1 { width: 537px; height: 410px; margin-top: 20px; margin-bottom: 22px; }
+#mapModal1 { width: 537px; height: 410px; }
 
-#mapModal2 { width: 537px; height: 410px; margin-top: 20px; margin-bottom: 22px; }
+#mapModal2 { width: 537px; height: 410px; }
 
 .media-content-pic img { width: 100%; }
+
+.modal-map { margin-bottom: 20px; }
 
 .screen-7 { background: #fff; color: #1c1c1c; font-family: 'futura-book'; font-weight: 400; }
 
@@ -2101,7 +2103,7 @@ td { padding: 10px 0; }
 
 .selection span { font-weight: normal; }
 
-.map-box-footer { float: right; width: 50%; position: relative; }
+#map { float: right; width: 50%; min-height: 975px; position: relative; }
 
 .object-content-block { overflow-y: scroll; }
 
