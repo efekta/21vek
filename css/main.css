@@ -1785,7 +1785,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-box { text-align: center; }
 
-.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 20px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 230px; letter-spacing: 2px; }
+.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 2px; }
 
 .btn:hover { -webkit-box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); }
 
