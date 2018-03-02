@@ -6,6 +6,9 @@
     // overflow: hidden;
     position: relative;
     padding-bottom: 215px;
+
+    overflow: hidden;
+    // height: 100vh;
 }
 // .screen-1-bg {
 // 	position: fixed;
@@ -166,14 +169,14 @@
 .green-box-1  {
 	position: absolute;
 	left: -11px;
-	bottom: -219px;
+	bottom: -203px;
 	z-index: 2;
 
 }
 .green-box-2 {
     position: absolute;
     right: 182px;
-    bottom: -219px;
+    bottom: -203px;
     z-index: 2;
 }
 
@@ -210,7 +213,7 @@
 .form-adress, .form-phone {
 	padding: 23px 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
-	margin-bottom: 28px;
+	// margin-bottom: 28px;
 }
 // .form-adress i, .form-phone i{
 // 	margin: 0 10px;
@@ -220,6 +223,7 @@
 .form-adress img, .form-phone img {
 	// opacity: .25;
 	margin-right: 10px;
+	vertical-align: middle;
 }
 input {
 	background: transparent;
