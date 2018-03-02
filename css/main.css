@@ -1841,7 +1841,7 @@ input { background: transparent; border: none; color: #faf7f3; outline: none; }
 
 .btn-mob { display: none; }
 
-.popup { position: absolute; width: 1012px; margin: 0 auto; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: block; }
+.popup { position: absolute; width: 1012px; margin: 0 auto; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
 
 .popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; }
 
@@ -1987,7 +1987,7 @@ input { background: transparent; border: none; color: #faf7f3; outline: none; }
 
 .media-box { position: absolute; right: 436px; width: 220px; }
 
-.block-map-object { position: absolute; bottom: -37%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat; width: 369px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); cursor: pointer; }
+.block-map-object { position: absolute; bottom: -37%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat; width: 369px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
 
 .block-map-object a { color: #faf7f3; font-weight: bold; font-size: 43px; text-align: center; display: inline-block; position: absolute; top: 60%; }
 
