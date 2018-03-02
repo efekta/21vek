@@ -365,7 +365,16 @@
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
-	
+	.feedback-slider-arrows {
+		top: 112%;
+	}
+
+	.arrow-right {
+	    right: 35%;
+	}
+	.arrow-left {
+		left: 35%;
+	}
 }
 
 

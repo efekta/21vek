@@ -2233,4 +2233,8 @@ td { padding: 10px 0; }
   .modal-adress__pic { width: 100%; height: auto; margin-bottom: 10px; }
   .modal-adress__pic_mini { text-align: center; width: 100%; } }
 
+@media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
+  .arrow-right { right: 35%; }
+  .arrow-left { left: 35%; } }
+
 /*# sourceMappingURL=main.css.map */
