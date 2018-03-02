@@ -2182,7 +2182,7 @@ td { padding: 10px 0; }
   .content-item { width: 100%; margin-right: 0; margin-bottom: 30px; }
   .map-box_pic { position: static; width: 262px; height: auto; display: block; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); bottom: 0; left: 0; margin: auto; }
   .form { border: 10px solid rgba(255, 255, 255, 0.4); padding: 30px 20px; }
-  .green-box-1 { position: absolute; left: 0; bottom: 0; }
+  .green-box-1 { position: absolute; left: 0; bottom: -5px; }
   .green-box-1 img { width: 100%; }
   .section-title { font-size: 30px; }
   .map-object { position: static; padding: 20px; margin-bottom: 20px; -webkit-transform: translateX(50%); -ms-transform: translateX(50%); transform: translateX(50%); }
