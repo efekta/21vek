@@ -1843,7 +1843,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-mob { display: none; }
 
-.popup { position: absolute; width: 1012px; margin: 0 auto; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
+.popup { position: absolute; width: 1012px; margin: 0 auto; top: 25%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
 
 .popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; }
 
@@ -1853,7 +1853,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup-btn { width: 240px; }
 
-.modal-format { width: 1012px; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding: 50px 0; background: rgba(29, 33, 45, 0.9); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
+.modal-format { width: 1012px; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding: 50px 0; padding-bottom: 0; background: rgba(29, 33, 45, 0.9); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
 
 .modal-slider-box { width: 50%; float: left; }
 
@@ -1865,9 +1865,9 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-slider-content { float: right; width: 45%; margin-left: 25px; }
 
-.modal-slider-title { color: #ff803a; font-size: 36px; font-family: 'futura-demi'; font-weight: 700; margin-bottom: 35px; }
+.modal-slider-title { color: #ff9f42; font-size: 36px; font-family: 'futura-demi'; margin-bottom: 35px; }
 
-.content-item_slider { width: 100%; float: none; font-size: 18px; margin-bottom: 10px; }
+.content-item_slider { width: 100%; float: none; font-size: 18px; margin-bottom: 10px; font-family: 'futura-book'; }
 
 .modal-slider-subtitle { margin-bottom: 20px; font-size: 20px; font-family: 'futura-demi'; font-weight: 400; display: block; }
 

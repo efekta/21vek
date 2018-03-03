@@ -118,7 +118,7 @@
 	position: absolute;
 	width: 1012px;
 	margin: 0 auto;
-	top: 50%;
+	top: 25%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
@@ -148,6 +148,7 @@
 	margin: 0 auto;
 	border: 10px solid rgba(255, 255, 255, 0.4);
     padding: 50px 0;
+    padding-bottom: 0;
     background: rgba(29, 33, 45, .9);
     position: absolute;
     top: 50%;
@@ -180,10 +181,9 @@
 	margin-left: 25px;
 }
 .modal-slider-title {
-	color: $orange;
+	color: $font-orange;
 	font-size: 36px;
 	font-family: 'futura-demi';
-	font-weight: 700;
 	margin-bottom: 35px;
 }
 .content-item_slider {
@@ -191,6 +191,7 @@
 	float: none;
 	font-size: 18px;
 	margin-bottom: 10px;
+	font-family: 'futura-book';
 }
 .modal-slider-subtitle {
 	margin-bottom: 20px;

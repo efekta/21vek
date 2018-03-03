@@ -114,6 +114,7 @@ ymaps.ready(init);
     $('.modal-btn').on('click', function() {
         $('.overlay').fadeIn();
         $('.popup').fadeIn();
+        
     })
     $('.popup-close').on('click', function() {
         $('.popup').fadeOut();
