@@ -114,7 +114,7 @@ ymaps.ready(init);
     $('.modal-btn').on('click', function() {
         $('.overlay').fadeIn();
         $('.popup').fadeIn();
-        
+
     })
     $('.popup-close').on('click', function() {
         $('.popup').fadeOut();
@@ -205,8 +205,12 @@ btn-box_mob
  =======================*/
     $('.btn-box_mob').on('click', function() {
         $('.format-item_mob').removeClass();
+        $('.btn-box_mob').fadeOut();
     })
-
+    $('.object-btn-box_mob').on('click', function() {
+        $('.object-content_mob').removeClass();
+        $('.object-btn-box_mob').fadeOut();
+    })
 
 
 

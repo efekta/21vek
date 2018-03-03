@@ -2135,6 +2135,8 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .object-calc-panel-item:last-child { margin-right: -1px; border-right: none; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
 
+.object-btn-box_mob { display: none; text-align: center; }
+
 .fa-bars--small { font-size: 0.5rem; padding-top: 4px; vertical-align: top; }
 
 .object-modal, .direction-modal, .format-modal { width: 275px; border: 1px solid #e2e2e2; -webkit-box-shadow: 1px 1px 2px 0 #999; box-shadow: 1px 1px 2px 0 #999; border-radius: 5px; padding: 10px; position: absolute; top: 30px; right: 50%; -webkit-transform: translateX(50%); -ms-transform: translateX(50%); transform: translateX(50%); z-index: 100; background: #fff; display: none; }
@@ -2240,6 +2242,8 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
   .object-calc-panel { margin-top: -10px; }
   .object-form-box { padding: 0 10px; }
   .object-calc-panel-items { display: none; }
+  .object-btn-box_mob { display: block; margin-top: 20px; margin-bottom: 30px; }
+  .object-content_mob { display: none; }
   .map-box-footer { float: none; width: auto; height: auto; position: relative; }
   .screen-4 .section-title p { width: 100%; }
   .footer-konf { display: none; }
