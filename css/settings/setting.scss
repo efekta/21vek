@@ -4,7 +4,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: $white;
+	color: $font-white;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.2;
@@ -61,6 +61,7 @@ h6 {
 	color: $white;
 	text-align: center;
 	padding-top: 93px;
+	font-family: 'futura-demi';
 }
 button {
 	cursor: pointer;

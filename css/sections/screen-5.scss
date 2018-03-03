@@ -8,7 +8,7 @@
     // overflow: hidden;
  	font-family: 'futura-demi';
  	font-weight: 400;
- 	margin-top: -34px;
+ 	margin-top: -75px;
 }
 // .screen-5-bg {
 // 	position: absolute;
@@ -39,6 +39,7 @@
 .autor-content {
 	float: right;
 	width: 510px;
+	font-family: "futura-book";
 }
 .autor-content p {
 	color: $white;
@@ -48,7 +49,9 @@
 .name {
 	font-size: 20px;
 	color: $white;
+	margin-top: 10px;
 	margin-bottom: 10px;
+	font-family: "futura-demi";
 }
 .comments-green-1 {
 	position: absolute;

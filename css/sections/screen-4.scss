@@ -2,7 +2,7 @@
 	// background: url("../img/bg/bg-4.jpg") 50% 0 no-repeat fixed;
 	// background: url("../img/bg/bg-4.jpg") no-repeat center;
 	// background-size: cover;
-	padding: 0 0 100px 0;
+	padding: 0 0 80px 0;
 	// background-attachment: fixed;
     // height: 100vh;
     // overflow: hidden;
@@ -37,8 +37,12 @@
 .advantages-title {
 	margin-bottom: 30px;
 }
-.advantages-title, .advantages-sub_title {
+.advantages-title {
 	text-align: center;
+	font-family: 'futura-demi';
+}
+.advantages-sub_title {
+	font-family: "futura-book";
 }
 .advantages-title p {
 	font-size: 22px;
@@ -47,6 +51,9 @@
 .advantages-sub_title p {
 	font-size: 18px;
 }
+.trust {
+	margin-top: 140px;
+}
 .trust-content {
 	position: relative;
 	width: 598px;
@@ -54,7 +61,8 @@
 	text-align: center;
 	background: $orange;
 	padding: 25px 45px;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
+	font-family: 'futura-book';
 }
 .trust-content p {
 	font-size: 20px;

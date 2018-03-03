@@ -61,11 +61,12 @@
 }
 .adress {
 	width: 180px;
-	margin-right: 294px;
+	margin-right: 210px;
 }
 
 .phone {
-	width: 154px;
+	width: 163px;
+	font-family: 'futura-book-bold';
 }
 .phone-link {
 	font-size: 18px;
@@ -90,13 +91,12 @@
 	position: relative;
 }
 .content-title {
-	width: 542px;
+	width: 545px;
 	margin-bottom: 35px;
 }
 .content-title  p {
 	font-size: 46px;
 	line-height: 48px;
-	font-weight: 700;
 	font-family: 'futura-book-bold';
 	color: $white;
 }
@@ -185,8 +185,6 @@
 	position: relative;
 	width: 404px;
 	float: right;
-	font-family: 'futura-demi';
-	font-weight: 400;
 }
 .content-form form {
 	margin-bottom: 0;
@@ -203,9 +201,9 @@
 .form-title p {
 	font-size: 31px;
 	line-height: 28px;
-	font-weight: bold;
 	color: $white;
 	margin-bottom: 15px;
+	// font-family: 'futura-demi';
 }
 .form-title span {
 	font-size: 20px;
@@ -214,10 +212,14 @@
 	font-weight: 300;
 }
 .form-adress, .form-phone {
+	font-family: 'futura-book';
 	padding: 23px 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
 	// margin-bottom: 28px;
+}
+.form-phone input {
+	font-family: 'futura-book';
 }
 // .form-adress i, .form-phone i{
 // 	margin: 0 10px;
@@ -272,6 +274,7 @@ input {
     margin-bottom: 20px;
     width: 300px;
     letter-spacing: 1px;
+    font-family: "futura-book-bold";
 }
 .btn:hover {
 	box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55);

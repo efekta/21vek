@@ -141,7 +141,7 @@ template { display: none; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body { margin: 0; padding: 0; color: #fff; font-size: 16px; font-weight: normal; line-height: 1.2; background: #1b202d; position: relative; font-family: 'futura-book'; }
+body { margin: 0; padding: 0; color: #f3f1ed; font-size: 16px; font-weight: normal; line-height: 1.2; background: #1b202d; position: relative; font-family: 'futura-book'; }
 
 p { color: #777e8e; margin: 0; padding: 0; }
 
@@ -159,17 +159,15 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .clearfix:after { clear: both; }
 
-.section-title { font-size: 42px; color: #fff; text-align: center; padding-top: 93px; }
+.section-title { font-size: 42px; color: #fff; text-align: center; padding-top: 93px; font-family: 'futura-demi'; }
 
 button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight: 700; }
 
 .parallax-window { min-height: 500px; background: transparent; }
 
-@font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.eot") format("eot"), url("../fonts/FuturaPT-Book.otf") format("otf"), url("../fonts/FuturaPT-Book.svg") format("svg"), url("../fonts/FuturaPT-Book.ttf") format("truetype"), url("../fonts/FuturaPT-Book.woff") format("woff"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.eot") format("eot"), url("../fonts/FuturaPT-Bold.otf") format("otf"), url("../fonts/FuturaPT-Bold.svg") format("svg"), url("../fonts/FuturaPT-Bold.ttf") format("truetype"), url("../fonts/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'futura-book'; src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.eot") format("eot"), url("../fonts/FuturaPT-Book.otf") format("otf"), url("../fonts/FuturaPT-Book.svg") format("svg"), url("../fonts/FuturaPT-Book.ttf") format("truetype"), url("../fonts/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }
-
-@font-face { font-family: 'futura-demi-bold'; src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.eot") format("eot"), url("../fonts/FuturaPT-Demi.otf") format("otf"), url("../fonts/FuturaPT-Demi.svg") format("svg"), url("../fonts/FuturaPT-Demi.ttf") format("truetype"), url("../fonts/FuturaPT-Demi.woff") format("woff"); font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'futura-demi'; src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.eot") format("eot"), url("../fonts/FuturaPT-Demi.otf") format("otf"), url("../fonts/FuturaPT-Demi.svg") format("svg"), url("../fonts/FuturaPT-Demi.ttf") format("truetype"), url("../fonts/FuturaPT-Demi.woff") format("woff"); font-weight: 400; font-style: normal; }
 
@@ -1723,9 +1721,9 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .time { width: 114px; margin-right: 71px; }
 
-.adress { width: 180px; margin-right: 294px; }
+.adress { width: 180px; margin-right: 210px; }
 
-.phone { width: 154px; }
+.phone { width: 163px; font-family: 'futura-book-bold'; }
 
 .phone-link { font-size: 18px; font-weight: bold; }
 
@@ -1735,9 +1733,9 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .content-box { float: left; position: relative; }
 
-.content-title { width: 542px; margin-bottom: 35px; }
+.content-title { width: 545px; margin-bottom: 35px; }
 
-.content-title p { font-size: 46px; line-height: 48px; font-weight: 700; font-family: 'futura-book-bold'; color: #fff; }
+.content-title p { font-size: 46px; line-height: 48px; font-family: 'futura-book-bold'; color: #fff; }
 
 .content-title span { color: #ff9f42; }
 
@@ -1759,7 +1757,7 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .green-box-2 { position: absolute; right: 182px; bottom: -220px; z-index: 2; }
 
-.content-form { position: relative; width: 404px; float: right; font-family: 'futura-demi'; font-weight: 400; }
+.content-form { position: relative; width: 404px; float: right; }
 
 .content-form form { margin-bottom: 0; }
 
@@ -1767,11 +1765,13 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .form-title { margin-bottom: 20px; }
 
-.form-title p { font-size: 31px; line-height: 28px; font-weight: bold; color: #fff; margin-bottom: 15px; }
+.form-title p { font-size: 31px; line-height: 28px; color: #fff; margin-bottom: 15px; }
 
 .form-title span { font-size: 20px; line-height: 24px; font-family: 'futura-book'; font-weight: 300; }
 
-.form-adress, .form-phone { padding: 23px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.form-adress, .form-phone { font-family: 'futura-book'; padding: 23px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+
+.form-phone input { font-family: 'futura-book'; }
 
 .form-adress img, .form-phone img { margin-right: 10px; vertical-align: middle; }
 
@@ -1787,7 +1787,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-box { text-align: center; margin-top: 20px; }
 
-.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 1px; }
+.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 1px; font-family: "futura-book-bold"; }
 
 .btn:hover { -webkit-box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); }
 
@@ -1915,7 +1915,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title span { color: #ff9f42; }
 
-.box-title { text-align: center; }
+.box-title { text-align: center; font-family: 'futura-book'; }
 
 .subtitle { color: #777e8e; margin-top: -85px; font-size: 22px; margin-bottom: 80px; margin-top: -90px; font-size: 23px; margin-bottom: 80px; }
 
@@ -1927,9 +1927,9 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .reklame_content-form .form { padding: 43px; padding-bottom: 55px; }
 
-.reklame_content-form .form-adress, .form-phone { padding: 25px 0; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.reklame_content-form .form-adress, .form-phone { font-family: 'futura-book'; padding: 25px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
-.screen-4 { padding: 0 0 100px 0; position: relative; font-family: 'futura-demi'; font-weight: 400; }
+.screen-4 { padding: 0 0 80px 0; position: relative; font-family: 'futura-demi'; font-weight: 400; }
 
 .screen-4 .section-title p { width: 542px; margin: 0 auto; }
 
@@ -1941,13 +1941,17 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .advantages-title { margin-bottom: 30px; }
 
-.advantages-title, .advantages-sub_title { text-align: center; }
+.advantages-title { text-align: center; font-family: 'futura-demi'; }
+
+.advantages-sub_title { font-family: "futura-book"; }
 
 .advantages-title p { font-size: 22px; color: #fff; }
 
 .advantages-sub_title p { font-size: 18px; }
 
-.trust-content { position: relative; width: 598px; margin: 0 auto; text-align: center; background: #ff803a; padding: 25px 45px; margin-bottom: 50px; }
+.trust { margin-top: 140px; }
+
+.trust-content { position: relative; width: 598px; margin: 0 auto; text-align: center; background: #ff803a; padding: 25px 45px; margin-bottom: 90px; font-family: 'futura-book'; }
 
 .trust-content p { font-size: 20px; color: #fff; }
 
@@ -1961,7 +1965,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .screen-4 .trust .subtitle { font-size: 22px; }
 
-.screen-5 { position: relative; background: url("../img/bg/bg-5.jpg") no-repeat center; background-size: cover; padding: 0 0 55px 0; background-attachment: fixed; font-family: 'futura-demi'; font-weight: 400; margin-top: -34px; }
+.screen-5 { position: relative; background: url("../img/bg/bg-5.jpg") no-repeat center; background-size: cover; padding: 0 0 55px 0; background-attachment: fixed; font-family: 'futura-demi'; font-weight: 400; margin-top: -75px; }
 
 .box-slider { width: 935px; margin: 0 auto; margin-top: -63px; }
 
@@ -1969,11 +1973,11 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .autor-pic { float: left; width: 196px; margin-bottom: 30px; margin-right: 68px; }
 
-.autor-content { float: right; width: 510px; }
+.autor-content { float: right; width: 510px; font-family: "futura-book"; }
 
 .autor-content p { color: #fff; font-size: 18px; margin-bottom: 30px; }
 
-.name { font-size: 20px; color: #fff; margin-bottom: 10px; }
+.name { font-size: 20px; color: #fff; margin-top: 10px; margin-bottom: 10px; font-family: "futura-demi"; }
 
 .comments-green-1 { position: absolute; left: 0; top: -40%; }
 
@@ -1981,19 +1985,19 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .comments-green-2 { position: absolute; right: 0; top: -40%; }
 
-.screen-6 { position: relative; padding: 0 0 381px 0; font-family: 'futura-demi'; font-weight: 400; }
+.screen-6 { position: relative; padding: 0 0 370px 0; font-family: 'futura-demi'; font-weight: 400; }
 
 .media-content { position: relative; }
 
 .media-content-pic { position: absolute; left: -90px; top: -95px; height: 303px; }
 
-.media-box { position: absolute; right: 436px; width: 220px; }
+.media-box { position: absolute; right: 436px; width: 220px; font-family: "futura-book"; }
 
-.block-map-object { position: absolute; bottom: -45%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat; width: 369px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
+.block-map-object { position: absolute; bottom: -45%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat 50% 50%; width: 510px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
 
-.block-map-object a { color: #fff; font-weight: bold; font-size: 43px; text-align: center; display: inline-block; position: absolute; top: 60%; }
+.block-map-object a { color: #fff; font-weight: bold; font-size: 43px; text-align: center; position: absolute; top: 60%; }
 
-.block-map-object p { font-size: 16px; margin-top: 25px; }
+.block-map-object p { font-size: 24px; margin-top: 25px; font-family: "futura-book"; }
 
 .screen-6 .box-title .subtitle { margin-top: -84px; font-size: 24px; margin-bottom: 111px; }
 
