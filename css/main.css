@@ -2179,7 +2179,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
   .logo-title { margin-right: 20px; }
   .time, .adress, .phone-hidden { display: none; }
   .content-box { width: 100%; float: none; }
-  .mob-phone { position: absolute; display: block; right: 0px; top: 8px; }
+  .mob-phone { position: absolute; display: block; right: 10px; top: 8px; }
   .main-head { margin-bottom: 10px; }
   .content-title { width: 100%; text-align: center; margin-bottom: 50px; margin: auto; margin-bottom: 50px; display: none; }
   .content-title-mob { display: block; text-align: center; font-size: 30px; line-height: 32px; font-family: 'futura-book-bold'; color: #f3f1ed; margin-bottom: 25px; }

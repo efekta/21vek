@@ -85,29 +85,29 @@ ymaps.ready(init);
  fixed header
  =======================*/
 
-    // var screenHight = $('.screen-1').height();
+    var screenHight = $('.screen-1').height();
     
-    // $(document).on('scroll', function() {
-    //     var documentScroll = $(this).scrollTop();
+    $(document).on('scroll', function() {
+        var documentScroll = $(this).scrollTop();
 
-    //     if(documentScroll > screenHight) {
-    //         $('.main-head').addClass('main-head-fix');
-    //         $('.time p').addClass('head-fix_color');
-    //         $('.adress p').addClass('head-fix_color');
-    //         $('.phone a').addClass('head-fix_color');
-    //         $('.logo span').addClass('head-fix_color');
-    //         // $('.screen-1').css({
-    //         //     "paddingTop": screenHight
-    //         // }); 
-    //      } else {
-    //         $('.main-head').removeClass('main-head-fix');
-    //         $('.time p').removeClass('head-fix_color');
-    //         $('.adress p').removeClass('head-fix_color');
-    //         $('.phone a').removeClass('head-fix_color');
-    //         $('.logo span').removeClass('head-fix_color');
-    //         $('.screen-1').removeAttr('style');
-    //     }
-    // })
+        if(documentScroll > screenHight) {
+            $('.main-head').addClass('main-head-fix');
+            $('.time p').addClass('head-fix_color');
+            $('.adress p').addClass('head-fix_color');
+            $('.phone a').addClass('head-fix_color');
+            $('.logo span').addClass('head-fix_color');
+            // $('.screen-1').css({
+            //     "paddingTop": screenHight
+            // }); 
+         } else {
+            $('.main-head').removeClass('main-head-fix');
+            $('.time p').removeClass('head-fix_color');
+            $('.adress p').removeClass('head-fix_color');
+            $('.phone a').removeClass('head-fix_color');
+            $('.logo span').removeClass('head-fix_color');
+            $('.screen-1').removeAttr('style');
+        }
+    })
 /*========================
  modal
  =======================*/
