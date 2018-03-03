@@ -2007,7 +2007,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: absolute; top: 125%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 100%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 1000; display: none; }
+.map-modal { position: absolute; top: 125%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 100%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 1000; display: block; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2019,7 +2019,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link { display: inline-block; vertical-align: middle; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
-.map-modal_adress { font-weight: 100; display: inline-block; margin-top: 20px; }
+.map-modal_adress { font-weight: 100; display: inline-block; vertical-align: top; margin-top: 20px; }
 
 .modal-adress { margin-bottom: 20px; }
 
@@ -2028,8 +2028,6 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 .address-selection label { margin-left: 10px; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
 table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
-
-td { padding: 10px 0; }
 
 .map-modal-adress__pic { display: inline-block; margin-top: 20px; }
 

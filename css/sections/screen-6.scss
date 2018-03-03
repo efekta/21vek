@@ -104,7 +104,7 @@
 	color: #000;
 	font-size: 18px;
 	z-index: 1000;
-	display: none;
+	display: block;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;
@@ -134,6 +134,7 @@
 	// width: 537px;
 	font-weight: 100;
 	display: inline-block;
+	vertical-align: top;
 	margin-top: 20px;
 }
 .modal-adress {
@@ -158,9 +159,7 @@ table {
 	width: 500px;
 	color: #949494;
 }
-td {
-	padding: 10px 0;
-}
+
 .map-modal-adress__pic {
 	// float: right;
 	// width: 537px;
