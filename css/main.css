@@ -1885,11 +1885,9 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); z-index: 500; display: none; width: 100vw; height: 100vh; }
 
-.popup-karta { padding: 23px; background: #fff; width: 338px; margin: 0 auto; position: absolute; left: 50%; top: 25%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
+.popup-karta { padding: 23px; background: #fff; width: 380px; margin: 0 auto; position: absolute; left: 50%; top: 25%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
 
-.popup-karta .btn { width: 180px; }
-
-.popup-karta_pic { width: 275px; }
+.popup-karta_pic { width: 332px; margin: auto; }
 
 .popup-karta_pic img { width: 100%; }
 
@@ -1899,11 +1897,11 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup-karta-title span { font-size: 15px; color: #777e8e; font-family: 'futura-demi'; }
 
-.btn-box_popup-karta { text-transform: uppercase; margin-top: 23px; }
+.btn-box_popup-karta { text-transform: uppercase; margin-top: 23px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.btn-box_popup-karta button { padding: 20px 0; letter-spacing: 1; }
+.btn-box_popup-karta button { padding: 20px 10px; letter-spacing: 1; margin-bottom: 0; }
 
-.btn-box_popup-karta a { color: #1c1c1c; font-size: 12px; margin-left: 17px; }
+.btn-box_popup-karta a { color: #1c1c1c; font-size: 14px; margin-left: 17px; font-family: 'futura-demi'; }
 
 .popup-close_karta { right: 5%; color: #d6d6d6; }
 
@@ -2009,7 +2007,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: absolute; top: 110%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 100%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 1000; display: none; }
+.map-modal { position: absolute; top: 125%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 100%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 1000; display: none; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
