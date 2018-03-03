@@ -3,7 +3,9 @@
 	background: url("../img/bg/bg-footer.jpg") repeat;
 }
 .footer-content {
-	text-align: center;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-autor, .footer-konf, .footer-phone, .footer-list, .footer-item {
 	display: inline-block;
@@ -17,7 +19,7 @@
 .footer-konf p {
 	font-size: 11px;
 	text-transform: uppercase;
-	color: $orange;
+	color: $font-orange;
 }
 .footer-phone a {
 	color: $white;
@@ -29,7 +31,7 @@
 	color: $white;
 }
 .footer-link:hover {
-	color: $orange;
+	color: $font-orange;
 }
 .footer-item:first-child {
 	margin-left: 0;

@@ -27,7 +27,7 @@
 
 }
 .active a {
-	color: $orange;
+	color: $font-orange;
 }
 .object-calc-item {
 	display: inline-block;
@@ -96,8 +96,8 @@
 .object-item input[type="checkbox"]:checked + label::before {
     content: "\2714";
     text-align: center;
-    background: $orange;
-    border: 1px solid $orange;
+    background: $font-orange;
+    border: 1px solid $font-orange;
 }
 
 .object-item input[type="checkbox"] + label::before {
@@ -226,9 +226,6 @@
 	font-size: 0.5rem;
 	padding-top: 4px;
     vertical-align: top;
-}
-.active a {
-	color: $orange;
 }
 .object-modal,
 .direction-modal,

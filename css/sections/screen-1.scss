@@ -73,7 +73,7 @@
 }
 .head-modal-phone {
 	text-transform: uppercase;
-	color: $orange;
+	color: $font-orange;
 	margin-top: 15px;
 	display: block;
 	cursor: pointer;
@@ -271,7 +271,7 @@ input {
     border-radius: 45px;
     margin-bottom: 20px;
     width: 300px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .btn:hover {
 	box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55);
