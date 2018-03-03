@@ -47,13 +47,14 @@
 	transform: translatex(-50%);
 }
 .block-map-object a {
-	color: $white;
+	color: $font-white;
     font-weight: bold;
     font-size: 43px;
     text-align: center;
     // display: inline-block;
     position: absolute;
     top: 60%;
+    font-family: 'futura-demi';
 }
 .block-map-object p {
 	font-size: 24px;
@@ -104,7 +105,7 @@
 	color: #000;
 	font-size: 18px;
 	z-index: 1000;
-	display: block;
+	display: none;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;

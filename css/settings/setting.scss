@@ -28,7 +28,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: $white;
+	color: $font-white;
 }
 h1,
 h2,
@@ -58,7 +58,7 @@ h6 {
 
 .section-title {
 	font-size: 42px;
-	color: $white;
+	color: $font-white;
 	text-align: center;
 	padding-top: 93px;
 	font-family: 'futura-demi';
@@ -72,4 +72,19 @@ button {
 .parallax-window {
     min-height: 500px;
     background: transparent;
+}
+.section-title-mob {
+	display: none;
+	font-size: 42px;
+	color: $font-white;
+	text-align: center;
+	padding-top: 93px;
+	font-family: 'futura-demi';
+}
+.content-title-mob {
+	display: none;
+	font-size: 46px;
+	line-height: 48px;
+	font-family: 'futura-book-bold';
+	color: $font-white;
 }
