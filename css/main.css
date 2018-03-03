@@ -2268,7 +2268,8 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
   .modal-block { padding: 0 10px; }
   .arrow-right_mob { right: 15%; }
   .arrow-left_mob { left: 15%; }
-  #map { float: none; width: 100%; min-height: 895px; position: relative; } }
+  #map { float: none; width: 100%; min-height: 895px; position: relative; }
+  .object-content-block { overflow-y: auto; width: 100%; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .arrow-right { right: 35%; }

@@ -451,7 +451,10 @@
 	    min-height: 895px;
 	    position: relative;
 	}
-
+	.object-content-block {
+	    overflow-y: auto;
+	    width: 100%;
+	}
 
 }
 
