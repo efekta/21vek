@@ -294,17 +294,41 @@ input {
 	// display: inline-block;
 	// background: url("../img/icon/ellipse.png") no-repeat;
 	position: absolute;
-	bottom: -124px;
-    right: 302px;
+    bottom: -55px;
+    right: 150px;
+    width: 300px;
 }
 .map-object span {
 	color: $font-orange;
-	font-weight: bold;
-	font-size: 13px;
-	text-transform: uppercase;
-	display: inline-block;
-	vertical-align: middle;
-	letter-spacing: 1;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    width: 300px;
+}
+.map-object__content {
+	position: relative;
+}
+.map-object__content::before {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/ellipse.png") no-repeat 50%;
+	background-size: cover;
+    width: 89px;
+    height: 89px;
+    top: -37px;
+    left: -40px;
+}
+.map-object__content::after {
+	content: "";
+	position: absolute;
+	background: url("../img/icon/map-orange.png") no-repeat 50%;
+	background-size: cover;
+    width: 18px;
+    height: 23px;
+    top: -37px;
+    left: 0;
 }
 .mob-phone {
 	display: none;
@@ -329,3 +353,5 @@ input {
     background: url(../img/bg/bg-5.jpg) no-repeat center;
     margin-bottom: 0;
 }
+
+

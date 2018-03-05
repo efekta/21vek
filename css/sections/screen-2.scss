@@ -160,25 +160,21 @@
 	width: 50%;
 	float: left;
 }
+.modal-slider-box .slick-list  {
+border-radius: 10px; 
+}
 .modal-slider {
     width: 100%;
     margin-bottom: 80px;
     padding: 0 45px;
 }
 .modal-slider-item {
-	border-radius: 10px;
+	// border-radius: 10px;
 	background: transparent;
 	overflow: hidden;
-
-	display: inline-block;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 .modal-slider-item img {
 	width: 100%;
-	// display: block;
 }
 .modal-slider-content {
 	float: right;

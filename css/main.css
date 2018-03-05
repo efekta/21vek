@@ -1799,9 +1799,15 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .form-subtitle p { display: inline-block; color: #918675; }
 
-.map-object { position: absolute; bottom: -124px; right: 302px; }
+.map-object { position: absolute; bottom: -55px; right: 150px; width: 300px; }
 
-.map-object span { color: #ff9f42; font-weight: bold; font-size: 13px; text-transform: uppercase; display: inline-block; vertical-align: middle; letter-spacing: 1; }
+.map-object span { color: #ff9f42; font-weight: bold; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; position: relative; width: 300px; }
+
+.map-object__content { position: relative; }
+
+.map-object__content::before { content: ""; position: absolute; background: url("../img/icon/ellipse.png") no-repeat 50%; background-size: cover; width: 89px; height: 89px; top: -37px; left: -40px; }
+
+.map-object__content::after { content: ""; position: absolute; background: url("../img/icon/map-orange.png") no-repeat 50%; background-size: cover; width: 18px; height: 23px; top: -37px; left: 0; }
 
 .mob-phone { display: none; }
 
@@ -1861,9 +1867,11 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-slider-box { width: 50%; float: left; }
 
+.modal-slider-box .slick-list { border-radius: 10px; }
+
 .modal-slider { width: 100%; margin-bottom: 80px; padding: 0 45px; }
 
-.modal-slider-item { border-radius: 10px; background: transparent; overflow: hidden; display: inline-block; border-radius: 10px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
+.modal-slider-item { background: transparent; overflow: hidden; }
 
 .modal-slider-item img { width: 100%; }
 
