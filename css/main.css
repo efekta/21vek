@@ -1863,9 +1863,9 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-slider { width: 100%; margin-bottom: 80px; padding: 0 45px; }
 
-.modal-slider-item { border-radius: 10px; background: transparent; }
+.modal-slider-item { border-radius: 10px; background: transparent; overflow: hidden; display: inline-block; border-radius: 10px; background-size: cover; background-position: center center; background-repeat: no-repeat; }
 
-.modal-slider-item img { width: 100%; border-radius: 10px; display: block; }
+.modal-slider-item img { width: 100%; }
 
 .modal-slider-content { float: right; width: 45%; margin-left: 25px; }
 
@@ -1905,7 +1905,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-box_popup-karta button { padding: 20px 10px; letter-spacing: 1; margin-bottom: 0; }
 
-.btn-box_popup-karta a { color: #1c1c1c; font-size: 14px; margin-left: 17px; font-family: 'futura-demi'; }
+.btn-box_popup-karta a { color: #1c1c1c; font-size: 14px; margin-left: 17px; font-family: 'futura-demi'; cursor: pointer; }
 
 .popup-close_karta { right: 5%; color: #d6d6d6; }
 
@@ -2011,7 +2011,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 1170px; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 1000; display: none; }
+.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 1170px; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2274,7 +2274,8 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
   .arrow-right_mob { right: 15%; }
   .arrow-left_mob { left: 15%; }
   #map { float: none; width: 100%; min-height: 895px; position: relative; }
-  .object-content-block { overflow-y: auto; width: 100%; } }
+  .object-content-block { overflow-y: auto; width: 100%; }
+  .map-modal { width: 100%; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .arrow-right { right: 35%; }

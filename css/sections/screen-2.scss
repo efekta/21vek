@@ -166,14 +166,19 @@
     padding: 0 45px;
 }
 .modal-slider-item {
-	// width: 387px;
 	border-radius: 10px;
 	background: transparent;
+	overflow: hidden;
+
+	display: inline-block;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .modal-slider-item img {
 	width: 100%;
-	border-radius: 10px;
-	display: block;
+	// display: block;
 }
 .modal-slider-content {
 	float: right;
@@ -294,6 +299,7 @@
 	font-size: 14px;
 	margin-left: 17px;
 	font-family: 'futura-demi';
+	cursor: pointer;
 }
 .popup-close_karta {
 	right: 5%;
