@@ -2284,7 +2284,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
   .arrow-right_mob { right: 15%; }
   .arrow-left_mob { left: 15%; }
   #map { float: none; width: 100%; min-height: 895px; position: relative; }
-  .object-content-block { overflow-y: auto; width: 100%; }
+  .object-content-block { overflow: visible; width: 100%; }
   .map-modal { width: 90%; }
   .block-map-object_subtitle { position: static; } }
 
