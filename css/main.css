@@ -1917,6 +1917,8 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup-close_karta { right: 5%; color: #d6d6d6; }
 
+.modal-slider-box .slick-list { border-radius: 10px; }
+
 .screen-3 { padding: 0 0 100px 0; position: relative; font-family: 'futura-demi'; font-weight: 400; margin-top: -10px; }
 
 .section-title { margin-bottom: 111px; }
