@@ -309,7 +309,7 @@
 	    transform: translateX(0);
 	    width: auto;
 	    text-align: center;
-	    margin-top: -50px;
+	    margin-top: -25px;
 	}
 	.block-map-object a {
     	position: static;
@@ -474,6 +474,9 @@
 	.map-modal {
 		width: 90%;
 	}
+	.block-map-object_subtitle {
+		position: static;
+	}
 
 }
 
@@ -500,6 +503,9 @@
 	}
 	.map-modal {
     width: 90%;
+	}
+	.box-slider {
+    	width: 100%;
 	}
 }
 
