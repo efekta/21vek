@@ -300,8 +300,16 @@
     	width: auto;
     	text-align: center;
     	background-position-x: center;
-    	margin-top: -100px;
+    	margin-top: 0;
     	padding-top: 226px;
+	}
+	.block-map-object_title {
+	    font-size: 32px;
+	    position: static;
+	    transform: translateX(0);
+	    width: auto;
+	    text-align: center;
+	    margin-top: -50px;
 	}
 	.block-map-object a {
     	position: static;
