@@ -1801,7 +1801,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-object { position: absolute; bottom: -124px; right: 302px; }
 
-.map-object a { color: #ff803a; font-weight: bold; font-size: 13px; text-transform: uppercase; display: inline-block; vertical-align: middle; }
+.map-object span { color: #ff9f42; font-weight: bold; font-size: 13px; text-transform: uppercase; display: inline-block; vertical-align: middle; letter-spacing: 1; }
 
 .mob-phone { display: none; }
 
