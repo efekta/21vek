@@ -98,19 +98,33 @@
 .section-title_modal {
 	position: relative;
 }
+// .map-modal {
+// 	position: fixed;
+//     top: 0;
+//     left: 50%;
+// 	transform: translateX(-50%);
+// 	width: 1170px;
+// 	padding: 15px 42px;
+// 	background: #fff;
+// 	border-radius: 40px;
+// 	color: #000;
+// 	font-size: 18px;
+// 	z-index: 99999;
+// 	display: none;
+// }
 .map-modal {
-	position: fixed;
+    position: absolute;
     top: 0;
     left: 50%;
-	transform: translateX(-50%);
-	width: 1170px;
-	padding: 15px 42px;
-	background: #fff;
-	border-radius: 40px;
-	color: #000;
-	font-size: 18px;
-	z-index: 99999;
-	display: none;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 15px 42px;
+    background: #fff;
+    border-radius: 40px;
+    color: #000;
+    font-size: 18px;
+    z-index: 99999;
+    display: none;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;
