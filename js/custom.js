@@ -237,78 +237,78 @@ btn-box_mob
 /*========================
 valid form
  =======================*/
-// $('.form').validate ({
-//     rules: {
-//         name: "required",
-//         name: {
-//             required: true,
-//         },
-//         phone: "required",
-//         phone: {
-//             required: true,
-//         },
-//         modal_name: "required",
-//         modal_name: {
-//             required: true,
-//         },
-//         modal_phone: "required",
-//         modal_phone: {
-//             required: true,
-//         },
-//         email: "required",
-//         email: {
-//             required: true,
-//             email: true
-//         },
-//         adress: "required",
-//         adress: {
-//             required: true,
-//             adress: true
-//         },
-//         checkbox: "required",
-//         checkbox: {
-//             required: true,
-//             checkbox: true,
-//             minlength: 1
-//         },
+$('.form').validate ({
+    rules: {
+        name: "required",
+        name: {
+            required: true,
+        },
+        phone: "required",
+        phone: {
+            required: true,
+        },
+        modal_name: "required",
+        modal_name: {
+            required: true,
+        },
+        modal_phone: "required",
+        modal_phone: {
+            required: true,
+        },
+        email: "required",
+        email: {
+            required: true,
+            email: true
+        },
+        adress: "required",
+        adress: {
+            required: true,
+            adress: true
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
         
-//         agree: "required"
-//     },
-//     messages: {
-//         name: {
-//             required: "Пожалуйста, введите Ваше имя",
-//             minlength: "Не менее 2 символов"
-//         },
-//         phone: {
-//             required: "Заполните поле телефон"
-//         },
-//         modal_name: {
-//             required: "Пожалуйста, введите Ваше имя",
-//             minlength: "Не менее 2 символов"
-//         },
-//         modal_phone: {
-//             required: "Заполните поле телефон"
-//         },
-//         adress: {
-//             required: "Пожалуйста, введите адрес",
-//         },
-//         checkbox: {
-//             required: "Вы должны согласиться с обработкой персональных данных",
-//         },
-//         focusCleanup: true,
-//         focusInvalid: false,
-//         invalidHandler: function(event, validator) {
-//             $(".form").text("Исправьте пожалуйста все ошибки.");
-//         },
-//         onkeyup: function(element) {
-//             $(".form").text("");
-//         },
-//         errorPlacement: function(error, element) {
-//             return true;
-//         },
-//         errorClass: "form-input_error",
-//         validClass: "form-input_success"
-//     }
+        agree: "required"
+    },
+    messages: {
+        name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        phone: {
+            required: "Заполните поле телефон"
+        },
+        modal_name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        modal_phone: {
+            required: "Заполните поле телефон"
+        },
+        adress: {
+            required: "Пожалуйста, введите адрес",
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".form").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+    }
     // submitHandler: function (form) {
     //  var adress = $('#adress-head-form').val();
     //  var personal = $('#personal').val();
@@ -326,93 +326,107 @@ valid form
     //    alert('Возникла ошибка: ' + xhr.responseCode);
     //   }
 
-// });
+});
 
 
-// $('.modal-feedback-form').validate ({
-//         rules: {
-//         modal_name: "required",
-//         modal_name: {
-//             required: true,
-//         },
-//         modal_phone: "required",
-//         modal_phone: {
-//             required: true,
-//         },
-//         checkbox: "required",
-//         checkbox: {
-//             required: true,
-//             checkbox: true,
-//             minlength: 1
-//         },
+$('.modal-feedback-form').validate ({
+        rules: {
+        modal_name: "required",
+        modal_name: {
+            required: true,
+        },
+        modal_phone: "required",
+        modal_phone: {
+            required: true,
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
         
-//         agree: "required"
-//     },
-//     messages: {
-//         modal_name: {
-//             required: "Пожалуйста, введите Ваше имя",
-//             minlength: "Не менее 2 символов"
-//         },
-//         modal_phone: {
-//             required: "Заполните поле телефон"
-//         },
-//         checkbox: {
-//             required: "Вы должны согласиться с обработкой персональных данных",
-//         },
-//         focusCleanup: true,
-//         focusInvalid: false,
-//         invalidHandler: function(event, validator) {
-//             $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
-//         },
-//         onkeyup: function(element) {
-//             $(".modal-feedback-form").text("");
-//         },
-//         errorPlacement: function(error, element) {
-//             return true;
-//         },
-//         errorClass: "form-input_error",
-//         validClass: "form-input_success"
-//         }
+        agree: "required"
+    },
+    messages: {
+        modal_name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        modal_phone: {
+            required: "Заполните поле телефон"
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".modal-feedback-form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+        }
 
-// });
-// $('.modal-format').validate ({
-//         rules: {
-//         phone_modal_format: "required",
-//         phone_modal_format: {
-//             required: true,
-//         },
-//         checkbox: "required",
-//         checkbox: {
-//             required: true,
-//             checkbox: true,
-//             minlength: 1
-//         },
+});
+$('.modal-format').validate ({
+        rules: {
+        phone_modal_format: "required",
+        phone_modal_format: {
+            required: true,
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
         
-//         agree: "required"
-//     },
-//     messages: {
-//         phone_modal_format: {
-//             required: "Заполните поле телефон"
-//         },
-//         checkbox: {
-//             required: "Вы должны согласиться с обработкой персональных данных",
-//         },
-//         focusCleanup: true,
-//         focusInvalid: false,
-//         invalidHandler: function(event, validator) {
-//             $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
-//         },
-//         onkeyup: function(element) {
-//             $(".modal-feedback-form").text("");
-//         },
-//         errorPlacement: function(error, element) {
-//             return true;
-//         },
-//         errorClass: "form-input_error",
-//         validClass: "form-input_success"
-//         }
+        agree: "required"
+    },
+    messages: {
+        phone_modal_format: {
+            required: "Заполните поле телефон"
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".modal-feedback-form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+        }
 
-// });
+});
+/*========================
+print
+ =======================*/
+$('#print').click(function(){
+    var printing_css='<style media=print>tr:nth-child(even) td{background: #f0f0f0;}</style>';
+    var html_to_print=printing_css+$('#to_print').html();
+    var iframe=$('<iframe id="print_frame">');
+    $('body').append(iframe);
+    var doc = $('#print_frame')[0].contentDocument || $('#print_frame')[0].contentWindow.document;
+    var win = $('#print_frame')[0].contentWindow || $('#print_frame')[0];
+    doc.getElementsByTagName('body')[0].innerHTML=html_to_print;
+    win.print();
+    $('iframe').remove();
+    });
 /*========================
 scropp up
  =======================*/
