@@ -2047,7 +2047,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link-box span { color: #999; font-size: 22px; }
 
-.map-modal .popup-close_karta { top: 5%; right: 2%; }
+.map-modal .popup-close_karta { top: 2%; right: 1%; }
 
 .map-modal__link-box { text-align: right; margin-top: 10px; padding: 0 20px; }
 
