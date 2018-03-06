@@ -90,3 +90,20 @@ button {
 	font-family: 'futura-book-bold';
 	color: $font-white;
 }
+.email-form-personal {
+	margin-top: 20px;
+	color: #918675;
+}
+.email-form-personal input {
+	display: inline-block;
+	vertical-align: middle;
+}
+// .email-form-personal label {
+// 	display: inline-block;
+// 	vertical-align: middle;
+// }
+.email-form-personal__link {
+	display: inline-block;
+	border-bottom: 1px dashed #918675;
+	color: #918675;
+}

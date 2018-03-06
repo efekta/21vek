@@ -39,7 +39,7 @@
 // }
 .block-map-object {
 	position: absolute;
-	bottom: -45%;
+	bottom: -35%;
 	left: 50%;
 	background: url("../img/icon/ellipse-2.png") no-repeat 50% 50%;
 	width: 510px;
@@ -94,6 +94,9 @@
 }
 .screen-7 .search-box_btn {
 	width: 129px;
+	margin-top: -1px;
+    margin-right: -1px;
+    height: 45.4px;
 }
 .section-title_modal {
 	position: relative;

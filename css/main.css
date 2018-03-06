@@ -169,6 +169,12 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .content-title-mob { display: none; font-size: 46px; line-height: 48px; font-family: 'futura-book-bold'; color: #f3f1ed; }
 
+.email-form-personal { margin-top: 20px; color: #918675; }
+
+.email-form-personal input { display: inline-block; vertical-align: middle; }
+
+.email-form-personal__link { display: inline-block; border-bottom: 1px dashed #918675; color: #918675; }
+
 @font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.eot") format("eot"), url("../fonts/FuturaPT-Bold.otf") format("otf"), url("../fonts/FuturaPT-Bold.svg") format("svg"), url("../fonts/FuturaPT-Bold.ttf") format("truetype"), url("../fonts/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'futura-book'; src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.eot") format("eot"), url("../fonts/FuturaPT-Book.otf") format("otf"), url("../fonts/FuturaPT-Book.svg") format("svg"), url("../fonts/FuturaPT-Book.ttf") format("truetype"), url("../fonts/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }
@@ -1853,7 +1859,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-mob { display: none; }
 
-.popup { position: absolute; width: 1012px; margin: 0 auto; top: 25%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
+.popup { position: absolute; width: 90%; margin: 0 auto; top: 25%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
 
 .popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; }
 
@@ -1863,7 +1869,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup-btn { width: 240px; }
 
-.modal-format { width: 1012px; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding: 50px 0; padding-bottom: 0; background: rgba(29, 33, 45, 0.9); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
+.modal-format { width: 90%; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding: 50px 0; padding-bottom: 0; background: rgba(29, 33, 45, 0.9); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
 
 .modal-slider-box { width: 50%; float: left; }
 
@@ -2005,7 +2011,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .media-box { position: absolute; right: 436px; width: 220px; font-family: "futura-book"; }
 
-.block-map-object { position: absolute; bottom: -45%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat 50% 50%; width: 510px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
+.block-map-object { position: absolute; bottom: -35%; left: 50%; background: url("../img/icon/ellipse-2.png") no-repeat 50% 50%; width: 510px; height: 369px; -webkit-transform: translatex(-50%); -ms-transform: translatex(-50%); transform: translatex(-50%); }
 
 .block-map-object_title { color: #f3f1ed; font-weight: bold; font-size: 43px; position: absolute; top: 60%; font-family: 'futura-demi'; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 305px; }
 
@@ -2017,7 +2023,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .form { padding-bottom: 57px; }
 
-.screen-7 .search-box_btn { width: 129px; }
+.screen-7 .search-box_btn { width: 129px; margin-top: -1px; margin-right: -1px; height: 45.4px; }
 
 .section-title_modal { position: relative; }
 
