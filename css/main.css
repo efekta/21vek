@@ -175,6 +175,10 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .email-form-personal__link { display: inline-block; border-bottom: 1px dashed #918675; color: #918675; }
 
+label.error { border: none; color: red; font-size: 16px; display: block; }
+
+.success { border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+
 @font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.eot") format("eot"), url("../fonts/FuturaPT-Bold.otf") format("otf"), url("../fonts/FuturaPT-Bold.svg") format("svg"), url("../fonts/FuturaPT-Bold.ttf") format("truetype"), url("../fonts/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'futura-book'; src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.eot") format("eot"), url("../fonts/FuturaPT-Book.otf") format("otf"), url("../fonts/FuturaPT-Book.svg") format("svg"), url("../fonts/FuturaPT-Book.ttf") format("truetype"), url("../fonts/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }

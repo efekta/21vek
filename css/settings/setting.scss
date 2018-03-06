@@ -107,3 +107,18 @@ button {
 	border-bottom: 1px dashed #918675;
 	color: #918675;
 }
+label.error {
+    border: none;
+    color: red;
+    font-size: 16px;
+    display: block;
+}
+// .error {
+//     border: none;
+//     color: red;
+//     font-size: 16px;
+//     display: block;
+// }
+.success {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}

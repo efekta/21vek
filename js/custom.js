@@ -201,7 +201,7 @@ object-modal
 
 /*========================
 map-modal
- =======================*/
+=======================*/
     $('.btn-box_popup-karta__popup').on('click', function() {
         $('.overlay').fadeIn();
         $('.map-modal').fadeIn();
@@ -217,6 +217,7 @@ map-modal
  /*========================
 btn-box_mob
  =======================*/
+
     $('.btn-box_mob').on('click', function() {
         $('.format-item_mob').removeClass();
         $('.btn-box_mob').fadeOut();
@@ -225,8 +226,63 @@ btn-box_mob
         $('.object-content_mob').removeClass();
         $('.object-btn-box_mob').fadeOut();
     })
+/*========================
+valid form
+ =======================*/
+$('.form').validate ({
+    rules: {
+        name: "required",
+        name: {
+            required: true,
+        },
+        phone: "required",
+        phone: {
+            required: true,
+        },
+        pass: "required",
+        pass: {
+            required: true,
+            minlength: 5
+        },
+        email: "required",
+        email: {
+            required: true,
+            email: true
+        },
+        adress: "required",
+        adress: {
+            required: true,
+            adress: true
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true
+        },
+        
+        agree: "required"
+    },
+    messages: {
+        name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        phone: {
+            required: "Заполните поле телефон"
+        },
+        pass: {
+            required: "Пожалуйста, введите Ваш пароль",
+            minlength: "Пароль не менее 5 символов"
+        },
+        adress: {
+            required: "Пожалуйста, введите адрес",
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
 
-
+    }
+});
 
 
 
