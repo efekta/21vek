@@ -90,7 +90,15 @@ ymaps.ready(init);
             zoom: 13
         });
     }
-
+//   window.onload = function() {
+//     $('#mapModal1, mapModal2, #map').on('click', function(e) {
+//       e.preventDefault();
+//       // var win = window.open();
+//       // win.document.write("<img src='"+$(this).attr('href')+"'>");
+//       // console.log("<img src='"+$(this).attr('href')+"'>");
+//       window.print();
+//     });
+// }
 /*========================
  mask input phone
  =======================*/
@@ -229,127 +237,203 @@ btn-box_mob
 /*========================
 valid form
  =======================*/
-$('.form').validate ({
-    rules: {
-        name: "required",
-        name: {
-            required: true,
-        },
-        phone: "required",
-        phone: {
-            required: true,
-        },
-        modal_name: "required",
-        modal_name: {
-            required: true,
-        },
-        modal_phone: "required",
-        modal_phone: {
-            required: true,
-        },
-        email: "required",
-        email: {
-            required: true,
-            email: true
-        },
-        adress: "required",
-        adress: {
-            required: true,
-            adress: true
-        },
-        checkbox: "required",
-        checkbox: {
-            required: true,
-            checkbox: true,
-            minlength: 1
-        },
+// $('.form').validate ({
+//     rules: {
+//         name: "required",
+//         name: {
+//             required: true,
+//         },
+//         phone: "required",
+//         phone: {
+//             required: true,
+//         },
+//         modal_name: "required",
+//         modal_name: {
+//             required: true,
+//         },
+//         modal_phone: "required",
+//         modal_phone: {
+//             required: true,
+//         },
+//         email: "required",
+//         email: {
+//             required: true,
+//             email: true
+//         },
+//         adress: "required",
+//         adress: {
+//             required: true,
+//             adress: true
+//         },
+//         checkbox: "required",
+//         checkbox: {
+//             required: true,
+//             checkbox: true,
+//             minlength: 1
+//         },
         
-        agree: "required"
-    },
-    messages: {
-        name: {
-            required: "Пожалуйста, введите Ваше имя",
-            minlength: "Не менее 2 символов"
-        },
-        phone: {
-            required: "Заполните поле телефон"
-        },
-        modal_name: {
-            required: "Пожалуйста, введите Ваше имя",
-            minlength: "Не менее 2 символов"
-        },
-        modal_phone: {
-            required: "Заполните поле телефон"
-        },
-        adress: {
-            required: "Пожалуйста, введите адрес",
-        },
-        checkbox: {
-            required: "Вы должны согласиться с обработкой персональных данных",
-        },
-        focusCleanup: true,
-        focusInvalid: false,
-        invalidHandler: function(event, validator) {
-            $(".form").text("Исправьте пожалуйста все ошибки.");
-        },
-        onkeyup: function(element) {
-            $(".form").text("");
-        },
-        errorPlacement: function(error, element) {
-            return true;
-        },
-        errorClass: "form-input_error",
-        validClass: "form-input_success"
+//         agree: "required"
+//     },
+//     messages: {
+//         name: {
+//             required: "Пожалуйста, введите Ваше имя",
+//             minlength: "Не менее 2 символов"
+//         },
+//         phone: {
+//             required: "Заполните поле телефон"
+//         },
+//         modal_name: {
+//             required: "Пожалуйста, введите Ваше имя",
+//             minlength: "Не менее 2 символов"
+//         },
+//         modal_phone: {
+//             required: "Заполните поле телефон"
+//         },
+//         adress: {
+//             required: "Пожалуйста, введите адрес",
+//         },
+//         checkbox: {
+//             required: "Вы должны согласиться с обработкой персональных данных",
+//         },
+//         focusCleanup: true,
+//         focusInvalid: false,
+//         invalidHandler: function(event, validator) {
+//             $(".form").text("Исправьте пожалуйста все ошибки.");
+//         },
+//         onkeyup: function(element) {
+//             $(".form").text("");
+//         },
+//         errorPlacement: function(error, element) {
+//             return true;
+//         },
+//         errorClass: "form-input_error",
+//         validClass: "form-input_success"
+//     }
+    // submitHandler: function (form) {
+    //  var adress = $('#adress-head-form').val();
+    //  var personal = $('#personal').val();
+    //  var phone = $('#phone-head-form').val();
+
+
+    //  $.ajax ({
+    //   type: 'POST',
+    //   url: 'ajax-form.php',
+    //   data: {'fio':fio,'email':email,'phone':phone,'text_check':text_check},
+    //   success: function(data) {
+       
+    //   },
+    //   error:  function(xhr, str){
+    //    alert('Возникла ошибка: ' + xhr.responseCode);
+    //   }
+
+// });
+
+
+// $('.modal-feedback-form').validate ({
+//         rules: {
+//         modal_name: "required",
+//         modal_name: {
+//             required: true,
+//         },
+//         modal_phone: "required",
+//         modal_phone: {
+//             required: true,
+//         },
+//         checkbox: "required",
+//         checkbox: {
+//             required: true,
+//             checkbox: true,
+//             minlength: 1
+//         },
+        
+//         agree: "required"
+//     },
+//     messages: {
+//         modal_name: {
+//             required: "Пожалуйста, введите Ваше имя",
+//             minlength: "Не менее 2 символов"
+//         },
+//         modal_phone: {
+//             required: "Заполните поле телефон"
+//         },
+//         checkbox: {
+//             required: "Вы должны согласиться с обработкой персональных данных",
+//         },
+//         focusCleanup: true,
+//         focusInvalid: false,
+//         invalidHandler: function(event, validator) {
+//             $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
+//         },
+//         onkeyup: function(element) {
+//             $(".modal-feedback-form").text("");
+//         },
+//         errorPlacement: function(error, element) {
+//             return true;
+//         },
+//         errorClass: "form-input_error",
+//         validClass: "form-input_success"
+//         }
+
+// });
+// $('.modal-format').validate ({
+//         rules: {
+//         phone_modal_format: "required",
+//         phone_modal_format: {
+//             required: true,
+//         },
+//         checkbox: "required",
+//         checkbox: {
+//             required: true,
+//             checkbox: true,
+//             minlength: 1
+//         },
+        
+//         agree: "required"
+//     },
+//     messages: {
+//         phone_modal_format: {
+//             required: "Заполните поле телефон"
+//         },
+//         checkbox: {
+//             required: "Вы должны согласиться с обработкой персональных данных",
+//         },
+//         focusCleanup: true,
+//         focusInvalid: false,
+//         invalidHandler: function(event, validator) {
+//             $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
+//         },
+//         onkeyup: function(element) {
+//             $(".modal-feedback-form").text("");
+//         },
+//         errorPlacement: function(error, element) {
+//             return true;
+//         },
+//         errorClass: "form-input_error",
+//         validClass: "form-input_success"
+//         }
+
+// });
+/*========================
+scropp up
+ =======================*/
+$(window).scroll(function() {
+ 
+    if($(this).scrollTop() != 0) {
+ 
+        $('#toTop').fadeIn();
+ 
+    } else {
+ 
+        $('#toTop').fadeOut();
+ 
     }
-
+ 
 });
-
-
-$('.modal-feedback-form').validate ({
-        rules: {
-        modal_name: "required",
-        modal_name: {
-            required: true,
-        },
-        modal_phone: "required",
-        modal_phone: {
-            required: true,
-        },
-        checkbox: "required",
-        checkbox: {
-            required: true,
-            checkbox: true,
-            minlength: 1
-        },
-        
-        agree: "required"
-    },
-    messages: {
-        modal_name: {
-            required: "Пожалуйста, введите Ваше имя",
-            minlength: "Не менее 2 символов"
-        },
-        modal_phone: {
-            required: "Заполните поле телефон"
-        },
-        checkbox: {
-            required: "Вы должны согласиться с обработкой персональных данных",
-        },
-        focusCleanup: true,
-        focusInvalid: false,
-        invalidHandler: function(event, validator) {
-            $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
-        },
-        onkeyup: function(element) {
-            $(".modal-feedback-form").text("");
-        },
-        errorPlacement: function(error, element) {
-            return true;
-        },
-        errorClass: "form-input_error",
-        validClass: "form-input_success"
-        }
-
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
 });
 
 /*========================

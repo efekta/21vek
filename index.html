@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/fotorama/fotorama.css">
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
     </script>
 </head>
@@ -69,12 +70,12 @@
 						<div class="form-adress">
 							<!-- <i class="fa fa-map-marker"></i> -->
 							<img src="img/icon/map.png" alt="">
-							<input type="text" name="adress" placeholder="Место размещения">
+							<input type="text" name="adress" placeholder="Место размещения" id="adress-head-form">
 						</div>
 						<div class="form-phone">
 							<!-- <i class="fa fa-volume-control-phone"></i> -->
 							<img src="img/icon/phone.png" alt="">
-							<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+							<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *" id="phone-head-form">
 						</div>
 						<div class="btn-box">
 							<button type="submit" class="btn">Узнать стоимость</button>
@@ -417,7 +418,7 @@
 						<div class="form-phone form-phone_modal">
 							<!-- <i class="fa fa-volume-control-phone"></i> -->
 							<img src="img/icon/phone.png" alt="">
-							<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+							<input class="phone" type="tel" name="phone_modal_format" placeholder="Ваш телефон *">
 						</div>
 						<div class="btn-box_modal">
 							<button type="submit" class="btn popup-btn">Заказать</button>
@@ -650,7 +651,7 @@
 			<div class="map-modal">
 			<a class="popup-close popup-close_karta">×</a>
 			<div class="map-modal__link-box">
-				<a class="map-modal__link" href="#">Распечатать</a>
+				<a class="map-modal__link" href="#" id="print">Распечатать</a>
 				<span>|</span>
 				<a class="map-modal__link" href="#">Получить ссылку</a>
 			</div>
@@ -700,20 +701,21 @@
 					</table>
 				
 				</div>
-
-				<div class="map-modal-adress__pic">
-					<div class="modal-adress__pic">
-						<img src="img/content/modal-map.jpg" alt="">
-					</div>
-					<div class="modal-adress__pic_mini">
-						<div class="adress__pic_mini">
+				<!-- <div class="fotorama" data-width="100%" data-nav="thumbs"> -->
+					<div class="modal-adress__pic fotorama" data-width="100%" data-nav="thumbs" data-loop="true" data-autoplay="3000">
+						<!-- <div class="modal-adress__pic"> -->
 							<img src="img/content/modal-map.jpg" alt="">
-						</div>
-						<div class="adress__pic_mini">
-							<img src="img/content/modal-map.jpg" alt="">
-						</div>
+						<!-- </div> -->
+						<!-- <div class="modal-adress__pic_mini"> -->
+							<!-- <div class="adress__pic_mini"> -->
+								<img src="img/content/modal-map.jpg" alt="">
+							<!-- </div> -->
+							<!-- <div class="adress__pic_mini"> -->
+								<img src="img/content/modal-map.jpg" alt="">
+							<!-- </div> -->
+						<!-- </div> -->
 					</div>
-				</div>
+				<!-- </div> -->
 			</div>
 			<div class="map-modal__content clearfix">
 				<div class="map-modal_adress">
@@ -1054,7 +1056,7 @@
 				<p> Все права защищены. 6+</p>
 			</div>
 			<div class="footer-konf">
-				<p>политика конфиденциальности</p>
+				<a href="#">политика конфиденциальности</a>
 			</div>
 			<div class="footer-phone">
 				<a href="tel:+74956603890">+7 (495) 660-38-90</a>
@@ -1082,11 +1084,16 @@
 		</div>
 	</div>
 </footer>
-
+<!-- scrolltop -->
+<div id="toTop">
+<i class="fa fa-chevron-up" aria-hidden="true"></i>
+<span>Наверх</span>
+</div >
 <!--JAVA SCRIPT-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="libs/slick/slick.min.js"></script>
+<script src="libs/fotorama/fotorama.js"></script>
 <script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
 <script src="libs/validation/jquery.validate.js"></script>
 <script src="libs/parallax/parallax.min.js"></script>

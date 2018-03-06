@@ -39,14 +39,18 @@
 .format-item {
 	display: inline-block;
 	vertical-align: bottom;
-	margin-left: 110px;
+	// margin-left: 110px;
 	margin-bottom: 115px;
 	cursor: pointer;
 	min-height: 421px;
-}
-.format-item:first-child {
+	// text-align: center;
 	margin-left: 0;
+    width: 33%;
 }
+// .format-item:first-child {
+// 	margin-left: 0 !important;
+//     width: 33%;
+// }
 .format-item:hover .format-map-box  {
 	display: block;
 }
@@ -132,6 +136,8 @@
 	transition: all 1s;
 	border: 1px solid transparent;
 	z-index: 5;
+	cursor: pointer;
+	color: rgba(166, 141, 111, 0.7);
 }
 .popup-close:hover {
 	transform: rotate(180deg);

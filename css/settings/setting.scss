@@ -120,3 +120,47 @@ label.error {
 	font-size: 16px;
 	display: block;
 }
+#toTop {
+width: 70px;
+height: 70px;
+border-radius: 15px;
+background-image: -moz-linear-gradient( 90deg, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
+text-align: center;
+padding: 5px;
+position: fixed;
+bottom: 10px; /* отступ кнопки от нижнего края страницы*/
+right: 10px;
+cursor: pointer;
+display: none;
+color: $font-white;
+}
+
+#toTop:hover span {
+	font-size: 16px;
+}
+#toTop:hover i {
+	display: none;
+}
+
+#toTop span {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0;
+    transition: all .8s;
+}
+#toTop i {
+	position: absolute;
+	top: 33%;
+	left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 20px;
+	transition: all .8s;
+}

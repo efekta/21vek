@@ -153,11 +153,11 @@
 	border-bottom: 1px dashed #12619b;
 }
 .map-modal_adress {
-	// float: left;
-	// width: 537px;
+	float: left;
+	width: 45%;
 	font-weight: 100;
-	display: inline-block;
-	vertical-align: top;
+	// display: inline-block;
+	// vertical-align: top;
 	margin-top: 20px;
 }
 .modal-adress {
@@ -184,21 +184,23 @@ table {
 }
 
 .map-modal-adress__pic {
-	// float: right;
-	// width: 537px;
-	display: inline-block;
+    width: 45%;
+    // height: 345px;
+    margin-bottom: 10px;
+    float: right;
 	margin-top: 20px;
 
 }
 .modal-adress__pic {
-	width: 521px;
-	height: 345px;
+    width: 45%;
+    // height: 345px;
+    float: right;
 	margin-bottom: 10px;
 }
-.modal-adress__pic img {
-	width: 100%;
-	height: 100%;
-}
+// .modal-adress__pic img {
+// 	width: 100%;
+// 	height: 100%;
+// }
 .modal-adress__pic_mini {
 	text-align: center;
 	width: 521px;
@@ -230,3 +232,8 @@ table {
 .modal-map {
 	margin-bottom: 20px;
 }
+// .fotorama {
+// 	width: 521px;
+// 	height: 345px;
+// 	margin-bottom: 10px;
+// }

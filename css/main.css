@@ -179,6 +179,16 @@ label.error { border: none; color: red; font-size: 16px; display: block; }
 
 .form-input_error { border: none; color: red; font-size: 16px; display: block; }
 
+#toTop { width: 70px; height: 70px; border-radius: 15px; background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); text-align: center; padding: 5px; position: fixed; bottom: 10px; /* отступ кнопки от нижнего края страницы*/ right: 10px; cursor: pointer; display: none; color: #f3f1ed; }
+
+#toTop:hover span { font-size: 16px; }
+
+#toTop:hover i { display: none; }
+
+#toTop span { position: absolute; top: 35%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); text-transform: uppercase; font-weight: bold; font-size: 0; -webkit-transition: all .8s; -o-transition: all .8s; transition: all .8s; }
+
+#toTop i { position: absolute; top: 33%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); text-transform: uppercase; font-weight: bold; font-size: 20px; -webkit-transition: all .8s; -o-transition: all .8s; transition: all .8s; }
+
 @font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.eot") format("eot"), url("../fonts/FuturaPT-Bold.otf") format("otf"), url("../fonts/FuturaPT-Bold.svg") format("svg"), url("../fonts/FuturaPT-Bold.ttf") format("truetype"), url("../fonts/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
 
 @font-face { font-family: 'futura-book'; src: url("../fonts/FuturaPT-Book.woff2") format("woff2"), url("../fonts/FuturaPT-Book.eot") format("eot"), url("../fonts/FuturaPT-Book.otf") format("otf"), url("../fonts/FuturaPT-Book.svg") format("svg"), url("../fonts/FuturaPT-Book.ttf") format("truetype"), url("../fonts/FuturaPT-Book.woff") format("woff"); font-weight: 400; font-style: normal; }
@@ -1801,7 +1811,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .btn-box { text-align: center; margin-top: 20px; }
 
-.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #fff; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 1px; font-family: "futura-book-bold"; }
+.btn { background-image: -moz-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -webkit-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); background-image: -ms-linear-gradient(90deg, #ff5d42 0%, #ffb042 100%); display: inline-block; border: none; padding: 25px 0; color: #f3f1ed; text-transform: uppercase; font-weight: bold; font-size: 14px; line-height: 24px; border-radius: 45px; margin-bottom: 20px; width: 300px; letter-spacing: 1px; font-family: "futura-book-bold"; }
 
 .btn:hover { -webkit-box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); box-shadow: 0px 9px 15px 0px rgba(255, 159, 66, 0.55); }
 
@@ -1837,9 +1847,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .format-map-box { position: absolute; top: 25%; left: 50%; display: none; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
-.format-item { display: inline-block; vertical-align: bottom; margin-left: 110px; margin-bottom: 115px; cursor: pointer; min-height: 421px; }
-
-.format-item:first-child { margin-left: 0; }
+.format-item { display: inline-block; vertical-align: bottom; margin-bottom: 115px; cursor: pointer; min-height: 421px; margin-left: 0; width: 33%; }
 
 .format-item:hover .format-map-box { display: block; }
 
@@ -1867,7 +1875,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup { position: absolute; width: 90%; margin: 0 auto; top: 25%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; display: none; }
 
-.popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; }
+.popup-close { position: absolute; right: -6%; top: 0; font-size: 38px; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; border: 1px solid transparent; z-index: 5; cursor: pointer; color: rgba(166, 141, 111, 0.7); }
 
 .popup-close:hover { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); color: #ff803a; }
 
@@ -2045,7 +2053,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link { display: inline-block; vertical-align: middle; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
-.map-modal_adress { font-weight: 100; display: inline-block; vertical-align: top; margin-top: 20px; }
+.map-modal_adress { float: left; width: 45%; font-weight: 100; margin-top: 20px; }
 
 .modal-adress { margin-bottom: 20px; }
 
@@ -2055,11 +2063,9 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
-.map-modal-adress__pic { display: inline-block; margin-top: 20px; }
+.map-modal-adress__pic { width: 45%; margin-bottom: 10px; float: right; margin-top: 20px; }
 
-.modal-adress__pic { width: 521px; height: 345px; margin-bottom: 10px; }
-
-.modal-adress__pic img { width: 100%; height: 100%; }
+.modal-adress__pic { width: 45%; float: right; margin-bottom: 10px; }
 
 .modal-adress__pic_mini { text-align: center; width: 521px; }
 
@@ -2183,7 +2189,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .footer-autor { font-size: 16px; }
 
-.footer-konf p { font-size: 11px; text-transform: uppercase; color: #ff9f42; }
+.footer-konf a { font-size: 11px; text-transform: uppercase; color: #ff9f42; }
 
 .footer-phone a { color: #fff; font-size: 18px; }
 
