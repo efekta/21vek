@@ -14,6 +14,20 @@
     prevArrow: '<i class="fa fa-chevron-left feedback-slider-arrows arrow-left_mob"></i>',
     nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right_mob"></i>'
   });
+/*==================================
+ Smooth scroll to Plans Block
+====================================
+*/
+    $('.map-box_pic__link, .map-object__content, .format-map__link').on('click', function(e) {
+
+        e.preventDefault();
+        var plansOffset = $('#map').offset().top;
+
+        $('html, body').animate({
+            scrollTop: plansOffset
+        }, 500);
+
+    });
 /*========================
 tabs
  =======================*/
