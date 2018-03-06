@@ -177,7 +177,7 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 label.error { border: none; color: red; font-size: 16px; display: block; }
 
-.success { border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.form-input_error { border: none; color: red; font-size: 16px; display: block; }
 
 @font-face { font-family: 'futura-book-bold'; src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"), url("../fonts/FuturaPT-Bold.eot") format("eot"), url("../fonts/FuturaPT-Bold.otf") format("otf"), url("../fonts/FuturaPT-Bold.svg") format("svg"), url("../fonts/FuturaPT-Bold.ttf") format("truetype"), url("../fonts/FuturaPT-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
 
@@ -1826,6 +1826,8 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 .modal-feedback { position: absolute; top: 25%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 414px; font-family: 'futura-demi'; font-weight: 400; z-index: 1000; display: none; }
 
 .modal-feedback form { background: url(../img/bg/bg-5.jpg) no-repeat center; margin-bottom: 0; }
+
+.modal-feedback-form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; padding-bottom: 80px; margin-bottom: 15px; }
 
 .screen-2 { margin-top: -16px; margin-bottom: -33px; border-bottom: 1px solid #777e8e; font-family: 'futura-demi'; font-weight: 400; position: relative; }
 

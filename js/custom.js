@@ -239,10 +239,13 @@ $('.form').validate ({
         phone: {
             required: true,
         },
-        pass: "required",
-        pass: {
+        modal_name: "required",
+        modal_name: {
             required: true,
-            minlength: 5
+        },
+        modal_phone: "required",
+        modal_phone: {
+            required: true,
         },
         email: "required",
         email: {
@@ -257,7 +260,8 @@ $('.form').validate ({
         checkbox: "required",
         checkbox: {
             required: true,
-            checkbox: true
+            checkbox: true,
+            minlength: 1
         },
         
         agree: "required"
@@ -270,9 +274,12 @@ $('.form').validate ({
         phone: {
             required: "Заполните поле телефон"
         },
-        pass: {
-            required: "Пожалуйста, введите Ваш пароль",
-            minlength: "Пароль не менее 5 символов"
+        modal_name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        modal_phone: {
+            required: "Заполните поле телефон"
         },
         adress: {
             required: "Пожалуйста, введите адрес",
@@ -280,13 +287,70 @@ $('.form').validate ({
         checkbox: {
             required: "Вы должны согласиться с обработкой персональных данных",
         },
-
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".form").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
     }
+
 });
 
 
+$('#modal-feedback-form').validate ({
+    rules: {
+        modal_name: "required",
+        modal_name: {
+            required: true,
+        },
+        modal_phone: "required",
+        modal_phone: {
+            required: true,
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
+        
+        agree: "required"
+    },
+    messages: {
+        modal_name: {
+            required: "Пожалуйста, введите Ваше имя",
+            minlength: "Не менее 2 символов"
+        },
+        modal_phone: {
+            required: "Заполните поле телефон"
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".form").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+    }
 
-
+});
 
 /*========================
  parallax
