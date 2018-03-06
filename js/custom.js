@@ -305,8 +305,8 @@ $('.form').validate ({
 });
 
 
-$('#modal-feedback-form').validate ({
-    rules: {
+$('.modal-feedback-form').validate ({
+        rules: {
         modal_name: "required",
         modal_name: {
             required: true,
@@ -338,17 +338,17 @@ $('#modal-feedback-form').validate ({
         focusCleanup: true,
         focusInvalid: false,
         invalidHandler: function(event, validator) {
-            $(".form").text("Исправьте пожалуйста все ошибки.");
+            $(".modal-feedback-form").text("Исправьте пожалуйста все ошибки.");
         },
         onkeyup: function(element) {
-            $(".form").text("");
+            $(".modal-feedback-form").text("");
         },
         errorPlacement: function(error, element) {
             return true;
         },
         errorClass: "form-input_error",
         validClass: "form-input_success"
-    }
+        }
 
 });
 
