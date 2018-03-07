@@ -627,6 +627,61 @@
 	    width: 35%;
 	    float: none;
 	}
+	.screen-4 .section-title {
+	    margin-top: -90px;
+	}
+	.section-title {
+	    margin-bottom: 90px;
+	}
+	.advantages-item {
+	    margin-bottom: 30px;
+	}
+	.trust {
+	    margin-top: 65px;
+	    text-align: center;
+	}
+	.trast-item {
+	    width: 45%;
+	}
+	.autor-pic {
+    	width: 30%;
+}
+	.autor-content {
+	    width: 60%;
+	}
+	.media-content-pic {
+	    position: absolute;
+	    left: -30px;
+	    top: 300px;
+	    height: auto;
+	    width: 55%;
+	}
+	.footer-autor, .footer-konf, .footer-phone, .footer-list, .footer-item {
+	    width: 100%;
+	    justify-content: center;
+	    display: flex;
+	    margin-bottom: 20px;
+	}
+	.footer-konf {
+		display: none;
+	}
+	.footer-autor_hidden {
+		display: none;
+	}
+	.footer-list-mob {
+		display: block;
+		margin: auto;
+	}
+	.footer-link {
+		color: $font-orange;
+	}
+	.footer-list {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+	.footer-item:first-child {
+	    margin-left: 30px;
+	}
 }
 
 

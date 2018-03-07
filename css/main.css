@@ -2039,7 +2039,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
+.map-modal { position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2361,6 +2361,21 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .main-head { margin-bottom: 30px; }
   .green-box-1 { position: absolute; left: 0; bottom: -220px; z-index: 2; }
   .green-box-2 { position: absolute; right: 0; bottom: -220px; z-index: 2; }
-  .format-item { margin-bottom: 50px; margin-left: 40px; width: 35%; float: none; } }
+  .format-item { margin-bottom: 50px; margin-left: 40px; width: 35%; float: none; }
+  .screen-4 .section-title { margin-top: -90px; }
+  .section-title { margin-bottom: 90px; }
+  .advantages-item { margin-bottom: 30px; }
+  .trust { margin-top: 65px; text-align: center; }
+  .trast-item { width: 45%; }
+  .autor-pic { width: 30%; }
+  .autor-content { width: 60%; }
+  .media-content-pic { position: absolute; left: -30px; top: 300px; height: auto; width: 55%; }
+  .footer-autor, .footer-konf, .footer-phone, .footer-list, .footer-item { width: 100%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 20px; }
+  .footer-konf { display: none; }
+  .footer-autor_hidden { display: none; }
+  .footer-list-mob { display: block; margin: auto; }
+  .footer-link { color: #ff9f42; }
+  .footer-list { margin-left: 0; margin-bottom: 0; }
+  .footer-item:first-child { margin-left: 30px; } }
 
 /*# sourceMappingURL=main.css.map */

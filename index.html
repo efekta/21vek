@@ -11,7 +11,6 @@
     </script>
 </head>
 <body class="scroll">
-	<div class="overlay"></div>
 	<!-- screen-1 -->
 	<div class="screen-1">
 		<div class="container">
@@ -458,7 +457,7 @@
 				</div>
 				<div class="reklame_content-form">
 					<div class="content-form">
-						<form class="form" action="#" method="POST">
+						<form class="form reklame-content-form-valid" action="#" method="POST">
 							<div class="form-title">
 								<p>Заполните форму</p>
 								<span>и наши менеджеры свяжутся с вами для уточнения деталей</span>
@@ -466,12 +465,12 @@
 							<div class="form-adress">
 								<!-- <i class="fa fa-map-marker"></i> -->
 								<img src="img/icon/name.png" alt="">
-								<input type="text" name="name" placeholder="Ваше имя">
+								<input type="text" name="name_reklame" placeholder="Ваше имя">
 							</div>
 							<div class="form-phone">
 								<!-- <i class="fa fa-volume-control-phone"></i> -->
 								<img src="img/icon/phone.png" alt="">
-								<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+								<input class="phone" type="tel" name="phone_reklame" placeholder="Ваш телефон *">
 							</div>
 							<div class="btn-box">
 								<button type="submit" class="btn">Отправить</button>
@@ -540,7 +539,9 @@
 			</div>
 
 			<div class="trust">
-				<div class="section-title">Нам доверяют</div>
+				<div class="section-title">
+					<p>Нам доверяют</p>
+				</div>
 				<div class="box-title">
 					<p class="subtitle">Более 5 000 реализованных работ</p>
 				</div>
@@ -648,86 +649,6 @@
 	<div class="container">
 		<div class="section-title section-title_modal">
 			<p>Закажите бесплатный медиаплан под ключ</p>
-			<div class="map-modal">
-			<a class="popup-close popup-close_karta">×</a>
-			<div class="map-modal__link-box">
-				<a class="map-modal__link" href="#" id="print">Распечатать</a>
-				<span>|</span>
-				<a class="map-modal__link" href="#">Получить ссылку</a>
-			</div>
-
-			<div class="map-modal__content clearfix">
-				<div class="map-modal_adress">
-					<div class="modal-adress">
-						<span>
-						Красноярск,Ленина ул.(проезд к ТРЦ Комсомол,слева)
-						</span>
-					</div>
-
-					<div class="address-selection">
-						<input type="checkbox" id="address-selection" name="checkbox">
-						<label for="address-selection">Выбрать</label>
-					</div>
-
-					<table>
-						<tr>
-							<td>GID:</td>
-							<td>KJBB01733Б</td>
-						</tr>
-						<tr>
-							<td>Формат:</td>
-							<td>Щит 3х6</td>
-						</tr>
-						<tr>
-							<td>Сторона:</td>
-							<td>Б</td>
-						</tr>
-						<tr>
-							<td>Запрещения:</td>
-							<td>нет</td>
-						</tr>
-						<tr>
-							<td>Освещение:</td>
-							<td>нет</td>
-						</tr>
-						<tr>
-							<td>Рейтинг поверхности (GRP):</td>
-							<td>0.59</td>
-						</tr>
-						<tr>
-							<td>Эффект.аудитория (OTS):</td>
-							<td>5.1(тыс.человек в день)</td>
-						</tr>
-					</table>
-				
-				</div>
-				<!-- <div class="fotorama" data-width="100%" data-nav="thumbs"> -->
-					<div class="modal-adress__pic fotorama" data-width="100%" data-nav="thumbs" data-loop="true" data-autoplay="3000">
-						<!-- <div class="modal-adress__pic"> -->
-							<img src="img/content/modal-map.jpg" alt="">
-						<!-- </div> -->
-						<!-- <div class="modal-adress__pic_mini"> -->
-							<!-- <div class="adress__pic_mini"> -->
-								<img src="img/content/modal-map.jpg" alt="">
-							<!-- </div> -->
-							<!-- <div class="adress__pic_mini"> -->
-								<img src="img/content/modal-map.jpg" alt="">
-							<!-- </div> -->
-						<!-- </div> -->
-					</div>
-				<!-- </div> -->
-			</div>
-			<div class="map-modal__content clearfix">
-				<div class="map-modal_adress">
-					<div class="modal-map mapModal1" id="mapModal1"></div>
-					<button class="btn">Сделать заказ</button>
-				</div>
-				<div class="map-modal-adress__pic">
-					<div class="modal-map mapModal2" id="mapModal2"></div>
-					<button class="btn">Добавить в список</button>
-				</div>
-			</div>
-		</div>
 		</div>
 		<div class="section-title-mob">
 			<p>Закажите бесплатный<br> медиаплан под ключ</p>
@@ -738,7 +659,7 @@
 
 		<div class="media-content clearfix">
 			<div class="content-form media-content-form">
-				<form class="form" action="#" method="POST">
+				<form class="form media-content-form-valid" action="#" method="POST">
 					<div class="form-title">
 						<p>Заполните форму<br>
 							<span>и мы пришлем вам медиаплан в течение часа!</span>
@@ -747,12 +668,12 @@
 					<div class="form-adress">
 						<!-- <i class="fa fa-map-marker"></i> -->
 						<img src="img/icon/map.png" alt="">
-						<input type="text" name="name" placeholder="Ваше имя">
+						<input type="text" name="namemedia" placeholder="Ваше имя">
 					</div>
 					<div class="form-phone">
 						<!-- <i class="fa fa-volume-control-phone"></i> -->
 						<img src="img/icon/phone.png" alt="">
-						<input class="phone" type="tel" name="phone" placeholder="Ваш телефон *">
+						<input class="phone" type="tel" name="phone_media" placeholder="Ваш телефон *">
 					</div>
 					<div class="btn-box">
 						<button type="submit" class="btn">Получить медиаплан</button>
@@ -1089,6 +1010,89 @@
 <i class="fa fa-chevron-up" aria-hidden="true"></i>
 <span>Наверх</span>
 </div >
+
+<div class="overlay">
+	<div class="map-modal">
+			<a class="popup-close popup-close_karta">×</a>
+			<div class="map-modal__link-box">
+				<a class="map-modal__link" href="#" id="print">Распечатать</a>
+				<span>|</span>
+				<a class="map-modal__link" href="#">Получить ссылку</a>
+			</div>
+
+			<div class="map-modal__content clearfix">
+				<div class="map-modal_adress">
+					<div class="modal-adress">
+						<span>
+						Красноярск,Ленина ул.(проезд к ТРЦ Комсомол,слева)
+						</span>
+					</div>
+
+					<div class="address-selection">
+						<input type="checkbox" id="address-selection" name="checkbox">
+						<label for="address-selection">Выбрать</label>
+					</div>
+
+					<table>
+						<tr>
+							<td>GID:</td>
+							<td>KJBB01733Б</td>
+						</tr>
+						<tr>
+							<td>Формат:</td>
+							<td>Щит 3х6</td>
+						</tr>
+						<tr>
+							<td>Сторона:</td>
+							<td>Б</td>
+						</tr>
+						<tr>
+							<td>Запрещения:</td>
+							<td>нет</td>
+						</tr>
+						<tr>
+							<td>Освещение:</td>
+							<td>нет</td>
+						</tr>
+						<tr>
+							<td>Рейтинг поверхности (GRP):</td>
+							<td>0.59</td>
+						</tr>
+						<tr>
+							<td>Эффект.аудитория (OTS):</td>
+							<td>5.1(тыс.человек в день)</td>
+						</tr>
+					</table>
+				
+				</div>
+				<!-- <div class="fotorama" data-width="100%" data-nav="thumbs"> -->
+					<div class="modal-adress__pic fotorama" data-width="100%" data-nav="thumbs" data-loop="true" data-autoplay="3000">
+						<!-- <div class="modal-adress__pic"> -->
+							<img src="img/content/modal-map.jpg" alt="">
+						<!-- </div> -->
+						<!-- <div class="modal-adress__pic_mini"> -->
+							<!-- <div class="adress__pic_mini"> -->
+								<img src="img/content/modal-map.jpg" alt="">
+							<!-- </div> -->
+							<!-- <div class="adress__pic_mini"> -->
+								<img src="img/content/modal-map.jpg" alt="">
+							<!-- </div> -->
+						<!-- </div> -->
+					</div>
+				<!-- </div> -->
+			</div>
+			<div class="map-modal__content clearfix">
+				<div class="map-modal_adress">
+					<div class="modal-map mapModal1" id="mapModal1"></div>
+					<button class="btn">Сделать заказ</button>
+				</div>
+				<div class="map-modal-adress__pic">
+					<div class="modal-map mapModal2" id="mapModal2"></div>
+					<button class="btn">Добавить в список</button>
+				</div>
+			</div>
+		</div>
+</div>
 <!--JAVA SCRIPT-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>

@@ -212,6 +212,7 @@ map-modal
     $('.btn-box_popup-karta__popup').on('click', function() {
         $('.overlay').fadeIn();
         $('.map-modal').fadeIn();
+        $('.popup-karta').fadeOut();
     })
     $('.popup-close_karta').on('click', function() {
         $('.map-modal').fadeOut();
@@ -402,6 +403,96 @@ $('.modal-format').validate ({
         },
         onkeyup: function(element) {
             $(".modal-feedback-form").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+        }
+
+});
+$('.media-content-form-valid').validate ({
+        rules: {
+        name_media: "required",
+        name_media: {
+            required: true,
+        },
+        phone_media: "required",
+        phone_media: {
+            required: true,
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
+        
+        agree: "required"
+    },
+    messages: {
+        name_media: {
+            required: "Заполните поле имя"
+        },
+        phone_media: {
+            required: "Заполните поле телефон"
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".media-content-form-valid").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".media-content-form-valid").text("");
+        },
+        errorPlacement: function(error, element) {
+            return true;
+        },
+        errorClass: "form-input_error",
+        validClass: "form-input_success"
+        }
+
+});
+$('.reklame-content-form-valid').validate ({
+        rules: {
+        name_reklame: "required",
+        name_reklame: {
+            required: true,
+        },
+        phone_reklame: "required",
+        phone_reklame: {
+            required: true,
+        },
+        checkbox: "required",
+        checkbox: {
+            required: true,
+            checkbox: true,
+            minlength: 1
+        },
+        
+        agree: "required"
+    },
+    messages: {
+        name_reklame: {
+            required: "Заполните поле имя"
+        },
+        phone_reklame: {
+            required: "Заполните поле телефон"
+        },
+        checkbox: {
+            required: "Вы должны согласиться с обработкой персональных данных",
+        },
+        focusCleanup: true,
+        focusInvalid: false,
+        invalidHandler: function(event, validator) {
+            $(".reklame-content-form-valid").text("Исправьте пожалуйста все ошибки.");
+        },
+        onkeyup: function(element) {
+            $(".reklame-content-form-valid").text("");
         },
         errorPlacement: function(error, element) {
             return true;
