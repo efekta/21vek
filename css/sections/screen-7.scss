@@ -182,6 +182,7 @@
 }
 .object-content-block {
 	overflow-y: scroll;
+	height: 590px;
 }
 .object-calc-panel {
 	float: right;
@@ -272,17 +273,78 @@
 .modal-object-item {
 	width: 100%;
 }
-::webkit-scrollbar {
-	width: 8px;
-	background-color: red;
-}
-::webkit-scrollbar-thumb {
+// ::webkit-scrollbar {
+// 	width: 8px;
+// 	background-color: red;
+// }
+// ::webkit-scrollbar-thumb {
+// 	border-radius: 10px;
+// 	background-color: #a6a6a6;
+// 	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+// }
+// ::webkit-scrollbar-track {
+// 	border-radius: 10px;
+// 	background-color: #fff;
+// 	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+// }
+
+// .m-window::-webkit-scrollbar { 
+// 	width: 10px; height: 3px;
+// }
+// .m-window::-webkit-scrollbar-button {
+
+// }
+// .m-window::-webkit-scrollbar-track {
+//   background-color: #eee;
+// }
+// .m-window::-webkit-scrollbar-track-piece {
+//  background-color: #eee;
+// }
+// .m-window::-webkit-scrollbar-thumb {
+// 	background-color: rgb(47, 42, 96);
+// 	border-radius: 6px;border: 1px solid rgba(0, 0, 0, 0);
+// 	background-clip: padding-box;-webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), 
+// 	inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+// }
+
+.object-content-block::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #a6a6a6;
-	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #F5F5F5;
 }
-::webkit-scrollbar-track {
+
+.object-content-block::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.object-content-block::-webkit-scrollbar-thumb
+{
 	border-radius: 10px;
-	background-color: #fff;
-	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ff9f42;
 }
+
+select::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+select::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+select::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #ff9f42;
+}
+
+
