@@ -2332,4 +2332,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .map-modal { width: 90%; }
   .box-slider { width: 100%; } }
 
+@media (max-width: 1170px) and (min-width: 769px) { .reklame-banner { width: 45%; float: left; padding: 0 60px 0 60px; } }
+
+@media (max-width: 1170px) and (min-width: 769px) { .reklame_content-form { width: 45%; padding: 0 60px 0 59px; float: right; } }
+
 /*# sourceMappingURL=main.css.map */
