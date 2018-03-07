@@ -102,12 +102,12 @@
 	position: relative;
 }
 .map-modal {
-    // position: fixed;
-    // top: 0;
-    // left: 50%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
+    // position: absolute;
+    // top: 0;
+    // left: 50%;
     transform: translateX(-50%);
     width: 90%;
     padding: 15px 42px;
@@ -142,11 +142,21 @@
 	border-bottom: 1px dashed #12619b;
 }
 .map-modal_adress {
-	font-weight: 100;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	display: inline-block;
-    vertical-align: middle;
+	// font-weight: 100;
+	// margin-top: 20px;
+	// margin-bottom: 20px;
+	// display: inline-block;
+ //    vertical-align: middle;
+ //    text-align: right;
+
+
+    // width: 40%;
+    // float: left;
+
+    float: left;
+    width: 537px;
+    font-weight: 100;
+    margin-top: 20px;
 }
 .modal-adress {
 	margin-bottom: 20px;
@@ -172,10 +182,20 @@ table {
 }
 
 .map-modal-adress__pic {
+ //    margin-bottom: 10px;
+	// margin-top: 20px;
+	// display: inline-block;
+ //    vertical-align: middle;
+ //    text-align: left;
+
+    // width: 40%;
+    // float: left;
+    // margin-left: 136px;
+
+    width: 537px;
     margin-bottom: 10px;
-	margin-top: 20px;
-	display: inline-block;
-    vertical-align: middle;
+    float: right;
+    margin-top: 20px;
 
 }
 .modal-adress__pic {
