@@ -2095,7 +2095,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .object-calc-item { display: inline-block; margin-left: 30px; }
 
-.object-form-box { padding-left: 130px; padding-right: 20px; }
+.object-form-box { padding-left: 20px; padding-right: 20px; }
 
 .search-box { border: 1px solid #e2e2e2; border-radius: 60px; padding: 10px 20px 10px 40px; position: relative; margin-bottom: 25px; }
 
