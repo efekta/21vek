@@ -2191,6 +2191,12 @@ select::-webkit-scrollbar { width: 12px; background-color: #F5F5F5; }
 
 select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #ff9f42; }
 
+.scroll::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); border-radius: 10px; background-color: #F5F5F5; }
+
+.scroll::-webkit-scrollbar { width: 12px; background-color: #F5F5F5; }
+
+.scroll::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #ff9f42; }
+
 .footer { padding: 25px 0; background: url("../img/bg/bg-footer.jpg") repeat; }
 
 .footer-content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
