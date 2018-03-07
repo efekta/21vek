@@ -139,9 +139,9 @@
 		border: 10px solid rgba(255, 255, 255, 0.4);
 		padding: 30px 20px;
 	}
-	// .btn {
-	// 	width: 100%;
-	// }
+	.btn {
+		width: 100%;
+	}
 	.green-box-1 {
     	position: absolute;
     	left: 0;
@@ -216,7 +216,18 @@
 	 //  border-image: linear-gradient(to right, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
 	}
 
-
+	.fa-chevron-right:before {
+	    content: "\f054";
+	    position: absolute;
+	    top: 33%;
+	    left: 40%;
+	}
+	.fa-chevron-left:before {
+    content: "\f053";
+    position: absolute;
+    top: 32%;
+    left: 32%;
+}
 	.reklame_content-form {
 		width: 100%;
     	padding: 0;
@@ -278,7 +289,10 @@
 		padding-bottom: 100px;
 	}
 
-
+	.modal-adress__pic, .fotorama {
+	    width: 100%;
+	    float: none;
+	}
 	.media-content-pic {
     	position: static;
     	width: 100%;
@@ -510,6 +524,10 @@
 	}
 	.box-slider {
     	width: 100%;
+	}
+	.modal-adress__pic, .fotorama {
+	    width: 100%;
+	    float: none;
 	}
 }
 
