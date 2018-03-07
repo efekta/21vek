@@ -1853,8 +1853,6 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .format-pic { position: relative; margin-bottom: 28px; }
 
-.format-pic-img { width: 100%; }
-
 .format-map { position: relative; display: block; width: 100px; height: 100px; border-radius: 50%; background: -moz-linear-gradient(60deg, #ff6542 10%, #ffaf42 100%); background: -webkit-linear-gradient(60deg, #ff6542 10%, #ffaf42 100%); background: -ms-linear-gradient(60deg, #ff6542 10%, #ffaf42 100%); }
 
 .format-map::before { content: ""; display: block; width: 100px; height: 100px; border: 7px solid white; border-radius: 50%; opacity: .11; position: absolute; top: -7%; left: -7%; }
@@ -2343,9 +2341,26 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .box-slider { width: 100%; }
   .modal-adress__pic, .fotorama { width: 100%; float: none; } }
 
-@media (max-width: 1170px) and (min-width: 769px) { .reklame-banner { width: 45%; float: left; padding: 0 60px 0 60px; } }
-
-@media (max-width: 1170px) and (min-width: 769px) { .reklame_content-form { width: 45%; padding: 0 60px 0 59px; float: right; }
-  .modal-adress__pic, .fotorama { width: 100%; float: none; } }
+@media (max-width: 1170px) and (min-width: 769px) { .container { padding: 0 15px; }
+  .reklame-banner { display: none; }
+  .reklame_content-form { width: 100%; padding: 0 60px 0 59px; float: none; }
+  .reklame_content-form .content-form { width: 100%; }
+  .modal-adress__pic, .fotorama { width: 100%; float: none; }
+  .btn { width: 100%; }
+  .content-box { width: 35%; }
+  .content-title { width: 100%; }
+  .content-desc { width: 100%; }
+  .map-box_pic { left: 195px; bottom: -265px; width: 28%; display: none; }
+  .map-object { bottom: -80px; right: 90px; width: 30%; }
+  .logo { width: 7%; }
+  .logo-title { width: 20%; margin-right: 10px; }
+  .time { width: auto; margin-right: 10px; }
+  .adress { width: auto; margin-right: 10px; }
+  .phone { width: auto; text-align: right; }
+  .modal-feedback { position: static; width: 100%; }
+  .main-head { margin-bottom: 30px; }
+  .green-box-1 { position: absolute; left: 0; bottom: -220px; z-index: 2; }
+  .green-box-2 { position: absolute; right: 0; bottom: -220px; z-index: 2; }
+  .format-item { margin-bottom: 50px; margin-left: 40px; width: 35%; float: none; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -534,25 +534,99 @@
 	}
 }
 
-@media (max-width: 1170px) and (min-width: 769px) {
-	.reklame-banner {
-	    width: 45%;
-	    float: left;
-	    padding: 0 60px 0 60px;
-	}
-}
 
 @media (max-width: 1170px) and (min-width: 769px) {
+	.container {
+		padding: 0 15px;
+	}
+	.reklame-banner {
+	    // width: 45%;
+	    // float: left;
+	    // padding: 0 60px 0 60px;
+	    display: none;
+	}
 	.reklame_content-form {
-	    width: 45%;
+	    width: 100%;
 	    padding: 0 60px 0 59px;
-	    float: right;
+	    float: none;
+	}
+	.reklame_content-form .content-form {
+		width: 100%;
 	}
 	.modal-adress__pic, .fotorama {
 	    width: 100%;
 	    float: none;
 	}
-
+	.btn {
+		width: 100%;
+	}
+	.content-box {
+	    width: 35%;
+	}
+	.content-title {
+	    width: 100%;
+	}
+	.content-desc {
+	    width: 100%;
+	}
+	// .content-form {
+	//     width: 35%;
+	// }
+	.map-box_pic {
+	    left: 195px;
+	    bottom: -265px;
+	    width: 28%;
+	    display: none;
+	}
+	.map-object {
+	    bottom: -80px;
+	    right: 90px;
+	    width: 30%;
+	}
+	.logo {
+	    width: 7%;
+	}
+	.logo-title {
+	    width: 20%;
+	    margin-right: 10px;
+	}
+	.time {
+	    width: auto;
+	    margin-right: 10px;
+	}
+	.adress {
+	    width: auto;
+	    margin-right: 10px;
+	}
+	.phone {
+	    width: auto;
+	    text-align: right;
+	}
+	.modal-feedback {
+	    position: static;
+	    width: 100%;
+	}
+	.main-head {
+	    margin-bottom: 30px;
+	}
+	.green-box-1 {
+	    position: absolute;
+	    left: 0;
+	    bottom: -220px;
+	    z-index: 2;
+	}
+	.green-box-2 {
+	    position: absolute;
+	    right: 0;
+	    bottom: -220px;
+	    z-index: 2;
+	}
+	.format-item {
+	    margin-bottom: 50px;
+	    margin-left: 40px;
+	    width: 35%;
+	    float: none;
+	}
 }
 
 
