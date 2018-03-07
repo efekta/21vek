@@ -414,6 +414,22 @@ $('.modal-format').validate ({
 
 });
 /*========================
+scrollbar
+ =======================*/
+ jQuery('.scrollbar-inner').scrollbar();
+
+ 'use strict';
+
+Tinytest.add('Scrollbar integration', function (test) {
+
+    var div = document.createElement('div');
+    div.className = 'scrollbar-inner';
+    div.value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in.";
+    var scrollBar = jQuery('.scrollbar-inner').scrollbar();
+    console.log(scrollBar);
+    test.isNotNull(scrollBar, 'instantiation OK');
+});
+/*========================
 print
  =======================*/
 $('#print').click(function(){
@@ -449,11 +465,7 @@ $('#toTop').click(function() {
 $('body,html').animate({scrollTop:0},800);
  
 });
-/*========================
- scroll baron
- =======================*/
 
-// $(".do-nicescrol4").niceScroll(".wrap");
 /*========================
  parallax
  =======================*/
@@ -511,5 +523,3 @@ $('body,html').animate({scrollTop:0},800);
 
 // document.createElement("article");
 // document.createElement("section");
-
-

@@ -2179,7 +2179,11 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .modal-object-item { width: 100%; }
 
-.footer-autor__show { display: none; }
+::webkit-scrollbar { width: 8px; background-color: red; }
+
+::webkit-scrollbar-thumb { border-radius: 10px; background-color: #a6a6a6; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+::webkit-scrollbar-track { border-radius: 10px; background-color: #fff; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 .footer { padding: 25px 0; background: url("../img/bg/bg-footer.jpg") repeat; }
 
