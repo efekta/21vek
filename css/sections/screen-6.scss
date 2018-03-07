@@ -117,6 +117,7 @@
     font-size: 18px;
     z-index: 99999;
     display: none;
+    overflow-y: scroll;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;
@@ -144,6 +145,7 @@
 .map-modal_adress {
 	font-weight: 100;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	display: inline-block;
     vertical-align: middle;
 }

@@ -2041,7 +2041,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
+.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; overflow-y: scroll; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2053,7 +2053,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link { display: inline-block; vertical-align: middle; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
-.map-modal_adress { font-weight: 100; margin-top: 20px; display: inline-block; vertical-align: middle; }
+.map-modal_adress { font-weight: 100; margin-top: 20px; margin-bottom: 20px; display: inline-block; vertical-align: middle; }
 
 .modal-adress { margin-bottom: 20px; }
 
@@ -2322,7 +2322,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   #map { float: none; width: 100%; min-height: 895px; position: relative; }
   .object-content-block { overflow: visible; width: 100%; }
   .map-modal { width: 90%; }
-  .block-map-object_subtitle { position: static; } }
+  .block-map-object_subtitle { position: static; }
+  .modal-adress__pic { width: 100%; float: none; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .arrow-right { right: 35%; }
@@ -2334,6 +2335,7 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
 
 @media (max-width: 1170px) and (min-width: 769px) { .reklame-banner { width: 45%; float: left; padding: 0 60px 0 60px; } }
 
-@media (max-width: 1170px) and (min-width: 769px) { .reklame_content-form { width: 45%; padding: 0 60px 0 59px; float: right; } }
+@media (max-width: 1170px) and (min-width: 769px) { .reklame_content-form { width: 45%; padding: 0 60px 0 59px; float: right; }
+  .modal-adress__pic, .fotorama { width: 100%; float: none; } }
 
 /*# sourceMappingURL=main.css.map */
