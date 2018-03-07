@@ -449,7 +449,11 @@ $('#toTop').click(function() {
 $('body,html').animate({scrollTop:0},800);
  
 });
+/*========================
+ scroll baron
+ =======================*/
 
+// $(".do-nicescrol4").niceScroll(".wrap");
 /*========================
  parallax
  =======================*/
@@ -507,3 +511,5 @@ $('body,html').animate({scrollTop:0},800);
 
 // document.createElement("article");
 // document.createElement("section");
+
+
