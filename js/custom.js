@@ -206,7 +206,6 @@ object-modal
         $('.format-modal').fadeOut(200);
     });
 
-
 /*========================
 map-modal
 =======================*/
@@ -225,7 +224,6 @@ map-modal
  /*========================
 btn-box_mob
  =======================*/
-
     $('.btn-box_mob').on('click', function() {
         $('.format-item_mob').removeClass();
         $('.btn-box_mob').fadeOut();

@@ -141,7 +141,7 @@ template { display: none; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-body { margin: 0; padding: 0; color: #f3f1ed; font-size: 16px; font-weight: normal; line-height: 1.2; background: #1b202d; position: relative; font-family: 'futura-book'; }
+body { margin: 0; padding: 0; color: #f3f1ed; font-size: 16px; font-weight: normal; line-height: 1.2; background: #1b202d; position: relative; font-family: 'futura-book'; overflow-x: hidden; }
 
 p { color: #777e8e; margin: 0; padding: 0; }
 
@@ -2135,7 +2135,7 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .object-item-desc { float: right; text-align: center; width: 115px; }
 
-.object-item label { padding-left: 45px; vertical-align: middle; }
+.object-item label { padding-left: 45px; vertical-align: middle; display: inline-block; }
 
 .object-item label span { color: #777e8e; display: block; margin-left: 45px; }
 
@@ -2331,7 +2331,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .object-content-block { overflow: visible; width: 100%; }
   .map-modal { width: 90%; }
   .block-map-object_subtitle { position: static; }
-  .modal-adress__pic { width: 100%; float: none; } }
+  .modal-adress__pic { width: 100%; float: none; }
+  .object-modal, .direction-modal, .format-modal { position: static; width: 100%; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .arrow-right { right: 35%; }

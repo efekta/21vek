@@ -495,7 +495,10 @@
 	    width: 100%;
 	    float: none;
 	}
-
+	.object-modal, .direction-modal, .format-modal {
+		position: static;
+		width: 100%;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
