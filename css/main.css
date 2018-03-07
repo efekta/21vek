@@ -2037,7 +2037,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: fixed; top: 30px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 75%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; max-height: 95vh; overflow-y: scroll; }
+.map-modal { position: fixed; top: 20px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 75%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; max-height: 95vh; overflow-y: scroll; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2330,9 +2330,12 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .map-modal { width: 90%; }
   .block-map-object_subtitle { position: static; }
   .modal-adress__pic { width: 100%; float: none; }
-  .object-modal, .direction-modal, .format-modal { position: static; width: 100%; } }
+  .object-modal, .direction-modal, .format-modal { position: static; width: 100%; }
+  .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
+  .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; }
+  .map-modal-adress__pic { width: 100%; margin-bottom: 10px; float: none; text-align: center; }
   .arrow-right { right: 35%; }
   .arrow-left { left: 35%; }
   .reklame-banner { width: 555px; float: left; padding: 0 60px 0 60px; }
@@ -2346,7 +2349,6 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .reklame_content-form { width: 100%; padding: 0 60px 0 59px; float: none; }
   .reklame_content-form .content-form { width: 100%; }
   .modal-adress__pic, .fotorama { width: 100%; float: none; }
-  .btn { width: 100%; }
   .content-box { width: 35%; }
   .content-title { width: 100%; }
   .content-desc { width: 100%; }

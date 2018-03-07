@@ -499,13 +499,30 @@
 		position: static;
 		width: 100%;
 	}
+	.map-modal_adress {
+	    float: none;
+	    width: 100%;
+	    font-weight: 100;
+	    text-align: center;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
 	.feedback-slider-arrows {
 		top: 112%;
 	}
-
+	.map-modal_adress {
+	    float: none;
+	    width: 100%;
+	    font-weight: 100;
+	    text-align: center;
+	}
+	.map-modal-adress__pic {
+	    width: 100%;
+	    margin-bottom: 10px;
+	    float: none;
+	    text-align: center;
+	}
 	.arrow-right {
 	    right: 35%;
 	}
@@ -557,9 +574,9 @@
 	    width: 100%;
 	    float: none;
 	}
-	.btn {
-		width: 100%;
-	}
+	// .btn {
+	// 	width: 100%;
+	// }
 	.content-box {
 	    width: 35%;
 	}
