@@ -1729,9 +1729,9 @@ label.error { border: none; color: red; font-size: 16px; display: block; }
 
 .screen-1 { background: url("../img/bg/bg-1.jpg") no-repeat center; background-size: cover; background-attachment: fixed; position: relative; padding-bottom: 215px; overflow: hidden; }
 
-.main-head { position: relative; margin-bottom: 127px; padding: 23px 0; }
+.main-head { position: relative; padding: 23px 0; }
 
-.main-head-fix { background: rgba(29, 33, 45, 0.8); position: fixed; width: 100%; top: 0; left: 0; right: 0; z-index: 10000; }
+.main-head-fix { background: rgba(29, 33, 45, 0.8); position: fixed; width: 100%; top: 0; left: 0; right: 0; z-index: 100; }
 
 .head-fix_color { color: #e4e7ec; }
 
@@ -1753,7 +1753,7 @@ label.error { border: none; color: red; font-size: 16px; display: block; }
 
 .head-modal-phone { text-transform: uppercase; color: #ff9f42; margin-top: 15px; display: block; cursor: pointer; font-size: 14px; }
 
-.screen-content { position: relative; height: 100%; }
+.screen-content { position: relative; height: 100%; margin-top: 127px; }
 
 .content-box { float: left; position: relative; }
 
@@ -2037,7 +2037,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
+.map-modal { position: fixed; top: 30px; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 75%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; max-height: 95vh; overflow-y: scroll; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
@@ -2049,7 +2049,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-modal__link { display: inline-block; vertical-align: middle; font-size: 16px; color: #12619b; border-bottom: 1px dashed #12619b; }
 
-.map-modal_adress { float: left; width: 537px; font-weight: 100; margin-top: 20px; }
+.map-modal_adress { float: left; width: 537px; font-weight: 100; text-align: right; }
 
 .modal-adress { margin-bottom: 20px; }
 
@@ -2059,7 +2059,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
-.map-modal-adress__pic { width: 537px; margin-bottom: 10px; float: right; margin-top: 20px; }
+.map-modal-adress__pic { width: 537px; margin-bottom: 10px; float: right; }
 
 .modal-adress__pic { width: 45%; float: right; margin-bottom: 10px; }
 
@@ -2195,11 +2195,11 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
 
 .scroll::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #ff9f42; }
 
-.map-modal::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); border-radius: 10px; background-color: #F5F5F5; }
+.map-modal::-webkit-scrollbar-track { background-color: transparent; }
 
-.map-modal::-webkit-scrollbar { width: 12px; background-color: #F5F5F5; }
+.map-modal::-webkit-scrollbar { width: 12px; background-color: transparent; }
 
-.map-modal::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); background-color: #ff9f42; }
+.map-modal::-webkit-scrollbar-thumb { background-color: transparent; }
 
 .footer { padding: 25px 0; background: url("../img/bg/bg-footer.jpg") repeat; }
 
@@ -2356,12 +2356,11 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .logo-title { width: 20%; margin-right: 10px; }
   .time { width: auto; margin-right: 10px; }
   .adress { width: auto; margin-right: 10px; }
-  .phone { width: auto; text-align: right; }
-  .modal-feedback { position: static; width: 100%; }
+  .phone { width: auto; }
   .main-head { margin-bottom: 30px; }
   .green-box-1 { position: absolute; left: 0; bottom: -220px; z-index: 2; }
   .green-box-2 { position: absolute; right: 0; bottom: -220px; z-index: 2; }
-  .format-item { margin-bottom: 50px; margin-left: 40px; width: 35%; float: none; }
+  .format-item { margin-bottom: 50px; margin-left: 25px; width: 44%; float: none; }
   .screen-4 .section-title { margin-top: -90px; }
   .section-title { margin-bottom: 90px; }
   .advantages-item { margin-bottom: 30px; }

@@ -21,7 +21,7 @@
 // }
 .main-head {
 	position: relative;
-	margin-bottom: 127px;
+	// margin-bottom: 127px;
 	padding: 23px 0;
 }
 .main-head-fix {
@@ -31,7 +31,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10000;
+    z-index: 100;
 }
 .head-fix_color {
 	color: #e4e7ec;
@@ -84,6 +84,7 @@
 .screen-content {
 	position: relative;
     height: 100%;
+    margin-top: 127px;
 }
 .content-box {
 	// width: 40%;

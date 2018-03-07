@@ -106,14 +106,14 @@
 // 	height: 100%;
 // }
 .map-modal {
-    // position: fixed;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    // position: absolute;
     // top: 0;
     // left: 50%;
-    position: absolute;
-    top: 0;
-    left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 75%;
     padding: 15px 42px;
     background: #fff;
     border-radius: 40px;
@@ -121,6 +121,8 @@
     font-size: 18px;
     z-index: 99999;
     display: none;
+    max-height: 95vh;
+    overflow-y: scroll;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;
@@ -160,7 +162,8 @@
     float: left;
     width: 537px;
     font-weight: 100;
-    margin-top: 20px;
+    // margin-top: 20px;
+    text-align: right;
 }
 .modal-adress {
 	margin-bottom: 20px;
@@ -199,7 +202,7 @@ table {
     width: 537px;
     margin-bottom: 10px;
     float: right;
-    margin-top: 20px;
+   // 0 margin-top: 20px;
 
 }
 .modal-adress__pic {
