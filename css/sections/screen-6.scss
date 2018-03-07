@@ -101,13 +101,17 @@
 .section-title_modal {
 	position: relative;
 }
+// .scroll-modal {
+// 	width: 100%;
+// 	height: 100%;
+// }
 .map-modal {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    // position: absolute;
+    // position: fixed;
     // top: 0;
     // left: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
     transform: translateX(-50%);
     width: 90%;
     padding: 15px 42px;

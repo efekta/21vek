@@ -1785,9 +1785,7 @@ label.error { border: none; color: red; font-size: 16px; display: block; }
 
 .content-form form { margin-bottom: 0; }
 
-.form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; padding-bottom: 80px; margin-bottom: 15px; }
-
-.form-title { margin-bottom: 20px; }
+.form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; margin-bottom: 15px; }
 
 .form-title p { font-size: 31px; line-height: 28px; color: #fff; margin-bottom: 15px; }
 
@@ -2039,7 +2037,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .section-title_modal { position: relative; }
 
-.map-modal { position: fixed; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
+.map-modal { position: absolute; top: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 90%; padding: 15px 42px; background: #fff; border-radius: 40px; color: #000; font-size: 18px; z-index: 99999; display: none; }
 
 .map-modal__link-box { margin-bottom: 12px; }
 
