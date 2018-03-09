@@ -80,7 +80,7 @@ ymaps.ready(init);
             zoom: 13
         });
 
-        myMap2 = new ymaps.Map("mapModal1", {
+        myMap1 = new ymaps.Map("mapModal1", {
             center: [51.67204, 39.1843],
             zoom: 13
         });
