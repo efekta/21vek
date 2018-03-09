@@ -2378,6 +2378,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .footer-list-mob { display: block; margin: auto; }
   .footer-link { color: #ff9f42; }
   .footer-list { margin-left: 0; margin-bottom: 0; }
-  .footer-item:first-child { margin-left: 30px; } }
+  .footer-item:first-child { margin-left: 30px; }
+  .media-box { width: 370px; }
+  .content-item { width: auto; } }
 
 /*# sourceMappingURL=main.css.map */
