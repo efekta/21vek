@@ -416,9 +416,9 @@
 	    font-weight: 100;
 	}
 	table {
-	    margin-left: 35px;
-	    text-align: left;
-	    width: 100%;
+    	margin-left: 0;
+    	text-align: left;
+    	width: 100%;
 	    color: #949494;
 	}
 	#mapModal1, #mapModal2 {
@@ -506,6 +506,9 @@
 	    float: none;
 	    width: 100%;
 	    font-weight: 100;
+	    text-align: center;
+	}
+	.map-modal__link-box {
 	    text-align: center;
 	}
 }

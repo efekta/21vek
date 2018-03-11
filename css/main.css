@@ -2311,7 +2311,7 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .footer-link { font-size: 26px; color: #ff9f42; }
   .reklame_content-form .form { padding: 15px; }
   .map-modal_adress { float: none; width: 100%; font-weight: 100; }
-  table { margin-left: 35px; text-align: left; width: 100%; color: #949494; }
+  table { margin-left: 0; text-align: left; width: 100%; color: #949494; }
   #mapModal1, #mapModal2 { width: 100% !important; height: 410px !important; margin-top: 20px; margin-bottom: 22px; }
   .map-modal-adress__pic { float: none; width: 100%; }
   .modal-adress__pic { width: 100%; height: auto; margin-bottom: 10px; }
@@ -2333,7 +2333,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .block-map-object_subtitle { position: static; }
   .modal-adress__pic { width: 100%; float: none; }
   .object-modal, .direction-modal, .format-modal { position: static; width: 100%; }
-  .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; } }
+  .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; }
+  .map-modal__link-box { text-align: center; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
   .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; }
