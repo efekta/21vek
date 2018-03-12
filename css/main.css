@@ -2095,11 +2095,11 @@ table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
 .object-calc-item { display: inline-block; margin-left: 30px; }
 
-select { border: none; }
+select { border: none; outline: none; }
 
 .modal-object-item { width: 100%; border: none; outline: none; }
 
-.modal-object-item option { font-size: 14px; padding: 3px 0; color: #555; }
+.modal-object-item option { font-size: 14px; padding: 3px 0; color: #555; text-transform: none; font-weight: 300; outline: none; }
 
 .object-form-box { padding-left: 20px; padding-right: 20px; }
 

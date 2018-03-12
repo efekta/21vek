@@ -36,6 +36,7 @@
 }
 select {
 	border: none;
+	outline: none;
 }
 .modal-object-item {
     width: 100%;
@@ -46,6 +47,9 @@ select {
     font-size: 14px;
     padding: 3px 0;
     color: #555;
+    text-transform: none;
+    font-weight: 300;
+    outline: none;
 }
 // form
 .object-form-box {
