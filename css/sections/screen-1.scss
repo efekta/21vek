@@ -207,7 +207,7 @@
 	font-size: 31px;
 	line-height: 28px;
 	color: $white;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	// font-family: 'futura-demi';
 }
 .form-title span {
@@ -218,7 +218,7 @@
 }
 .form-adress, .form-phone {
 	font-family: 'futura-book';
-	padding: 23px 10px;
+	padding: 20px 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
 	// margin-bottom: 28px;
@@ -338,6 +338,7 @@ input {
 }
 .mob-phone {
 	display: none;
+	cursor: pointer;
 }
 .content-box-mob {
 	display: none;
@@ -363,6 +364,6 @@ input {
 .modal-feedback-form {
     border: 11px solid rgba(166, 141, 111, 0.4);
     padding: 40px;
-    padding-bottom: 80px;
+    // padding-bottom: 80px;
     margin-bottom: 15px;
 }

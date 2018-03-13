@@ -148,6 +148,8 @@
 }
 .popup-btn {
 	width: 240px;
+	margin-bottom: 0;
+	margin-top: 10px;
 }
 .modal-format {
 	width: 90%;
@@ -223,7 +225,7 @@ border-radius: 10px;
 }
 .modal-box-title {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: bottom;
 	font-family: 'futura-demi';
 	font-weight: 400;
 	font-size: 24px;
@@ -274,7 +276,7 @@ border-radius: 10px;
 	width: 100%;
 }
 .popup-karta-title {
-	margin: 22px 0;
+	margin: 15px 0;
 }
 .popup-karta-title p {
 	color: #1c1c1c;

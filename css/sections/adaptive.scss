@@ -557,11 +557,20 @@
 	.content-list-2 {
 		margin-bottom: 20px;
 	}
+	.map-modal__content {
+		text-align: center;
+	}
+	.map-modal-adress__pic {
+		text-align: center;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
 	.feedback-slider-arrows {
 		top: 112%;
+	}
+	.map-modal__content {
+		text-align: center;
 	}
 	.map-modal_adress {
 	    float: none;
@@ -764,6 +773,9 @@
 		margin-top: 10px;
 		padding: 20px;
 	}
+	.map-modal__content {
+		text-align: center;
+	}
 	// .modal-box_wrapp {
 	// 	display: flex;
 	// 	justify-content: space-between;
@@ -827,7 +839,12 @@
 	.form-phone_modal {
 		margin-bottom: 10px;
 	}
-
+	.map-modal__content {
+		text-align: center;
+	}
+	.map-modal-adress__pic {
+		text-align: center;
+	}
 }
 
 

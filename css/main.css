@@ -169,7 +169,7 @@ button { cursor: pointer; border: none; font-family: 'futura-book'; font-weight:
 
 .content-title-mob { display: none; font-size: 46px; line-height: 48px; font-family: 'futura-book-bold'; color: #f3f1ed; }
 
-.email-form-personal { margin-top: 20px; color: #918675; text-align: left; }
+.email-form-personal { color: #918675; text-align: left; }
 
 .email-form-personal input { display: inline-block; vertical-align: middle; }
 
@@ -1789,11 +1789,11 @@ label.error { border: none; color: red; font-size: 16px; display: block; }
 
 .form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; margin-bottom: 15px; }
 
-.form-title p { font-size: 31px; line-height: 28px; color: #fff; margin-bottom: 15px; }
+.form-title p { font-size: 31px; line-height: 28px; color: #fff; margin-bottom: 10px; }
 
 .form-title span { font-size: 20px; line-height: 24px; font-family: 'futura-book'; font-weight: 300; }
 
-.form-adress, .form-phone { font-family: 'futura-book'; padding: 23px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.form-adress, .form-phone { font-family: 'futura-book'; padding: 20px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
 .form-phone input { font-family: 'futura-book'; }
 
@@ -1829,7 +1829,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .map-object__content::after { content: ""; position: absolute; background: url("../img/icon/map-orange.png") no-repeat 50%; background-size: cover; width: 18px; height: 23px; top: -37px; left: 0; }
 
-.mob-phone { display: none; }
+.mob-phone { display: none; cursor: pointer; }
 
 .content-box-mob { display: none; }
 
@@ -1837,7 +1837,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-feedback form { background: url(../img/bg/bg-5.jpg) no-repeat center; margin-bottom: 0; }
 
-.modal-feedback-form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; padding-bottom: 80px; margin-bottom: 15px; }
+.modal-feedback-form { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; margin-bottom: 15px; }
 
 .screen-2 { margin-top: -16px; margin-bottom: -33px; border-bottom: 1px solid #777e8e; font-family: 'futura-demi'; font-weight: 400; position: relative; }
 
@@ -1879,7 +1879,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-block { padding: 0 30px; }
 
-.popup-btn { width: 240px; }
+.popup-btn { width: 240px; margin-bottom: 0; margin-top: 10px; }
 
 .modal-format { width: 90%; margin: 0 auto; border: 10px solid rgba(255, 255, 255, 0.4); padding: 50px 0; padding-bottom: 0; background: rgba(29, 33, 45, 0.9); position: absolute; top: 50%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 10000; }
 
@@ -1907,7 +1907,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .modal-box { background: #252830; margin-top: 25px; padding: 35px; text-align: center; }
 
-.modal-box-title { display: inline-block; vertical-align: middle; font-family: 'futura-demi'; font-weight: 400; font-size: 24px; }
+.modal-box-title { display: inline-block; vertical-align: bottom; font-family: 'futura-demi'; font-weight: 400; font-size: 24px; }
 
 .form-phone_modal { display: inline-block; vertical-align: middle; margin-left: 30px; }
 
@@ -1921,7 +1921,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .popup-karta_pic img { width: 100%; }
 
-.popup-karta-title { margin: 22px 0; }
+.popup-karta-title { margin: 15px 0; }
 
 .popup-karta-title p { color: #1c1c1c; font-size: 17px; margin-bottom: 10px; }
 
@@ -1957,7 +1957,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .reklame_content-form .form { padding: 43px; padding-bottom: 55px; }
 
-.reklame_content-form .form-adress, .form-phone { font-family: 'futura-book'; padding: 25px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+.reklame_content-form .form-adress, .form-phone { font-family: 'futura-book'; padding: 20px 10px; padding-bottom: 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
 
 .reklame-content-form-valid { border: 11px solid rgba(166, 141, 111, 0.4); padding: 40px; margin-bottom: 15px; }
 
@@ -2003,7 +2003,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 .comments-slider { padding: 70px; background: url("../img/bg/slider-bg.jpg") repeat; border-radius: 7px; }
 
-.autor-pic { float: left; width: 196px; margin-bottom: 30px; margin-right: 68px; }
+.autor-pic { float: left; width: 196px; margin-bottom: 30px; }
 
 .autor-content { float: right; width: 510px; font-family: "futura-book"; }
 
@@ -2063,7 +2063,7 @@ input { background: transparent; border: none; color: #fff; outline: none; }
 
 table { margin-left: 35px; text-align: left; width: 500px; color: #949494; }
 
-.map-modal-adress__pic { width: 45%; margin-bottom: 10px; float: right; }
+.map-modal-adress__pic { width: 45%; margin-bottom: 10px; float: right; text-align: left; }
 
 .modal-adress__pic { width: 45%; float: right; margin-bottom: 10px; }
 
@@ -2355,9 +2355,12 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .screen-5 { padding-bottom: 75px; }
   .screen-6 .container .section-title-mob { margin-bottom: 85px; }
   .media-content { margin-top: -60px; }
-  .content-list-2 { margin-bottom: 20px; } }
+  .content-list-2 { margin-bottom: 20px; }
+  .map-modal__content { text-align: center; }
+  .map-modal-adress__pic { text-align: center; } }
 
 @media (min-width: 769px) and (max-width: 1170px) { .feedback-slider-arrows { top: 112%; }
+  .map-modal__content { text-align: center; }
   .map-modal_adress { float: none; width: 100%; font-weight: 100; text-align: center; }
   .map-modal-adress__pic { width: 100%; margin-bottom: 10px; float: none; text-align: center; }
   .arrow-right { right: 35%; }
@@ -2406,6 +2409,7 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
   .screen-content { margin-top: 30px; } }
 
 @media (min-width: 320px) and (max-width: 1071px) { .modal-box { text-align: left; margin-top: 10px; padding: 20px; }
+  .map-modal__content { text-align: center; }
   .form-phone_modal { margin-left: 0; }
   .btn-box_modal { margin-left: 0; }
   .modal-format { padding: 0; padding-top: 40px; }
@@ -2418,6 +2422,8 @@ select::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset
 
 @media (min-width: 727px) and (max-width: 1071px) { .modal-box_wrapp { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .modal-box-title { width: 100%; text-align: center; }
-  .form-phone_modal { margin-bottom: 10px; } }
+  .form-phone_modal { margin-bottom: 10px; }
+  .map-modal__content { text-align: center; }
+  .map-modal-adress__pic { text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

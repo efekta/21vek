@@ -180,6 +180,19 @@ modal-feedback
         $('.overlay').fadeOut();
        $('.modal-feedback').fadeOut();
     })
+
+     $('.mob-phone').on('click', function() {
+        $('.overlay').fadeIn();
+        $('.modal-feedback').fadeIn();
+    })
+    $('.popup-close').on('click', function() {
+        $('.modal-feedback').fadeOut();
+        $('.overlay').fadeOut();
+    })
+    $('.overlay').on('click', function() {
+        $('.overlay').fadeOut();
+       $('.modal-feedback').fadeOut();
+    })
 /*========================
 object-modal
  =======================*/
