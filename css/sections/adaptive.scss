@@ -2,6 +2,10 @@
  	.screen-1 {
 		height: auto;
 		padding-bottom: 0;
+		margin-top: 0;
+	}
+	.screen-content {
+		margin-top: 0;
 	}
 	.container {
 		width: 100%;
@@ -47,7 +51,7 @@
 		line-height: 32px;
 		font-family: 'futura-book-bold';
 		color: $font-white;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 	}
 	.content-title-mob p {
 		font-size: 30px;
@@ -68,7 +72,7 @@
 		width: 100%;
 		text-align: center;
 		// margin: 0 auto;
-		margin-bottom: 35px;
+		margin-bottom: 10px;
 	}
 	.content-desc span {
 		font-size: 22px;
@@ -78,29 +82,29 @@
 	}
 	.content-form {
 		width: 100%;
-		margin-bottom: 35px;
+		margin-bottom: 10px;
 	}
 	.form-title {
 		text-align: left;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 	}
 	.form-title p {
 		font-size: 28px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 	.form-title span {
 		font-size: 18px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 	.form-adress, .form-phone {
-    	padding: 12px 10px;
+    	padding: 10px 10px;
     	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-    	margin-bottom: 10px;
+    	margin-bottom: 0;
 	}
 	.reklame_content-form .form-adress, .form-phone {
-    	padding: 15px 10px;
+    	padding: 10px 10px;
     	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-    	margin-bottom: 10px;
+    	margin-bottom: 0;
 }
 	.phone input {
 		display: block;
@@ -139,7 +143,7 @@
 	}
 	.form {
 		border: 10px solid rgba(255, 255, 255, 0.4);
-		padding: 30px 20px;
+		padding: 25px 20px;
 	}
 	.btn {
 		width: 235px;
@@ -164,10 +168,11 @@
     	margin-bottom: 20px;
     	transform: translateX(0);
     	text-align: center;
+    	margin: auto;
 	}
 	.section-title-mob {
 		display: block;
-		margin-bottom: 110px;
+		margin-bottom: 45px;
 	}
 	.section-title-mob p {
 		font-size: 30px;
@@ -189,15 +194,19 @@
 	.format-item {
 		margin-left: 0;
 		width: 100%;
+		margin-bottom: 45px;
 	}
 	.format-item_mob {
 		display: none;
 	}
 	.btn-box_mob {
 		text-align: center;
-		padding-bottom: 50px;
-
-		margin-top: -56px;
+	    padding-bottom: 30px;
+	    margin-top: -40px;
+	}
+	.subtitle {
+	    margin-top: -40px;
+	    margin-bottom: 30px;
 	}
 	.btn-mob {
 		display: inline-block;
@@ -487,6 +496,7 @@
 	.object-content-block {
 	    overflow: visible;
 	    width: 100%;
+	    height: auto;
 	}
 	.map-modal {
 		width: 90%;
@@ -510,6 +520,42 @@
 	}
 	.map-modal__link-box {
 	    text-align: center;
+	}
+	.modal-box {
+	    text-align: left;
+	    margin-top: 10px;
+	    padding: 10px;
+	}
+	.screen-4 {
+	    margin-top: -90px;
+	}
+	.advantages {
+	    margin-bottom: 0;
+	}
+	.pic-box {
+	    margin-bottom: 10px;
+	}
+	.trust {
+	    margin-top: 0;
+	}
+	.trust .subtitle {
+		margin-top: -85px;
+	}
+	.screen-5 .container .section-title-mob {
+		margin-bottom: 70px;
+		padding-top: 0;
+	}
+	.screen-5 {
+		padding-bottom: 75px;
+	}
+	.screen-6 .container .section-title-mob {
+		margin-bottom: 85px;
+	}
+	.media-content {
+	    margin-top: -60px;
+	}
+	.content-list-2 {
+		margin-bottom: 20px;
 	}
 }
 
@@ -610,16 +656,16 @@
 	    margin-right: 10px;
 	}
 	.time {
-	    width: auto;
+	    width: 15%;
 	    margin-right: 10px;
 	}
 	.adress {
-	    width: auto;
+	    width: 20%;
 	    margin-right: 10px;
 	}
 	.phone {
-	    width: auto;
-	    // text-align: right;
+	    width: 25%;
+    	text-align: right;
 	}
 	// .modal-feedback {
 	//     position: static;
@@ -706,12 +752,83 @@
 	}
 	.content-item {
 	    width: auto;
+	    margin-bottom: 10px;
+	}
+	.screen-content {
+	    margin-top: 30px;
+	}
+}
+@media (min-width: 320px) and (max-width: 1071px) {
+	.modal-box {
+		text-align: left;
+		margin-top: 10px;
+		padding: 20px;
+	}
+	// .modal-box_wrapp {
+	// 	display: flex;
+	// 	justify-content: space-between;
+	// 	align-items: center;
+	// }
+	.form-phone_modal {
+		margin-left: 0;
+	}
+	.btn-box_modal {
+		margin-left: 0;
+	}
+	.modal-format {
+		padding: 0;
+		padding-top: 40px;
+	}
+	.modal-slider {
+	    width: 100%;
+	    margin-bottom: 80px;
+	    padding: 0 10px;
+	}
+	.modal-slider-title {
+	    color: #ff9f42;
+	    font-size: 32px;
+	    font-family: 'futura-demi';
+	    margin-bottom: 10px;
+	}
+	.modal-slider-subtitle {
+	    margin-bottom: 10px;
+	    font-size: 20px;
+	    font-family: 'futura-demi';
+	    font-weight: 400;
+	    display: block;
+	}
+	.content-item {
+	    width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 5px;
+	}
+	.email-form-personal {
+	    margin-top: 0;
+	    color: #918675;
+	    text-align: left;
+	}
+	.btn {
+		margin-bottom: 10px;
 	}
 }
 
 
+@media (min-width: 727px) and (max-width: 1071px) {
+	.modal-box_wrapp {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+	.modal-box-title {
+	    width: 100%;
+	    text-align: center;
+	}
+	.form-phone_modal {
+		margin-bottom: 10px;
+	}
 
-
+}
 
 
 

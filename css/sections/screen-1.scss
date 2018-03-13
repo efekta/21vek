@@ -65,8 +65,11 @@
 }
 
 .phone {
-	width: 163px;
+	width: 247px;
 	font-family: 'futura-book-bold';
+}
+.header .phone {
+	text-align: right;
 }
 .phone-link {
 	font-size: 18px;
@@ -84,7 +87,7 @@
 .screen-content {
 	position: relative;
     height: 100%;
-    margin-top: 127px;
+    margin-top: 90px;
 }
 .content-box {
 	// width: 40%;
@@ -115,7 +118,7 @@
 	// width: 339px;
 	// float: left;
 	// clear: both;
-	width: 415px;
+	width: 40%;
 }
 .content-item {
 	position: relative;
@@ -283,6 +286,7 @@ input {
 }
 .form-subtitle {
 	text-align: center;
+	margin-bottom: 5px;
 }
 .form-subtitle p {
 	display: inline-block;
