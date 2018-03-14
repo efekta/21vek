@@ -115,7 +115,7 @@
     // top: 0;
     // left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 80%;
     padding: 15px 42px;
     background: #fff;
     border-radius: 40px;
@@ -149,20 +149,23 @@
 	color: #12619b;
 	border-bottom: 1px dashed #12619b;
 }
+.map-modal__content {
+	text-align: center;
+}
 .map-modal_adress {
 	// font-weight: 100;
 	// margin-top: 20px;
 	// margin-bottom: 20px;
-	// display: inline-block;
- //    vertical-align: middle;
+	display: inline-block;
+    vertical-align: top;
  //    text-align: right;
 
 
     // width: 40%;
     // float: left;
 
-    float: left;
-    width: 45%;
+    // float: left;
+    width: 47%;
     font-weight: 100;
     // margin-top: 20px;
     text-align: right;
@@ -193,25 +196,29 @@ table {
 .map-modal-adress__pic {
  //    margin-bottom: 10px;
 	// margin-top: 20px;
-	// display: inline-block;
- //    vertical-align: middle;
+	display: inline-block;
+    vertical-align: top;
  //    text-align: left;
 
     // width: 40%;
     // float: left;
     // margin-left: 136px;
 
-    width: 45%;
+    width: 47%;
     margin-bottom: 10px;
-    float: right;
+    margin-left: 2%;
+    // float: right;
     text-align: left;
 
 }
 .modal-adress__pic {
-    width: 45%;
+    width: 47%;
     // height: 345px;
-    float: right;
+    // float: right;
+    display: inline-block;
+    vertical-align: top;
 	margin-bottom: 10px;
+	margin-left: 2%;
 }
 .modal-adress__pic img {
 	width: 100%;
@@ -224,7 +231,7 @@ table {
 .adress__pic_mini {
 	width: 80px;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 .adress__pic_mini img {
 	width: 100%;

@@ -429,6 +429,8 @@
     	text-align: left;
     	width: 100%;
 	    color: #949494;
+	    // padding: 0 10px;
+	    // display: block;
 	}
 	#mapModal1, #mapModal2 {
 	    width: 100% !important;
@@ -499,7 +501,9 @@
 	    height: auto;
 	}
 	.map-modal {
-		width: 90%;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.block-map-object_subtitle {
 		position: static;
@@ -517,9 +521,13 @@
 	    width: 100%;
 	    font-weight: 100;
 	    text-align: center;
+	    margin-bottom: 10px;
 	}
 	.map-modal__link-box {
 	    text-align: center;
+	}
+	.address-selection {
+		width: 100% !important;
 	}
 	.modal-box {
 	    text-align: left;
