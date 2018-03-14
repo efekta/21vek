@@ -106,7 +106,6 @@ ymaps.ready(init);
 /*========================
  fixed header
  =======================*/
-
     var screenHight = $('.screen-1').height();
     
     $(document).on('scroll', function() {
