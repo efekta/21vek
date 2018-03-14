@@ -120,9 +120,9 @@
 }
 .popup {
 	position: fixed;
-	width: 90%;
+	width: 60%;
 	margin: 0 auto;
-	top: 25%;
+	top: 50px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
@@ -152,7 +152,7 @@
 	margin-top: 10px;
 }
 .modal-format {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	border: 10px solid rgba(255, 255, 255, 0.4);
     padding: 50px 0;
