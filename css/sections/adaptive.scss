@@ -574,6 +574,11 @@
 	.map-modal-adress__pic {
 		text-align: center;
 	}
+	.map-modal {
+	// max-height: 95vh;
+	height: auto;
+    overflow-y: scroll;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
@@ -610,9 +615,6 @@
 	    width: 555px;
 	    padding: 0 60px 0 59px;
 	    float: right;
-	}
-	.map-modal {
-    	width: 90%;
 	}
 	.box-slider {
     	width: 100%;
