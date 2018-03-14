@@ -13,7 +13,10 @@ body {
 	font-family: 'futura-book';
 	overflow-x: hidden;
 }
-
+body.open-modal {
+    overflow-y: hidden;
+    padding-right: 17px;
+}
 p {
 	color: $gray;
 	margin: 0;

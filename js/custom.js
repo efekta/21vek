@@ -136,15 +136,18 @@ ymaps.ready(init);
     $('.modal-btn').on('click', function() {
         $('.overlay').fadeIn();
         $('.popup').fadeIn();
+        // $('body').addClass('open-modal'); 
 
     })
     $('.popup-close').on('click', function() {
         $('.popup').fadeOut();
         $('.overlay').fadeOut();
+        // $('body').removeClass('open-modal'); 
     })
     $('.overlay').on('click', function() {
         $('.overlay').fadeOut();
         $('.popup').fadeOut();
+        // $('body').removeClass('open-modal'); 
     })
 /*========================
  modal karta
@@ -171,14 +174,17 @@ modal-feedback
     $('.head-modal-phone').on('click', function() {
         $('.overlay').fadeIn();
         $('.modal-feedback').fadeIn();
+        $('body').addClass('open-modal'); 
     })
     $('.popup-close').on('click', function() {
         $('.modal-feedback').fadeOut();
         $('.overlay').fadeOut();
+        $('body').removeClass('open-modal'); 
     })
     $('.overlay').on('click', function() {
         $('.overlay').fadeOut();
        $('.modal-feedback').fadeOut();
+       $('body').removeClass('open-modal'); 
     })
 
      $('.mob-phone').on('click', function() {
@@ -226,14 +232,17 @@ map-modal
         $('.overlay').fadeIn();
         $('.map-modal').fadeIn();
         $('.popup-karta').fadeOut();
+        $('body').addClass('open-modal'); 
     })
     $('.popup-close_karta').on('click', function() {
         $('.map-modal').fadeOut();
         $('.overlay').fadeOut();
+        $('body').removeClass('open-modal'); 
     })
     $('.overlay').on('click', function() {
         $('.overlay').fadeOut();
        $('.map-modal').fadeOut();
+       $('body').removeClass('open-modal'); 
     })
  /*========================
 btn-box_mob

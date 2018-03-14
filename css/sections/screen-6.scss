@@ -123,8 +123,8 @@
     font-size: 18px;
     z-index: 99999;
     display: none;
-    max-height: 95vh;
-    overflow-y: scroll;
+    // max-height: 95vh;
+    // overflow-y: scroll;
 }
 .map-modal__link-box {
 	margin-bottom: 12px;
@@ -239,13 +239,13 @@ table {
 }
 #mapModal1 {
 	width: 100%;
-	height: 410px;
+	min-height: 250px;
 	// margin-top: 20px;
 	// margin-bottom: 22px;
 }
 #mapModal2 {
 	width: 100%;
-	height: 410px;
+	min-height:250px;
 	// margin-top: 20px;
 	// margin-bottom: 22px;
 }
