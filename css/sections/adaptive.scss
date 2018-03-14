@@ -579,9 +579,20 @@
 	height: auto;
     overflow-y: scroll;
 	}
+	.map-modal__content {
+		height: auto;
+	}
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
+	.map-modal {
+	// max-height: 95vh;
+	height: auto;
+    overflow-y: scroll;
+	}
+	.map-modal__content {
+		height: auto;
+	}
 	.feedback-slider-arrows {
 		top: 112%;
 	}
@@ -781,6 +792,14 @@
 	}
 }
 @media (min-width: 320px) and (max-width: 1071px) {
+	.map-modal {
+	// max-height: 95vh;
+	height: auto;
+    overflow-y: scroll;
+	}
+	.map-modal__content {
+		height: auto;
+	}
 	.modal-box {
 		text-align: left;
 		margin-top: 10px;
@@ -857,6 +876,14 @@
 	}
 	.map-modal-adress__pic {
 		text-align: center;
+	}
+		.map-modal {
+	// max-height: 95vh;
+	height: auto;
+    overflow-y: scroll;
+	}
+	.map-modal__content {
+		height: auto;
 	}
 }
 
