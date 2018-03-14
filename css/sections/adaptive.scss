@@ -576,7 +576,7 @@
 	}
 	.map-modal {
 	// max-height: 95vh;
-	height: auto;
+	height: 100%;
     overflow-y: scroll;
 	}
 	.map-modal__content {
@@ -587,7 +587,7 @@
 @media (min-width: 769px) and (max-width: 1170px) {
 	.map-modal {
 	// max-height: 95vh;
-	height: auto;
+	height: 100%;
     overflow-y: scroll;
 	}
 	.map-modal__content {
@@ -794,7 +794,7 @@
 @media (min-width: 320px) and (max-width: 1071px) {
 	.map-modal {
 	// max-height: 95vh;
-	height: auto;
+	height: 100%;
     overflow-y: scroll;
 	}
 	.map-modal__content {
@@ -877,9 +877,9 @@
 	.map-modal-adress__pic {
 		text-align: center;
 	}
-		.map-modal {
+	.map-modal {
 	// max-height: 95vh;
-	height: auto;
+	height: 100%;
     overflow-y: scroll;
 	}
 	.map-modal__content {
