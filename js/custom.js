@@ -6,13 +6,15 @@
     dots: true,
     arrows: true,    
     prevArrow: '<i class="fa fa-chevron-left feedback-slider-arrows arrow-left"></i>',
-    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right"></i>'
+    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right"></i>',
+    
   });
     $('.modal-slider').slick({
     dots: true,
     arrows: true,    
     prevArrow: '<i class="fa fa-chevron-left feedback-slider-arrows arrow-left_mob"></i>',
-    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right_mob"></i>'
+    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right_mob"></i>',
+    
   });
 /*==================================
  Smooth scroll to Plans Block
@@ -167,18 +169,18 @@ $(document).ready(function() {
     $('.modal-btn').on('click', function() {
         $('.overlay').fadeIn();
         $('.popup').fadeIn();
-        // $('body').addClass('open-modal'); 
+        $('body').addClass('open-modal'); 
 
     })
     $('.popup-close').on('click', function() {
         $('.popup').fadeOut();
         $('.overlay').fadeOut();
-        // $('body').removeClass('open-modal'); 
+        $('body').removeClass('open-modal'); 
     })
     $('.overlay').on('click', function() {
         $('.overlay').fadeOut();
         $('.popup').fadeOut();
-        // $('body').removeClass('open-modal'); 
+        $('body').removeClass('open-modal'); 
     })
 /*========================
  modal karta

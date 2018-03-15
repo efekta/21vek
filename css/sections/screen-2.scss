@@ -120,13 +120,14 @@
 }
 .popup {
 	position: fixed;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
-	top: 50px;
+	top: 60px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10000;
     display: none;
+    // height: auto;
 }
 .popup-close {
 	position: absolute;
@@ -153,16 +154,10 @@
 }
 .modal-format {
 	width: 100%;
-	margin: 0 auto;
 	border: 10px solid rgba(255, 255, 255, 0.4);
     padding: 50px 0;
     padding-bottom: 0;
     background: rgba(29, 33, 45, .9);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10000;
 }
 .modal-slider-box {
 	width: 50%;
