@@ -25,8 +25,8 @@
 	// margin-bottom: 127px;
 	padding: 23px 0;
 }
-.main-head-fix {
-    background: rgba(29, 33, 45, .8);
+.fixed {
+    background: rgba(29, 33, 45, .97);
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,9 +34,7 @@
     right: 0;
     z-index: 100;
 }
-.head-fix_color {
-	color: #e4e7ec;
-}
+
 .logo {
 	width: 60px;
 	margin-right: 18px;

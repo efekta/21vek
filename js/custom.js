@@ -106,29 +106,61 @@ ymaps.ready(init);
 /*========================
  fixed header
  =======================*/
-    var screenHight = $('.screen-1').height();
+    // var screenHight = $('.screen-1').height();
     
-    $(document).on('scroll', function() {
-        var documentScroll = $(this).scrollTop();
+    // $(document).on('scroll', function() {
+    //     var documentScroll = $(this).scrollTop();
 
-        if(documentScroll > screenHight) {
-            $('.main-head').addClass('main-head-fix');
-            $('.time p').addClass('head-fix_color');
-            $('.adress p').addClass('head-fix_color');
-            $('.phone a').addClass('head-fix_color');
-            $('.logo span').addClass('head-fix_color');
-            // $('.screen-1').css({
-            //     "paddingTop": screenHight
-            // }); 
-         } else {
-            $('.main-head').removeClass('main-head-fix');
-            $('.time p').removeClass('head-fix_color');
-            $('.adress p').removeClass('head-fix_color');
-            $('.phone a').removeClass('head-fix_color');
-            $('.logo span').removeClass('head-fix_color');
-            $('.screen-1').removeAttr('style');
-        }
-    })
+    //     if(documentScroll > screenHight) {
+    //         $('.main-head').addClass('main-head-fix');
+    //         $('.time p').addClass('head-fix_color');
+    //         $('.adress p').addClass('head-fix_color');
+    //         $('.phone a').addClass('head-fix_color');
+    //         $('.logo span').addClass('head-fix_color');
+    //         // $('.screen-1').css({
+    //         //     "paddingTop": screenHight
+    //         // }); 
+    //      } else {
+    //         $('.main-head').removeClass('main-head-fix');
+    //         $('.time p').removeClass('head-fix_color');
+    //         $('.adress p').removeClass('head-fix_color');
+    //         $('.phone a').removeClass('head-fix_color');
+    //         $('.logo span').removeClass('head-fix_color');
+    //         $('.screen-1').removeAttr('style');
+    //     }
+    // })
+
+    /*fix-menu*/
+$(document).ready(function() {
+    
+  var navPos, navPosEnd, winPos, navHeight;
+    
+  function refreshVar() {
+    try {
+      navPos = $('.screen-2').offset().top;
+      navPosEnd = $('.screen-7').offset().top;
+    } catch (e){}
+    navHeight = $('.main-head').outerHeight(true);
+  }
+  refreshVar();
+  $(window).resize(refreshVar);
+
+  $('<div class="clone-main-head"></div>').insertBefore('.main-head').css('height', navHeight).hide();
+    $(window).scroll(function() {
+      winPos = $(window).scrollTop();
+      
+      if ((winPos >= navPos)&&(winPos <= navPosEnd) ) {
+        $('.main-head').addClass('fixed shadow');  
+        $('.clone-main-head').show();
+      } else {
+        $('.main-head').removeClass('fixed shadow');
+        $('.clone-main-head').hide();
+      }
+    });
+  
+  });
+
+/*end fix-menu*/
 /*========================
  modal
  =======================*/
