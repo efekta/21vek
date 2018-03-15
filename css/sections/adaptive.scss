@@ -36,6 +36,9 @@
 	    height: 100vh;
 	    overflow-y: scroll;
 	}
+	.modal-slider-item img {
+		height: 250px;
+	}
 }
 @media (min-width: 319px) and (max-width: 768px) {
 	.screen-content {
@@ -895,7 +898,6 @@
 	}
 	.modal-slider {
 	    width: 100%;
-	    margin-bottom: 80px;
 	    padding: 0 10px;
 	}
 	.modal-slider-title {
