@@ -63,7 +63,7 @@
 	margin-right: 210px;
 }
 
-.phone {
+header .phone {
 	width: 247px;
 	font-family: 'futura-book-bold';
 }
@@ -220,16 +220,15 @@
 	padding: 20px 10px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid rgba(255, 255, 255, .4);
-	// margin-bottom: 28px;
 }
-.form-phone input {
-	font-family: 'futura-book';
-}
-// .form-adress i, .form-phone i{
-// 	margin: 0 10px;
-// 	opacity: .25;
-// 	font-size: 26px;
+// .form-phone input {
+// 	font-family: 'futura-book';
 // }
+.form-adress i, .form-phone i{
+	margin: 0 10px;
+	opacity: .25;
+	font-size: 26px;
+}
 .form-adress img, .form-phone img {
 	// opacity: .25;
 	margin-right: 10px;

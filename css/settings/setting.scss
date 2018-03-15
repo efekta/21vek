@@ -15,7 +15,7 @@ body {
 }
 body.open-modal {
     overflow-y: hidden;
-    padding-right: 17px;
+    // padding-right: 17px;
 }
 p {
 	color: $gray;
@@ -119,12 +119,14 @@ label.error {
 	color: red;
 	font-size: 16px;
 	display: block;
+	font-family: 'futura-book';
 }
 .form-input_error {
 	border: none;
 	color: red;
 	font-size: 16px;
 	display: block;
+	font-family: 'futura-book';
 }
 #toTop {
 width: 70px;
