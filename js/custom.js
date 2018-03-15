@@ -4,17 +4,19 @@
  =======================*/
   $('.comments-slider').slick({
     dots: true,
-    arrows: true,    
+    arrows: true,
+    adaptiveHeight: true,  
     prevArrow: '<i class="fa fa-chevron-left feedback-slider-arrows arrow-left"></i>',
-    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right"></i>',
-    
+    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right"></i>'
+
   });
     $('.modal-slider').slick({
     dots: true,
-    arrows: true,    
+    arrows: true,
+    adaptiveHeight: true,    
     prevArrow: '<i class="fa fa-chevron-left feedback-slider-arrows arrow-left_mob"></i>',
-    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right_mob"></i>',
-    
+    nextArrow: '<i class="fa fa-chevron-right feedback-slider-arrows arrow-right_mob"></i>'
+
   });
 /*==================================
  Smooth scroll to Plans Block
