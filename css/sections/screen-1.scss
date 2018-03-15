@@ -17,6 +17,9 @@
 // 	min-height: 700px;
 // 	overflow: hidden;
 // }
+.content-box {
+    width: 35%;
+}
 .main-head {
 	position: relative;
 	// margin-bottom: 127px;
@@ -93,7 +96,7 @@
 	position: relative;
 }
 .content-title {
-	width: 545px;
+	// width: 545px;
 	margin-bottom: 35px;
 }
 .content-title  p {
@@ -298,7 +301,7 @@ input {
 	// display: inline-block;
 	// background: url("../img/icon/ellipse.png") no-repeat;
 	position: absolute;
-    bottom: -55px;
+    bottom: -115px;
     right: 150px;
     width: 300px;
 }
