@@ -169,7 +169,7 @@
 	}
 	.section-title {
 		font-size: 30px;
-		display: none;
+		// display: none;
 	}
 	.map-object {
 		position: static;
@@ -181,7 +181,7 @@
     	margin: auto;
 	}
 	.section-title-mob {
-		display: block;
+		display: none;
 		margin-bottom: 45px;
 	}
 	.section-title-mob p {
@@ -591,7 +591,7 @@
 	}
 }
 
-@media (min-width: 769px) and (max-width: 1170px) {
+@media (min-width: 769px) and (max-width: 1187px) {
 	.map-modal {
 	// max-height: 95vh;
 	height: 100%;
@@ -666,7 +666,7 @@
 	// 	width: 100%;
 	// }
 	.content-box {
-	    width: 55%;
+	    width: 40%;
 	}
 	.content-title {
 	    width: 100%;
@@ -725,6 +725,7 @@
 	    right: 0;
 	    bottom: -220px;
 	    z-index: 2;
+	    display: none;
 	}
 	.format-item {
 	    margin-bottom: 50px;
@@ -861,10 +862,6 @@
 	.btn {
 		margin-bottom: 10px;
 	}
-}
-
-
-@media (min-width: 727px) and (max-width: 1071px) {
 	.modal-box_wrapp {
 		display: flex;
 		justify-content: space-between;
