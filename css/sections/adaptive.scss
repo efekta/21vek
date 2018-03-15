@@ -39,22 +39,27 @@
 	.modal-feedback {
 		width: 100%;
 	}
+	// .content-title {
+	//     width: 100%;
+	//     text-align: center;
+	//     margin-bottom: 50px;
+	//     margin: auto;
+ //    	margin-bottom: 50px;
+ //    	display: none;
+	// }
+	// .content-title-mob {
+	// 	display: block;
+	// 	text-align: center;
+	// 	font-size: 30px;
+	// 	line-height: 32px;
+	// 	font-family: 'futura-book-bold';
+	// 	color: $font-white;
+	// 	margin-bottom: 10px;
+	// }
 	.content-title {
 	    width: 100%;
+	    margin-bottom: 35px;
 	    text-align: center;
-	    margin-bottom: 50px;
-	    margin: auto;
-    	margin-bottom: 50px;
-    	display: none;
-	}
-	.content-title-mob {
-		display: block;
-		text-align: center;
-		font-size: 30px;
-		line-height: 32px;
-		font-family: 'futura-book-bold';
-		color: $font-white;
-		margin-bottom: 10px;
 	}
 	.content-title-mob p {
 		font-size: 30px;
@@ -585,6 +590,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 1170px) {
+	.screen-1 {
+    height: auto;
+}
 	.map-modal {
 	// max-height: 95vh;
 	height: 100%;
@@ -659,7 +667,7 @@
 	// 	width: 100%;
 	// }
 	.content-box {
-	    width: 35%;
+	    width: 55%;
 	}
 	.content-title {
 	    width: 100%;
@@ -792,6 +800,9 @@
 	}
 }
 @media (min-width: 320px) and (max-width: 1071px) {
+	.screen-1 {
+    height: auto;
+}
 	.map-modal {
 	// max-height: 95vh;
 	height: 100%;
@@ -864,6 +875,9 @@
 		align-items: center;
 		flex-direction: column;
 	}
+	.screen-1 {
+    height: auto;
+}
 	.modal-box-title {
 	    width: 100%;
 	    text-align: center;
