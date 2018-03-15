@@ -1,9 +1,11 @@
-@media (min-width: 319px) and (max-width: 768px) {
- 	.screen-1 {
+@media (min-width: 319px) and (max-width: 1024px) {
+	 .screen-1 {
 		height: auto;
 		padding-bottom: 0;
 		margin-top: 0;
 	}
+}
+@media (min-width: 319px) and (max-width: 768px) {
 	.screen-content {
 		margin-top: 0;
 	}
