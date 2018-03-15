@@ -153,10 +153,13 @@
 	}
 	.form {
 		border: 10px solid rgba(255, 255, 255, 0.4);
-		padding: 25px 20px;
+		padding: 25px 10px;
 	}
 	.btn {
-		width: 235px;
+		padding: 16px 20px;
+	    font-size: 12px;
+	    margin-bottom: 0;
+	    width: 218px;
 	}
 	.green-box-1 {
     	position: absolute;
@@ -237,7 +240,12 @@
 	 //  border-image: -o-linear-gradient(left, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
 	 //  border-image: linear-gradient(to right, rgb(255,93,66) 0%, rgb(255,176,66) 100%);
 	}
-
+	.reklame-content-form-valid,
+	.media-content-form-valid {
+	    border: 11px solid rgba(166, 141, 111, 0.4);
+	    padding: 20px 10px;
+	    margin-bottom: 15px;
+	}
 	.fa-chevron-right:before {
 	    content: "\f054";
 	    position: absolute;
@@ -250,6 +258,13 @@
     top: 32%;
     left: 32%;
 }
+	.phone {
+		width: auto;
+	}
+	.form-adress img, .form-phone img {
+	    margin-right: 0;
+
+	}
 	.reklame_content-form {
 		width: 100%;
     	padding: 0;
@@ -703,7 +718,7 @@
 	    width: 20%;
 	    margin-right: 10px;
 	}
-	.phone {
+	.phone-hidden.phone {
 	    width: 25%;
     	text-align: right;
 	}
