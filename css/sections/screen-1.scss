@@ -64,7 +64,7 @@
 }
 
 header .phone {
-	width: 247px;
+	// width: 247px;
 	font-family: 'futura-book-bold';
 }
 .header .phone {
@@ -364,4 +364,12 @@ input {
     padding: 40px;
     // padding-bottom: 80px;
     margin-bottom: 15px;
+}
+
+.head-phone-right {
+	float: right;
+}
+.logo {
+	width: 7%;
+	float: left;
 }

@@ -206,7 +206,7 @@ $(document).ready(function() {
 /*========================
 modal-feedback
  =======================*/
-    $('.head-modal-phone').on('click', function() {
+    $('.head-modal-phone, .modal-phone').on('click', function() {
         $('.overlay').fadeIn();
         $('.modal-feedback').fadeIn();
         $('body').addClass('open-modal'); 

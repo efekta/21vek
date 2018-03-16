@@ -4,6 +4,12 @@
 		padding-bottom: 0;
 		margin-top: 0;
 	}
+	.green-box-1 {
+	    position: absolute;
+	    left: -11px;
+	    bottom: -319px;
+	    z-index: 2;
+	}
 }
 @media (max-width: 960px) {
 	.modal-slider-box {
@@ -18,12 +24,7 @@
 	.modal-slider {
 	    margin-bottom: 105px;
 	}
-	.modal-feedback {
-		top: 0;
-		// width: 100%;
-	    height: 100vh;
-	    overflow-y: scroll;
-	}
+
 	.map-modal {
 		top: 0;
 		// width: 100%;
@@ -100,7 +101,6 @@
 		margin-bottom: 10px;
 	}
 	.modal-feedback {
-		top: 0;
 		width: 100%;
 	    height: 100%;
 	    overflow-y: scroll;
@@ -114,8 +114,8 @@
 	.popup {
 		top: 0;
 		width: 100%;
-	    height: 100%;
-	    overflow-y: scroll;
+	    // height: 100%;
+	    // overflow-y: scroll;
 	}
 	// .content-title {
 	//     width: 100%;
@@ -552,9 +552,6 @@
 	    text-align: center;
 	    width: 100%;
 	}
-	.popup {
-	    width: 100%;
-	}
 	.modal-format {
     	width: 100%;
     	padding-bottom: 0;
@@ -574,16 +571,13 @@
 	.form-phone_modal {
 		margin-left: 0;
 	}
-	.popup-close {
-		right: 15px;
-	}
 	.feedback-slider-arrows {
 	    height: 50px;
 	    width: 50px;
 	}
-	.modal-block {
-	    padding: 0 10px;
-	}
+	// .modal-block {
+	//     padding: 0 10px;
+	// }
 	.arrow-right_mob {
 	    right: 15%;
 	}
@@ -682,7 +676,7 @@
 	}
 }
 
-@media (min-width: 769px) and (max-width: 1187px) {
+@media (min-width: 769px) and (max-width: 1170px) {
 	.map-modal {
 	// max-height: 95vh;
 	height: 100%;
@@ -798,24 +792,10 @@
 	    width: 25%;
     	text-align: right;
 	}
-	// .modal-feedback {
-	//     position: static;
-	//     width: 100%;
-	// }
 	.main-head {
 	    margin-bottom: 30px;
 	}
-	.green-box-1 {
-	    position: absolute;
-	    left: 0;
-	    bottom: -220px;
-	    z-index: 2;
-	}
 	.green-box-2 {
-	    position: absolute;
-	    right: 0;
-	    bottom: -220px;
-	    z-index: 2;
 	    display: none;
 	}
 	.format-item {
@@ -907,11 +887,9 @@
 	.map-modal__content {
 		text-align: center;
 	}
-	// .modal-box_wrapp {
-	// 	display: flex;
-	// 	justify-content: space-between;
-	// 	align-items: center;
-	// }
+	.popup-close {
+		right: 15px;
+	}
 	.form-phone_modal {
 		margin-left: 0;
 	}
