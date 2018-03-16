@@ -555,6 +555,7 @@
 	.modal-format {
     	width: 100%;
     	padding-bottom: 0;
+    	overflow-y: scroll;
 	}
 	.modal-slider-box {
 	    width: 100%;
@@ -627,8 +628,8 @@
 	.modal-box {
 	    text-align: left;
 	    margin-top: 10px;
-	    padding: 10px;
-	    padding-bottom: 65px;
+	    padding: 40px 10px;
+	    // padding-bottom: 65px;
 	}
 	.screen-4 {
 	    margin-top: -90px;
@@ -956,7 +957,17 @@
 }
 
 
-
+@media (max-width: 1258px) {
+	.btn-box_modal {
+	    float: none;
+	    margin-top: 20px;
+	    width: auto;
+	}
+	.modal-box-title {
+	    float: none;
+	    width: auto;
+	}
+}
 
 
 

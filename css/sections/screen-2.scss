@@ -130,7 +130,7 @@
 }
 .popup-close {
 	position: absolute;
-	right: -6%;
+	right: -3%;
 	top: 0;
 	font-size: 38px;
 	transition: all 1s;
@@ -162,7 +162,6 @@
     padding: 50px 0;
     padding-bottom: 0;
     background: rgba(29, 33, 45, .9);
-    overflow-y: scroll;
 }
 .modal-slider-box {
 	width: 50%;
@@ -219,12 +218,14 @@ border-radius: 10px;
 }
 .modal-box {
 	background: #252830;
-	padding: 25px;
+	padding: 30px 45px;
 	text-align: center;
 }
 .modal-box-title {
-	display: inline-block;
-	vertical-align: middle;
+	// display: inline-block;
+	// vertical-align: middle;
+	float: left;
+	margin-top: 20px;
 	font-family: 'futura-demi';
 	font-weight: 400;
 	font-size: 24px;
@@ -238,9 +239,11 @@ border-radius: 10px;
 	margin-left: 30px;
 }
 .btn-box_modal {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 30px;
+	// display: inline-block;
+	// vertical-align: middle;
+	float: right;
+	// margin-left: 30px;
+	margin-top: -20px;
 }
 .overlay {
 	position: fixed;
