@@ -24,18 +24,19 @@
 	.modal-slider {
 	    margin-bottom: 105px;
 	}
-
+	.popup {
+		height: 100vh;
+	}
+	.modal-format {
+	    // padding-top: 40px;
+	    overflow-y: scroll;
+	    height: 100%;
+	}
 	.map-modal {
 		top: 0;
 		// width: 100%;
-	    height: 100vh;
+	    height: auto;
 	    overflow-y: scroll;
-	}
-	.popup {
-		top: 0;
-		// width: 100%;
-	    height: 100vh;
-	    // overflow-y: scroll;
 	}
 	.modal-slider-item img {
 		height: 250px;
@@ -115,7 +116,7 @@
 		top: 0;
 		width: 100%;
 	    // height: 100%;
-	    // overflow-y: scroll;
+	    // overflow-y: scroll; 
 	}
 	// .content-title {
 	//     width: 100%;
@@ -555,7 +556,6 @@
 	.modal-format {
     	width: 100%;
     	padding-bottom: 0;
-    	overflow-y: scroll;
 	}
 	.modal-slider-box {
 	    width: 100%;
@@ -628,8 +628,8 @@
 	.modal-box {
 	    text-align: left;
 	    margin-top: 10px;
-	    padding: 40px 10px;
-	    // padding-bottom: 65px;
+	    padding: 0 10px;
+	    padding-bottom: 20px;
 	}
 	.screen-4 {
 	    margin-top: -90px;
@@ -894,7 +894,6 @@
 		margin-left: 0;
 	}
 	.modal-format {
-		padding: 0;
 		padding-top: 40px;
 	}
 	.modal-slider {
@@ -968,7 +967,17 @@
 	    width: auto;
 	}
 }
-
+@media (min-width: 768px) and (max-width: 960px) {
+	.modal-box {
+		padding-bottom: 0;
+	}
+	.btn-box_modal {
+	    margin-top: 5px;
+	}
+	.email-form-personal {
+	    padding-bottom: 13px;
+	}
+}
 
 
 
