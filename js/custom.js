@@ -206,7 +206,7 @@ $(document).ready(function() {
 /*========================
 modal-feedback
  =======================*/
-    $('.head-modal-phone, .modal-phone').on('click', function() {
+    $('.modal-phone').on('click', function() {
         $('.overlay').fadeIn();
         $('.modal-feedback').fadeIn();
         $('body').addClass('open-modal'); 
@@ -222,17 +222,40 @@ modal-feedback
        $('body').removeClass('open-modal'); 
     })
 
-     $('.mob-phone').on('click', function() {
+
+
+    $('.head-modal-phone').on('click', function() {
         $('.overlay').fadeIn();
         $('.modal-feedback').fadeIn();
+        $('body').addClass('open-modal'); 
     })
     $('.popup-close').on('click', function() {
         $('.modal-feedback').fadeOut();
         $('.overlay').fadeOut();
+        $('body').removeClass('open-modal'); 
     })
     $('.overlay').on('click', function() {
         $('.overlay').fadeOut();
        $('.modal-feedback').fadeOut();
+       $('body').removeClass('open-modal'); 
+    })
+
+
+
+     $('.mob-phone').on('click', function() {
+        $('.overlay').fadeIn();
+        $('.modal-feedback').fadeIn();
+        $('body').addClass('open-modal'); 
+    })
+    $('.popup-close').on('click', function() {
+        $('.modal-feedback').fadeOut();
+        $('.overlay').fadeOut();
+        $('body').removeClass('open-modal'); 
+    })
+    $('.overlay').on('click', function() {
+        $('.overlay').fadeOut();
+       $('.modal-feedback').fadeOut();
+       $('body').removeClass('open-modal'); 
     })
 /*========================
 object-modal
