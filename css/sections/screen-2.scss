@@ -152,11 +152,17 @@
 	margin-top: 10px;
 }
 .modal-format {
+	// position: absolute;
+	// top: 50%;
+ //    left: 50%;
+ //    transform: translateX(-50%);
 	width: 100%;
+	height: 100%;
 	border: 10px solid rgba(255, 255, 255, 0.4);
     padding: 50px 0;
     padding-bottom: 0;
     background: rgba(29, 33, 45, .9);
+    overflow-y: scroll;
 }
 .modal-slider-box {
 	width: 50%;
