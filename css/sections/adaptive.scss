@@ -20,9 +20,9 @@
 	    width: 100%;
 	    float: none;
 	}
-	// .modal-box {
-	// 	background: transparent;
-	// }
+	.modal-feedback-form {
+	    padding: 40px 25px;
+	}
 	.modal-slider-content {
 	    float: none;
 	    width: 100%;
@@ -1007,4 +1007,14 @@
 
 
 
-
+@media (min-width: 320px) and (max-width: 480px) {
+	.popup-karta {
+		width: 95%;
+		margin: auto;
+		padding: 23px 10px;
+	}
+	.popup-karta_pic {
+	    width: 100%;
+	    margin: auto;
+	}
+}
